@@ -1,0 +1,339 @@
+[0.131s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.131s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7ab5ccd4a680>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7ab5cce52cb0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7ab5cce52cb0>>, mixin_verb=('build',))
+[0.330s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.330s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.330s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.330s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.330s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.331s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.331s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ngoc/Workspace/Graduation_Project/src'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(YDLidar-SDK) by extensions ['ignore', 'ignore_ament_install']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(YDLidar-SDK) by extension 'ignore'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(YDLidar-SDK) by extension 'ignore_ament_install'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(YDLidar-SDK) by extensions ['colcon_pkg']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(YDLidar-SDK) by extension 'colcon_pkg'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(YDLidar-SDK) by extensions ['colcon_meta']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(YDLidar-SDK) by extension 'colcon_meta'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(YDLidar-SDK) by extensions ['ros']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(YDLidar-SDK) by extension 'ros'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(YDLidar-SDK) by extensions ['cmake', 'python']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(YDLidar-SDK) by extension 'cmake'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(YDLidar-SDK) by extension 'python'
+[0.368s] DEBUG:colcon.colcon_core.package_identification:Package 'YDLidar-SDK' with type 'cmake' and name 'ydlidar_sdk'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(cartographer) by extensions ['ignore', 'ignore_ament_install']
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(cartographer) by extension 'ignore'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(cartographer) by extension 'ignore_ament_install'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(cartographer) by extensions ['colcon_pkg']
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(cartographer) by extension 'colcon_pkg'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(cartographer) by extensions ['colcon_meta']
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(cartographer) by extension 'colcon_meta'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(cartographer) by extensions ['ros']
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(cartographer) by extension 'ros'
+[0.372s] DEBUG:colcon.colcon_core.package_identification:Package 'cartographer' with type 'ros.cmake' and name 'cartographer'
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(dashgo_driver_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(dashgo_driver_ros2) by extension 'ignore'
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(dashgo_driver_ros2) by extension 'ignore_ament_install'
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(dashgo_driver_ros2) by extensions ['colcon_pkg']
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(dashgo_driver_ros2) by extension 'colcon_pkg'
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(dashgo_driver_ros2) by extensions ['colcon_meta']
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(dashgo_driver_ros2) by extension 'colcon_meta'
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(dashgo_driver_ros2) by extensions ['ros']
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(dashgo_driver_ros2) by extension 'ros'
+[0.374s] DEBUG:colcon.colcon_core.package_identification:Package 'dashgo_driver_ros2' with type 'ros.ament_cmake' and name 'dashgo_driver_ros2'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(kobuki_velocity_smoother) by extensions ['ignore', 'ignore_ament_install']
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(kobuki_velocity_smoother) by extension 'ignore'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(kobuki_velocity_smoother) by extension 'ignore_ament_install'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(kobuki_velocity_smoother) by extensions ['colcon_pkg']
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(kobuki_velocity_smoother) by extension 'colcon_pkg'
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(kobuki_velocity_smoother) by extensions ['colcon_meta']
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(kobuki_velocity_smoother) by extension 'colcon_meta'
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(kobuki_velocity_smoother) by extensions ['ros']
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(kobuki_velocity_smoother) by extension 'ros'
+[0.376s] DEBUG:colcon.colcon_core.package_identification:Package 'kobuki_velocity_smoother' with type 'ros.ament_cmake' and name 'kobuki_velocity_smoother'
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(rplidar_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(rplidar_ros) by extension 'ignore'
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(rplidar_ros) by extension 'ignore_ament_install'
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(rplidar_ros) by extensions ['colcon_pkg']
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(rplidar_ros) by extension 'colcon_pkg'
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(rplidar_ros) by extensions ['colcon_meta']
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(rplidar_ros) by extension 'colcon_meta'
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(rplidar_ros) by extensions ['ros']
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(rplidar_ros) by extension 'ros'
+[0.377s] DEBUG:colcon.colcon_core.package_identification:Package 'rplidar_ros' with type 'ros.ament_cmake' and name 'rplidar_ros'
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(rviz2) by extensions ['ignore', 'ignore_ament_install']
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(rviz2) by extension 'ignore'
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(rviz2) by extension 'ignore_ament_install'
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(rviz2) by extensions ['colcon_pkg']
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(rviz2) by extension 'colcon_pkg'
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(rviz2) by extensions ['colcon_meta']
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(rviz2) by extension 'colcon_meta'
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(rviz2) by extensions ['ros']
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(rviz2) by extension 'ros'
+[0.378s] DEBUG:colcon.colcon_core.package_identification:Found ROS schema reference in package manifest in 'rviz2'
+[0.378s] WARNING:colcon.colcon_core.package_identification:Failed to parse ROS package manifest in 'rviz2': Error(s) in package 'rviz2/package.xml':
+The package "rviz2" must not "exec_depend" on a package with the same name as this package
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(rviz2) by extensions ['cmake', 'python']
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(rviz2) by extension 'cmake'
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(rviz2) by extension 'python'
+[0.379s] DEBUG:colcon.colcon_core.package_identification:Package 'rviz2' with type 'cmake' and name 'rviz2'
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(simulations) by extensions ['ignore', 'ignore_ament_install']
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(simulations) by extension 'ignore'
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(simulations) by extension 'ignore_ament_install'
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(simulations) by extensions ['colcon_pkg']
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(simulations) by extension 'colcon_pkg'
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(simulations) by extensions ['colcon_meta']
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(simulations) by extension 'colcon_meta'
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(simulations) by extensions ['ros']
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(simulations) by extension 'ros'
+[0.380s] DEBUG:colcon.colcon_core.package_identification:Package 'simulations' with type 'ros.ament_cmake' and name 'simulations'
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(teleop_twist_keyboard) by extensions ['ignore', 'ignore_ament_install']
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(teleop_twist_keyboard) by extension 'ignore'
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(teleop_twist_keyboard) by extension 'ignore_ament_install'
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(teleop_twist_keyboard) by extensions ['colcon_pkg']
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(teleop_twist_keyboard) by extension 'colcon_pkg'
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(teleop_twist_keyboard) by extensions ['colcon_meta']
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(teleop_twist_keyboard) by extension 'colcon_meta'
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(teleop_twist_keyboard) by extensions ['ros']
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(teleop_twist_keyboard) by extension 'ros'
+[0.381s] DEBUG:colcon.colcon_core.package_identification:Package 'teleop_twist_keyboard' with type 'ros.ament_python' and name 'teleop_twist_keyboard'
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_ws) by extensions ['ignore', 'ignore_ament_install']
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_ws) by extension 'ignore'
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_ws) by extension 'ignore_ament_install'
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_ws) by extensions ['colcon_pkg']
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_ws) by extension 'colcon_pkg'
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_ws) by extensions ['colcon_meta']
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_ws) by extension 'colcon_meta'
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_ws) by extensions ['ros']
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_ws) by extension 'ros'
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_ws) by extensions ['cmake', 'python']
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_ws) by extension 'cmake'
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_ws) by extension 'python'
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_ws) by extensions ['python_setup_py']
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_ws) by extension 'python_setup_py'
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_ws/src) by extension 'ignore'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_ws/src) by extension 'ignore_ament_install'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_ws/src) by extensions ['colcon_pkg']
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_ws/src) by extension 'colcon_pkg'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_ws/src) by extensions ['colcon_meta']
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_ws/src) by extension 'colcon_meta'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_ws/src) by extensions ['ros']
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_ws/src) by extension 'ros'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_ws/src) by extensions ['cmake', 'python']
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_ws/src) by extension 'cmake'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_ws/src) by extension 'python'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_ws/src) by extensions ['python_setup_py']
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_ws/src) by extension 'python_setup_py'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_ws/src/ydlidar_ros2_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_ws/src/ydlidar_ros2_driver) by extension 'ignore'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_ws/src/ydlidar_ros2_driver) by extension 'ignore_ament_install'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_ws/src/ydlidar_ros2_driver) by extensions ['colcon_pkg']
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_ws/src/ydlidar_ros2_driver) by extension 'colcon_pkg'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_ws/src/ydlidar_ros2_driver) by extensions ['colcon_meta']
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_ws/src/ydlidar_ros2_driver) by extension 'colcon_meta'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_ws/src/ydlidar_ros2_driver) by extensions ['ros']
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_ws/src/ydlidar_ros2_driver) by extension 'ros'
+[0.384s] DEBUG:colcon.colcon_core.package_identification:Package 'ydlidar_ros2_ws/src/ydlidar_ros2_driver' with type 'ros.ament_cmake' and name 'ydlidar_ros2_driver'
+[0.384s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.384s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.384s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.384s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.384s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.417s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.418s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.420s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/ngoc/Workspace/Graduation_Project/install
+[0.422s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 325 installed packages in /opt/ros/humble
+[0.424s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.475s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'rviz2' is in: /opt/ros/humble
+	'teleop_twist_keyboard' is in: /home/ngoc/Workspace/Graduation_Project/install/teleop_twist_keyboard, /opt/ros/humble
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding rviz2 teleop_twist_keyboard
+
+This may be promoted to an error in a future release of colcon-override-check.
+[0.476s] Level 5:colcon.colcon_core.verb:set package 'cartographer' build argument 'cmake_args' from command line to 'None'
+[0.476s] Level 5:colcon.colcon_core.verb:set package 'cartographer' build argument 'cmake_target' from command line to 'None'
+[0.476s] Level 5:colcon.colcon_core.verb:set package 'cartographer' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.476s] Level 5:colcon.colcon_core.verb:set package 'cartographer' build argument 'cmake_clean_cache' from command line to 'False'
+[0.476s] Level 5:colcon.colcon_core.verb:set package 'cartographer' build argument 'cmake_clean_first' from command line to 'False'
+[0.476s] Level 5:colcon.colcon_core.verb:set package 'cartographer' build argument 'cmake_force_configure' from command line to 'False'
+[0.476s] Level 5:colcon.colcon_core.verb:set package 'cartographer' build argument 'ament_cmake_args' from command line to 'None'
+[0.476s] Level 5:colcon.colcon_core.verb:set package 'cartographer' build argument 'catkin_cmake_args' from command line to 'None'
+[0.476s] Level 5:colcon.colcon_core.verb:set package 'cartographer' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.476s] DEBUG:colcon.colcon_core.verb:Building package 'cartographer' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ngoc/Workspace/Graduation_Project/src/build/cartographer', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ngoc/Workspace/Graduation_Project/src/install/cartographer', 'merge_install': False, 'path': '/home/ngoc/Workspace/Graduation_Project/src/cartographer', 'symlink_install': False, 'test_result_base': None}
+[0.476s] Level 5:colcon.colcon_core.verb:set package 'dashgo_driver_ros2' build argument 'cmake_args' from command line to 'None'
+[0.476s] Level 5:colcon.colcon_core.verb:set package 'dashgo_driver_ros2' build argument 'cmake_target' from command line to 'None'
+[0.476s] Level 5:colcon.colcon_core.verb:set package 'dashgo_driver_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.476s] Level 5:colcon.colcon_core.verb:set package 'dashgo_driver_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.477s] Level 5:colcon.colcon_core.verb:set package 'dashgo_driver_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[0.477s] Level 5:colcon.colcon_core.verb:set package 'dashgo_driver_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[0.477s] Level 5:colcon.colcon_core.verb:set package 'dashgo_driver_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[0.477s] Level 5:colcon.colcon_core.verb:set package 'dashgo_driver_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.477s] Level 5:colcon.colcon_core.verb:set package 'dashgo_driver_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.477s] DEBUG:colcon.colcon_core.verb:Building package 'dashgo_driver_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ngoc/Workspace/Graduation_Project/src/build/dashgo_driver_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ngoc/Workspace/Graduation_Project/src/install/dashgo_driver_ros2', 'merge_install': False, 'path': '/home/ngoc/Workspace/Graduation_Project/src/dashgo_driver_ros2', 'symlink_install': False, 'test_result_base': None}
+[0.477s] Level 5:colcon.colcon_core.verb:set package 'kobuki_velocity_smoother' build argument 'cmake_args' from command line to 'None'
+[0.477s] Level 5:colcon.colcon_core.verb:set package 'kobuki_velocity_smoother' build argument 'cmake_target' from command line to 'None'
+[0.477s] Level 5:colcon.colcon_core.verb:set package 'kobuki_velocity_smoother' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.477s] Level 5:colcon.colcon_core.verb:set package 'kobuki_velocity_smoother' build argument 'cmake_clean_cache' from command line to 'False'
+[0.477s] Level 5:colcon.colcon_core.verb:set package 'kobuki_velocity_smoother' build argument 'cmake_clean_first' from command line to 'False'
+[0.477s] Level 5:colcon.colcon_core.verb:set package 'kobuki_velocity_smoother' build argument 'cmake_force_configure' from command line to 'False'
+[0.477s] Level 5:colcon.colcon_core.verb:set package 'kobuki_velocity_smoother' build argument 'ament_cmake_args' from command line to 'None'
+[0.477s] Level 5:colcon.colcon_core.verb:set package 'kobuki_velocity_smoother' build argument 'catkin_cmake_args' from command line to 'None'
+[0.477s] Level 5:colcon.colcon_core.verb:set package 'kobuki_velocity_smoother' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.477s] DEBUG:colcon.colcon_core.verb:Building package 'kobuki_velocity_smoother' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ngoc/Workspace/Graduation_Project/src/build/kobuki_velocity_smoother', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ngoc/Workspace/Graduation_Project/src/install/kobuki_velocity_smoother', 'merge_install': False, 'path': '/home/ngoc/Workspace/Graduation_Project/src/kobuki_velocity_smoother', 'symlink_install': False, 'test_result_base': None}
+[0.478s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_args' from command line to 'None'
+[0.478s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_target' from command line to 'None'
+[0.478s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.478s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[0.478s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_clean_first' from command line to 'False'
+[0.478s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_force_configure' from command line to 'False'
+[0.478s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'ament_cmake_args' from command line to 'None'
+[0.478s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[0.478s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.478s] DEBUG:colcon.colcon_core.verb:Building package 'rplidar_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ngoc/Workspace/Graduation_Project/src/build/rplidar_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ngoc/Workspace/Graduation_Project/src/install/rplidar_ros', 'merge_install': False, 'path': '/home/ngoc/Workspace/Graduation_Project/src/rplidar_ros', 'symlink_install': False, 'test_result_base': None}
+[0.478s] Level 5:colcon.colcon_core.verb:set package 'rviz2' build argument 'cmake_args' from command line to 'None'
+[0.478s] Level 5:colcon.colcon_core.verb:set package 'rviz2' build argument 'cmake_target' from command line to 'None'
+[0.478s] Level 5:colcon.colcon_core.verb:set package 'rviz2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.478s] Level 5:colcon.colcon_core.verb:set package 'rviz2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.479s] Level 5:colcon.colcon_core.verb:set package 'rviz2' build argument 'cmake_clean_first' from command line to 'False'
+[0.479s] Level 5:colcon.colcon_core.verb:set package 'rviz2' build argument 'cmake_force_configure' from command line to 'False'
+[0.479s] Level 5:colcon.colcon_core.verb:set package 'rviz2' build argument 'ament_cmake_args' from command line to 'None'
+[0.479s] Level 5:colcon.colcon_core.verb:set package 'rviz2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.479s] Level 5:colcon.colcon_core.verb:set package 'rviz2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.479s] DEBUG:colcon.colcon_core.verb:Building package 'rviz2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ngoc/Workspace/Graduation_Project/src/build/rviz2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ngoc/Workspace/Graduation_Project/src/install/rviz2', 'merge_install': False, 'path': '/home/ngoc/Workspace/Graduation_Project/src/rviz2', 'symlink_install': False, 'test_result_base': None}
+[0.479s] Level 5:colcon.colcon_core.verb:set package 'simulations' build argument 'cmake_args' from command line to 'None'
+[0.479s] Level 5:colcon.colcon_core.verb:set package 'simulations' build argument 'cmake_target' from command line to 'None'
+[0.479s] Level 5:colcon.colcon_core.verb:set package 'simulations' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.479s] Level 5:colcon.colcon_core.verb:set package 'simulations' build argument 'cmake_clean_cache' from command line to 'False'
+[0.479s] Level 5:colcon.colcon_core.verb:set package 'simulations' build argument 'cmake_clean_first' from command line to 'False'
+[0.479s] Level 5:colcon.colcon_core.verb:set package 'simulations' build argument 'cmake_force_configure' from command line to 'False'
+[0.479s] Level 5:colcon.colcon_core.verb:set package 'simulations' build argument 'ament_cmake_args' from command line to 'None'
+[0.479s] Level 5:colcon.colcon_core.verb:set package 'simulations' build argument 'catkin_cmake_args' from command line to 'None'
+[0.479s] Level 5:colcon.colcon_core.verb:set package 'simulations' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.479s] DEBUG:colcon.colcon_core.verb:Building package 'simulations' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ngoc/Workspace/Graduation_Project/src/build/simulations', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ngoc/Workspace/Graduation_Project/src/install/simulations', 'merge_install': False, 'path': '/home/ngoc/Workspace/Graduation_Project/src/simulations', 'symlink_install': False, 'test_result_base': None}
+[0.480s] Level 5:colcon.colcon_core.verb:set package 'teleop_twist_keyboard' build argument 'cmake_args' from command line to 'None'
+[0.480s] Level 5:colcon.colcon_core.verb:set package 'teleop_twist_keyboard' build argument 'cmake_target' from command line to 'None'
+[0.480s] Level 5:colcon.colcon_core.verb:set package 'teleop_twist_keyboard' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.480s] Level 5:colcon.colcon_core.verb:set package 'teleop_twist_keyboard' build argument 'cmake_clean_cache' from command line to 'False'
+[0.480s] Level 5:colcon.colcon_core.verb:set package 'teleop_twist_keyboard' build argument 'cmake_clean_first' from command line to 'False'
+[0.480s] Level 5:colcon.colcon_core.verb:set package 'teleop_twist_keyboard' build argument 'cmake_force_configure' from command line to 'False'
+[0.480s] Level 5:colcon.colcon_core.verb:set package 'teleop_twist_keyboard' build argument 'ament_cmake_args' from command line to 'None'
+[0.480s] Level 5:colcon.colcon_core.verb:set package 'teleop_twist_keyboard' build argument 'catkin_cmake_args' from command line to 'None'
+[0.480s] Level 5:colcon.colcon_core.verb:set package 'teleop_twist_keyboard' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.480s] DEBUG:colcon.colcon_core.verb:Building package 'teleop_twist_keyboard' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ngoc/Workspace/Graduation_Project/src/build/teleop_twist_keyboard', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ngoc/Workspace/Graduation_Project/src/install/teleop_twist_keyboard', 'merge_install': False, 'path': '/home/ngoc/Workspace/Graduation_Project/src/teleop_twist_keyboard', 'symlink_install': False, 'test_result_base': None}
+[0.480s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_args' from command line to 'None'
+[0.480s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_target' from command line to 'None'
+[0.481s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.481s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[0.481s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_clean_first' from command line to 'False'
+[0.481s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_force_configure' from command line to 'False'
+[0.481s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'ament_cmake_args' from command line to 'None'
+[0.481s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[0.481s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.481s] DEBUG:colcon.colcon_core.verb:Building package 'ydlidar_ros2_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ngoc/Workspace/Graduation_Project/src/build/ydlidar_ros2_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ngoc/Workspace/Graduation_Project/src/install/ydlidar_ros2_driver', 'merge_install': False, 'path': '/home/ngoc/Workspace/Graduation_Project/src/ydlidar_ros2_ws/src/ydlidar_ros2_driver', 'symlink_install': False, 'test_result_base': None}
+[0.481s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_sdk' build argument 'cmake_args' from command line to 'None'
+[0.481s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_sdk' build argument 'cmake_target' from command line to 'None'
+[0.481s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_sdk' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.481s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_sdk' build argument 'cmake_clean_cache' from command line to 'False'
+[0.481s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_sdk' build argument 'cmake_clean_first' from command line to 'False'
+[0.481s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_sdk' build argument 'cmake_force_configure' from command line to 'False'
+[0.481s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_sdk' build argument 'ament_cmake_args' from command line to 'None'
+[0.481s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_sdk' build argument 'catkin_cmake_args' from command line to 'None'
+[0.481s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_sdk' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.481s] DEBUG:colcon.colcon_core.verb:Building package 'ydlidar_sdk' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ngoc/Workspace/Graduation_Project/src/build/ydlidar_sdk', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ngoc/Workspace/Graduation_Project/src/install/ydlidar_sdk', 'merge_install': False, 'path': '/home/ngoc/Workspace/Graduation_Project/src/YDLidar-SDK', 'symlink_install': False, 'test_result_base': None}
+[0.482s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.483s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.483s] INFO:colcon.colcon_ros.task.cmake.build:Building ROS package in '/home/ngoc/Workspace/Graduation_Project/src/cartographer' with build type 'cmake'
+[0.483s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ngoc/Workspace/Graduation_Project/src/cartographer'
+[0.486s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.487s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.487s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.492s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ngoc/Workspace/Graduation_Project/src/dashgo_driver_ros2' with build type 'ament_cmake'
+[0.492s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ngoc/Workspace/Graduation_Project/src/dashgo_driver_ros2'
+[0.492s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.492s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.496s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ngoc/Workspace/Graduation_Project/src/kobuki_velocity_smoother' with build type 'ament_cmake'
+[0.496s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ngoc/Workspace/Graduation_Project/src/kobuki_velocity_smoother'
+[0.497s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.497s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.501s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ngoc/Workspace/Graduation_Project/src/rplidar_ros' with build type 'ament_cmake'
+[0.501s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ngoc/Workspace/Graduation_Project/src/rplidar_ros'
+[0.501s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.501s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.507s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ngoc/Workspace/Graduation_Project/src/rviz2'
+[0.507s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.507s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.511s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ngoc/Workspace/Graduation_Project/src/simulations' with build type 'ament_cmake'
+[0.512s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ngoc/Workspace/Graduation_Project/src/simulations'
+[0.512s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.512s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.516s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ngoc/Workspace/Graduation_Project/src/teleop_twist_keyboard' with build type 'ament_python'
+[0.516s] Level 1:colcon.colcon_core.shell:create_environment_hook('teleop_twist_keyboard', 'ament_prefix_path')
+[0.516s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngoc/Workspace/Graduation_Project/src/install/teleop_twist_keyboard/share/teleop_twist_keyboard/hook/ament_prefix_path.ps1'
+[0.517s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ngoc/Workspace/Graduation_Project/src/install/teleop_twist_keyboard/share/teleop_twist_keyboard/hook/ament_prefix_path.dsv'
+[0.518s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngoc/Workspace/Graduation_Project/src/install/teleop_twist_keyboard/share/teleop_twist_keyboard/hook/ament_prefix_path.sh'
+[0.519s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.519s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.525s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ngoc/Workspace/Graduation_Project/src/ydlidar_ros2_ws/src/ydlidar_ros2_driver' with build type 'ament_cmake'
+[0.525s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ngoc/Workspace/Graduation_Project/src/ydlidar_ros2_ws/src/ydlidar_ros2_driver'
+[0.525s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.525s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.538s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ngoc/Workspace/Graduation_Project/src/build/cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngoc/Workspace/Graduation_Project/install/teleop_twist_keyboard:/opt/ros/humble /usr/bin/cmake --build /home/ngoc/Workspace/Graduation_Project/src/build/cartographer -- -j8 -l8
+[0.543s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ngoc/Workspace/Graduation_Project/src/build/dashgo_driver_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngoc/Workspace/Graduation_Project/install/teleop_twist_keyboard:/opt/ros/humble /usr/bin/cmake --build /home/ngoc/Workspace/Graduation_Project/src/build/dashgo_driver_ros2 -- -j8 -l8
+[0.547s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ngoc/Workspace/Graduation_Project/src/build/kobuki_velocity_smoother': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngoc/Workspace/Graduation_Project/install/teleop_twist_keyboard:/opt/ros/humble /usr/bin/cmake --build /home/ngoc/Workspace/Graduation_Project/src/build/kobuki_velocity_smoother -- -j8 -l8
+[0.552s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ngoc/Workspace/Graduation_Project/src/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngoc/Workspace/Graduation_Project/install/teleop_twist_keyboard:/opt/ros/humble /usr/bin/cmake --build /home/ngoc/Workspace/Graduation_Project/src/build/rplidar_ros -- -j8 -l8
+[0.556s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ngoc/Workspace/Graduation_Project/src/build/rviz2': /usr/bin/cmake --build /home/ngoc/Workspace/Graduation_Project/src/build/rviz2 -- -j8 -l8
+[0.559s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ngoc/Workspace/Graduation_Project/src/build/simulations': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngoc/Workspace/Graduation_Project/install/teleop_twist_keyboard:/opt/ros/humble /usr/bin/cmake --build /home/ngoc/Workspace/Graduation_Project/src/build/simulations -- -j8 -l8
+[0.977s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ngoc/Workspace/Graduation_Project/src/teleop_twist_keyboard'
+[0.977s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.977s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.000s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ngoc/Workspace/Graduation_Project/src/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngoc/Workspace/Graduation_Project/install/teleop_twist_keyboard:/opt/ros/humble /usr/bin/cmake --build /home/ngoc/Workspace/Graduation_Project/src/build/ydlidar_ros2_driver -- -j8 -l8
+[1.001s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ngoc/Workspace/Graduation_Project/src/build/dashgo_driver_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngoc/Workspace/Graduation_Project/install/teleop_twist_keyboard:/opt/ros/humble /usr/bin/cmake --build /home/ngoc/Workspace/Graduation_Project/src/build/dashgo_driver_ros2 -- -j8 -l8
+[1.001s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ngoc/Workspace/Graduation_Project/src/build/kobuki_velocity_smoother' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngoc/Workspace/Graduation_Project/install/teleop_twist_keyboard:/opt/ros/humble /usr/bin/cmake --build /home/ngoc/Workspace/Graduation_Project/src/build/kobuki_velocity_smoother -- -j8 -l8
+[1.002s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ngoc/Workspace/Graduation_Project/src/build/simulations' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngoc/Workspace/Graduation_Project/install/teleop_twist_keyboard:/opt/ros/humble /usr/bin/cmake --build /home/ngoc/Workspace/Graduation_Project/src/build/simulations -- -j8 -l8
+[1.003s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ngoc/Workspace/Graduation_Project/src/build/rviz2' returned '2': /usr/bin/cmake --build /home/ngoc/Workspace/Graduation_Project/src/build/rviz2 -- -j8 -l8
+[1.006s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ngoc/Workspace/Graduation_Project/src/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngoc/Workspace/Graduation_Project/install/teleop_twist_keyboard:/opt/ros/humble /usr/bin/cmake --build /home/ngoc/Workspace/Graduation_Project/src/build/rplidar_ros -- -j8 -l8
+[1.687s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.687s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.687s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[1.687s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.693s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.693s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.693s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.705s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.705s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ngoc/Workspace/Graduation_Project/src/install/local_setup.ps1'
+[1.706s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ngoc/Workspace/Graduation_Project/src/install/_local_setup_util_ps1.py'
+[1.708s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ngoc/Workspace/Graduation_Project/src/install/setup.ps1'
+[1.709s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ngoc/Workspace/Graduation_Project/src/install/local_setup.sh'
+[1.710s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ngoc/Workspace/Graduation_Project/src/install/_local_setup_util_sh.py'
+[1.711s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ngoc/Workspace/Graduation_Project/src/install/setup.sh'
+[1.712s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ngoc/Workspace/Graduation_Project/src/install/local_setup.bash'
+[1.712s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ngoc/Workspace/Graduation_Project/src/install/setup.bash'
+[1.714s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ngoc/Workspace/Graduation_Project/src/install/local_setup.zsh'
+[1.714s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ngoc/Workspace/Graduation_Project/src/install/setup.zsh'

@@ -1,0 +1,7 @@
+[0.036s] Invoking command in '/home/ngoc/Workspace/Graduation_Project/src/build/kobuki_velocity_smoother': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngoc/Workspace/Graduation_Project/install/teleop_twist_keyboard:/opt/ros/humble /usr/bin/cmake --build /home/ngoc/Workspace/Graduation_Project/src/build/kobuki_velocity_smoother -- -j8 -l8
+[0.365s] [35m[1mConsolidate compiler generated dependencies of target kobuki_velocity_smoother[0m
+[0.366s] [ 25%] [32mBuilding CXX object CMakeFiles/kobuki_velocity_smoother.dir/src/velocity_smoother.cpp.o[0m
+[24.969s] [ 50%] [32m[1mLinking CXX shared library libkobuki_velocity_smoother.so[0m
+[25.730s] [ 50%] Built target kobuki_velocity_smoother
+[25.764s] [ 75%] [32m[1mLinking CXX executable velocity_smoother[0m
+[26.053s] [100%] Built target velocity_smoother_node

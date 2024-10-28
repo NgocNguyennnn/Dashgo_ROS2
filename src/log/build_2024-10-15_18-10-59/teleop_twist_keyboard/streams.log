@@ -1,0 +1,33 @@
+[0.811s] Invoking command in '/home/ngoc/Workspace/Graduation_Project/src/teleop_twist_keyboard': PYTHONPATH=/home/ngoc/Workspace/Graduation_Project/src/build/teleop_twist_keyboard/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ngoc/Workspace/Graduation_Project/src/install/teleop_twist_keyboard/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/teleop_twist_keyboard build --build-base /home/ngoc/Workspace/Graduation_Project/src/build/teleop_twist_keyboard/build install --record /home/ngoc/Workspace/Graduation_Project/src/build/teleop_twist_keyboard/install.log --single-version-externally-managed install_data
+[1.115s] running egg_info
+[1.116s] creating ../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info
+[1.116s] writing ../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/PKG-INFO
+[1.116s] writing dependency_links to ../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/dependency_links.txt
+[1.117s] writing entry points to ../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/entry_points.txt
+[1.117s] writing requirements to ../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/requires.txt
+[1.117s] writing top-level names to ../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/top_level.txt
+[1.117s] writing manifest file '../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/SOURCES.txt'
+[1.118s] reading manifest file '../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/SOURCES.txt'
+[1.119s] adding license file 'LICENSE'
+[1.120s] writing manifest file '../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/SOURCES.txt'
+[1.120s] running build
+[1.120s] running build_py
+[1.120s] creating /home/ngoc/Workspace/Graduation_Project/src/build/teleop_twist_keyboard/build
+[1.120s] creating /home/ngoc/Workspace/Graduation_Project/src/build/teleop_twist_keyboard/build/lib
+[1.121s] copying teleop_twist_keyboard.py -> /home/ngoc/Workspace/Graduation_Project/src/build/teleop_twist_keyboard/build/lib
+[1.121s] running install
+[1.121s] running install_lib
+[1.122s] copying /home/ngoc/Workspace/Graduation_Project/src/build/teleop_twist_keyboard/build/lib/teleop_twist_keyboard.py -> /home/ngoc/Workspace/Graduation_Project/src/install/teleop_twist_keyboard/lib/python3.10/site-packages
+[1.122s] byte-compiling /home/ngoc/Workspace/Graduation_Project/src/install/teleop_twist_keyboard/lib/python3.10/site-packages/teleop_twist_keyboard.py to teleop_twist_keyboard.cpython-310.pyc
+[1.124s] running install_data
+[1.124s] creating /home/ngoc/Workspace/Graduation_Project/src/install/teleop_twist_keyboard/share/ament_index
+[1.124s] creating /home/ngoc/Workspace/Graduation_Project/src/install/teleop_twist_keyboard/share/ament_index/resource_index
+[1.124s] creating /home/ngoc/Workspace/Graduation_Project/src/install/teleop_twist_keyboard/share/ament_index/resource_index/packages
+[1.124s] copying resource/teleop_twist_keyboard -> /home/ngoc/Workspace/Graduation_Project/src/install/teleop_twist_keyboard/share/ament_index/resource_index/packages
+[1.124s] copying package.xml -> /home/ngoc/Workspace/Graduation_Project/src/install/teleop_twist_keyboard/share/teleop_twist_keyboard
+[1.125s] running install_egg_info
+[1.126s] Copying ../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info to /home/ngoc/Workspace/Graduation_Project/src/install/teleop_twist_keyboard/lib/python3.10/site-packages/teleop_twist_keyboard-2.4.0-py3.10.egg-info
+[1.128s] running install_scripts
+[1.153s] Installing teleop_twist_keyboard script to /home/ngoc/Workspace/Graduation_Project/src/install/teleop_twist_keyboard/lib/teleop_twist_keyboard
+[1.153s] writing list of installed files to '/home/ngoc/Workspace/Graduation_Project/src/build/teleop_twist_keyboard/install.log'
+[1.178s] Invoked command in '/home/ngoc/Workspace/Graduation_Project/src/teleop_twist_keyboard' returned '0': PYTHONPATH=/home/ngoc/Workspace/Graduation_Project/src/build/teleop_twist_keyboard/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ngoc/Workspace/Graduation_Project/src/install/teleop_twist_keyboard/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/teleop_twist_keyboard build --build-base /home/ngoc/Workspace/Graduation_Project/src/build/teleop_twist_keyboard/build install --record /home/ngoc/Workspace/Graduation_Project/src/build/teleop_twist_keyboard/install.log --single-version-externally-managed install_data

@@ -1,0 +1,121 @@
+[0.025s] Invoking command in '/home/ngoc/Workspace/Graduation_Project/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngoc/Workspace/Graduation_Project/install/teleop_twist_keyboard:/opt/ros/humble /usr/bin/cmake /home/ngoc/Workspace/Graduation_Project/src/ydlidar_ros2_ws/src/ydlidar_ros2_driver -DCMAKE_INSTALL_PREFIX=/home/ngoc/Workspace/Graduation_Project/install/ydlidar_ros2_driver
+[0.130s] -- The C compiler identification is GNU 11.4.0
+[0.242s] -- The CXX compiler identification is GNU 11.4.0
+[0.257s] -- Detecting C compiler ABI info
+[0.388s] -- Detecting C compiler ABI info - done
+[0.435s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.436s] -- Detecting C compile features
+[0.437s] -- Detecting C compile features - done
+[0.445s] -- Detecting CXX compiler ABI info
+[0.643s] -- Detecting CXX compiler ABI info - done
+[0.693s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.693s] -- Detecting CXX compile features
+[0.693s] -- Detecting CXX compile features - done
+[0.703s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.307s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.624s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[1.749s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.762s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.776s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.808s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.864s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.961s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.967s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.129s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.183s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.297s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.333s] -- Looking for pthread.h
+[2.748s] -- Looking for pthread.h - found
+[2.748s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.114s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.120s] -- Found Threads: TRUE  
+[3.279s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[3.384s] -- Found visualization_msgs: 4.2.4 (/opt/ros/humble/share/visualization_msgs/cmake)
+[3.458s] -- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)
+[3.590s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.513s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.711s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.714s] -- Configured cppcheck include dirs: /home/ngoc/Workspace/Graduation_Project/src/ydlidar_ros2_ws/src/ydlidar_ros2_driver/src
+[4.714s] -- Configured cppcheck exclude dirs and/or files: 
+[4.959s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[4.959s] -- Configured cpplint exclude dirs and/or files: 
+[4.981s] -- Added test 'flake8' to check Python code syntax and style conventions
+[5.054s] -- Added test 'lint_cmake' to check CMake code style
+[5.075s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[5.272s] -- Added test 'uncrustify' to check C / C++ code style
+[5.273s] -- Configured uncrustify additional arguments: 
+[5.287s] -- Added test 'xmllint' to check XML markup files
+[5.304s] -- Configuring done
+[5.387s] -- Generating done
+[5.388s] -- Build files have been written to: /home/ngoc/Workspace/Graduation_Project/build/ydlidar_ros2_driver
+[5.488s] Invoked command in '/home/ngoc/Workspace/Graduation_Project/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngoc/Workspace/Graduation_Project/install/teleop_twist_keyboard:/opt/ros/humble /usr/bin/cmake /home/ngoc/Workspace/Graduation_Project/src/ydlidar_ros2_ws/src/ydlidar_ros2_driver -DCMAKE_INSTALL_PREFIX=/home/ngoc/Workspace/Graduation_Project/install/ydlidar_ros2_driver
+[5.489s] Invoking command in '/home/ngoc/Workspace/Graduation_Project/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngoc/Workspace/Graduation_Project/install/teleop_twist_keyboard:/opt/ros/humble /usr/bin/cmake --build /home/ngoc/Workspace/Graduation_Project/build/ydlidar_ros2_driver -- -j8 -l8
+[5.819s] [ 25%] [32mBuilding CXX object CMakeFiles/ydlidar_ros2_driver_client.dir/src/ydlidar_ros2_driver_client.cpp.o[0m
+[5.827s] [ 50%] [32mBuilding CXX object CMakeFiles/ydlidar_ros2_driver_node.dir/src/ydlidar_ros2_driver_node.cpp.o[0m
+[22.186s] [01m[K/home/ngoc/Workspace/Graduation_Project/src/ydlidar_ros2_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:[m[K In lambda function:
+[22.186s] [01m[K/home/ngoc/Workspace/Graduation_Project/src/ydlidar_ros2_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:169:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest_header[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[22.186s]   169 |     [&laser]([01;35m[Kconst std::shared_ptr<rmw_request_id_t> request_header[m[K,
+[22.186s]       |              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[22.187s] [01m[K/home/ngoc/Workspace/Graduation_Project/src/ydlidar_ros2_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:170:56:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreq[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[22.187s]   170 |   [01;35m[Kconst std::shared_ptr<std_srvs::srv::Empty::Request> req[m[K,
+[22.187s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[22.187s] [01m[K/home/ngoc/Workspace/Graduation_Project/src/ydlidar_ros2_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:171:51:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresponse[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[22.187s]   171 |   [01;35m[Kstd::shared_ptr<std_srvs::srv::Empty::Response> response[m[K) -> bool
+[22.187s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[22.310s] [01m[K/home/ngoc/Workspace/Graduation_Project/src/ydlidar_ros2_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:[m[K In lambda function:
+[22.310s] [01m[K/home/ngoc/Workspace/Graduation_Project/src/ydlidar_ros2_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:179:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest_header[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[22.310s]   179 |     [&laser]([01;35m[Kconst std::shared_ptr<rmw_request_id_t> request_header[m[K,
+[22.311s]       |              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[22.311s] [01m[K/home/ngoc/Workspace/Graduation_Project/src/ydlidar_ros2_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:180:56:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreq[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[22.311s]   180 |   [01;35m[Kconst std::shared_ptr<std_srvs::srv::Empty::Request> req[m[K,
+[22.311s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[22.311s] [01m[K/home/ngoc/Workspace/Graduation_Project/src/ydlidar_ros2_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:181:51:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresponse[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[22.311s]   181 |   [01;35m[Kstd::shared_ptr<std_srvs::srv::Empty::Response> response[m[K) -> bool
+[22.311s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[29.876s] [ 75%] [32m[1mLinking CXX executable ydlidar_ros2_driver_node[0m
+[30.408s] [ 75%] Built target ydlidar_ros2_driver_node
+[34.013s] [100%] [32m[1mLinking CXX executable ydlidar_ros2_driver_client[0m
+[34.516s] [100%] Built target ydlidar_ros2_driver_client
+[34.530s] Invoked command in '/home/ngoc/Workspace/Graduation_Project/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngoc/Workspace/Graduation_Project/install/teleop_twist_keyboard:/opt/ros/humble /usr/bin/cmake --build /home/ngoc/Workspace/Graduation_Project/build/ydlidar_ros2_driver -- -j8 -l8
+[34.569s] Invoking command in '/home/ngoc/Workspace/Graduation_Project/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngoc/Workspace/Graduation_Project/install/teleop_twist_keyboard:/opt/ros/humble /usr/bin/cmake --install /home/ngoc/Workspace/Graduation_Project/build/ydlidar_ros2_driver
+[34.577s] -- Install configuration: ""
+[34.578s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/ydlidar_ros2_driver/lib/ydlidar_ros2_driver/ydlidar_ros2_driver_node
+[34.580s] -- Set runtime path of "/home/ngoc/Workspace/Graduation_Project/install/ydlidar_ros2_driver/lib/ydlidar_ros2_driver/ydlidar_ros2_driver_node" to ""
+[34.580s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/ydlidar_ros2_driver/lib/ydlidar_ros2_driver/ydlidar_ros2_driver_client
+[34.585s] -- Set runtime path of "/home/ngoc/Workspace/Graduation_Project/install/ydlidar_ros2_driver/lib/ydlidar_ros2_driver/ydlidar_ros2_driver_client" to ""
+[34.585s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch
+[34.585s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar.py
+[34.585s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar_launch.py
+[34.585s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar_launch_view.py
+[34.585s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params
+[34.585s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/G6.yaml
+[34.585s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/ydlidar.yaml
+[34.586s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/TG.yaml
+[34.586s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/X2.yaml
+[34.586s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/G1.yaml
+[34.586s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/X4.yaml
+[34.586s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/G2.yaml
+[34.586s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/GS2.yaml
+[34.586s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/TEA.yaml
+[34.587s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/X4-Pro.yaml
+[34.587s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/TminiPro.yaml
+[34.587s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/startup
+[34.587s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/startup/initenv.sh
+[34.587s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/config
+[34.587s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/config/ydlidar.rviz
+[34.588s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/ydlidar_ros2_driver/share/ament_index/resource_index/package_run_dependencies/ydlidar_ros2_driver
+[34.588s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/ydlidar_ros2_driver/share/ament_index/resource_index/parent_prefix_path/ydlidar_ros2_driver
+[34.588s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/ament_prefix_path.sh
+[34.588s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/ament_prefix_path.dsv
+[34.588s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/path.sh
+[34.589s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/path.dsv
+[34.589s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.bash
+[34.589s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.sh
+[34.589s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.zsh
+[34.589s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.dsv
+[34.590s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.dsv
+[34.590s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/ydlidar_ros2_driver/share/ament_index/resource_index/packages/ydlidar_ros2_driver
+[34.590s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/cmake/ydlidar_ros2_driverConfig.cmake
+[34.590s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/cmake/ydlidar_ros2_driverConfig-version.cmake
+[34.590s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.xml
+[34.593s] Invoked command in '/home/ngoc/Workspace/Graduation_Project/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngoc/Workspace/Graduation_Project/install/teleop_twist_keyboard:/opt/ros/humble /usr/bin/cmake --install /home/ngoc/Workspace/Graduation_Project/build/ydlidar_ros2_driver

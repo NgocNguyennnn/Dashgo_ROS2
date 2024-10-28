@@ -1,0 +1,224 @@
+[0.117s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'cartographer']
+[0.117s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['cartographer'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7efac874a6b0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7efac8852ce0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7efac8852ce0>>, mixin_verb=('build',))
+[0.316s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.317s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.317s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.317s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.317s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.317s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.317s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ngoc/Workspace/Graduation_Project/src'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(YDLidar-SDK) by extensions ['ignore', 'ignore_ament_install']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(YDLidar-SDK) by extension 'ignore'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(YDLidar-SDK) by extension 'ignore_ament_install'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(YDLidar-SDK) by extensions ['colcon_pkg']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(YDLidar-SDK) by extension 'colcon_pkg'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(YDLidar-SDK) by extensions ['colcon_meta']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(YDLidar-SDK) by extension 'colcon_meta'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(YDLidar-SDK) by extensions ['ros']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(YDLidar-SDK) by extension 'ros'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(YDLidar-SDK) by extensions ['cmake', 'python']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(YDLidar-SDK) by extension 'cmake'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(YDLidar-SDK) by extension 'python'
+[0.350s] DEBUG:colcon.colcon_core.package_identification:Package 'YDLidar-SDK' with type 'cmake' and name 'ydlidar_sdk'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(cartographer) by extensions ['ignore', 'ignore_ament_install']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(cartographer) by extension 'ignore'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(cartographer) by extension 'ignore_ament_install'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(cartographer) by extensions ['colcon_pkg']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(cartographer) by extension 'colcon_pkg'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(cartographer) by extensions ['colcon_meta']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(cartographer) by extension 'colcon_meta'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(cartographer) by extensions ['ros']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(cartographer) by extension 'ros'
+[0.354s] DEBUG:colcon.colcon_core.package_identification:Package 'cartographer' with type 'ros.cmake' and name 'cartographer'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(dashgo_driver_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(dashgo_driver_ros2) by extension 'ignore'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(dashgo_driver_ros2) by extension 'ignore_ament_install'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(dashgo_driver_ros2) by extensions ['colcon_pkg']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(dashgo_driver_ros2) by extension 'colcon_pkg'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(dashgo_driver_ros2) by extensions ['colcon_meta']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(dashgo_driver_ros2) by extension 'colcon_meta'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(dashgo_driver_ros2) by extensions ['ros']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(dashgo_driver_ros2) by extension 'ros'
+[0.356s] DEBUG:colcon.colcon_core.package_identification:Package 'dashgo_driver_ros2' with type 'ros.ament_cmake' and name 'dashgo_driver_ros2'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(kobuki_velocity_smoother) by extensions ['ignore', 'ignore_ament_install']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(kobuki_velocity_smoother) by extension 'ignore'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(kobuki_velocity_smoother) by extension 'ignore_ament_install'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(kobuki_velocity_smoother) by extensions ['colcon_pkg']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(kobuki_velocity_smoother) by extension 'colcon_pkg'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(kobuki_velocity_smoother) by extensions ['colcon_meta']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(kobuki_velocity_smoother) by extension 'colcon_meta'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(kobuki_velocity_smoother) by extensions ['ros']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(kobuki_velocity_smoother) by extension 'ros'
+[0.358s] DEBUG:colcon.colcon_core.package_identification:Package 'kobuki_velocity_smoother' with type 'ros.ament_cmake' and name 'kobuki_velocity_smoother'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(rplidar_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(rplidar_ros) by extension 'ignore'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(rplidar_ros) by extension 'ignore_ament_install'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(rplidar_ros) by extensions ['colcon_pkg']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(rplidar_ros) by extension 'colcon_pkg'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(rplidar_ros) by extensions ['colcon_meta']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(rplidar_ros) by extension 'colcon_meta'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(rplidar_ros) by extensions ['ros']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(rplidar_ros) by extension 'ros'
+[0.359s] DEBUG:colcon.colcon_core.package_identification:Package 'rplidar_ros' with type 'ros.ament_cmake' and name 'rplidar_ros'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(teleop_twist_keyboard) by extensions ['ignore', 'ignore_ament_install']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(teleop_twist_keyboard) by extension 'ignore'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(teleop_twist_keyboard) by extension 'ignore_ament_install'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(teleop_twist_keyboard) by extensions ['colcon_pkg']
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(teleop_twist_keyboard) by extension 'colcon_pkg'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(teleop_twist_keyboard) by extensions ['colcon_meta']
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(teleop_twist_keyboard) by extension 'colcon_meta'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(teleop_twist_keyboard) by extensions ['ros']
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(teleop_twist_keyboard) by extension 'ros'
+[0.360s] DEBUG:colcon.colcon_core.package_identification:Package 'teleop_twist_keyboard' with type 'ros.ament_python' and name 'teleop_twist_keyboard'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_ws) by extensions ['ignore', 'ignore_ament_install']
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_ws) by extension 'ignore'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_ws) by extension 'ignore_ament_install'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_ws) by extensions ['colcon_pkg']
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_ws) by extension 'colcon_pkg'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_ws) by extensions ['colcon_meta']
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_ws) by extension 'colcon_meta'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_ws) by extensions ['ros']
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_ws) by extension 'ros'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_ws) by extensions ['cmake', 'python']
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_ws) by extension 'cmake'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_ws) by extension 'python'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_ws) by extensions ['python_setup_py']
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_ws) by extension 'python_setup_py'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_ws/src) by extension 'ignore'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_ws/src) by extension 'ignore_ament_install'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_ws/src) by extensions ['colcon_pkg']
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_ws/src) by extension 'colcon_pkg'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_ws/src) by extensions ['colcon_meta']
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_ws/src) by extension 'colcon_meta'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_ws/src) by extensions ['ros']
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_ws/src) by extension 'ros'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_ws/src) by extensions ['cmake', 'python']
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_ws/src) by extension 'cmake'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_ws/src) by extension 'python'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_ws/src) by extensions ['python_setup_py']
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_ws/src) by extension 'python_setup_py'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_ws/src/ydlidar_ros2_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_ws/src/ydlidar_ros2_driver) by extension 'ignore'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_ws/src/ydlidar_ros2_driver) by extension 'ignore_ament_install'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_ws/src/ydlidar_ros2_driver) by extensions ['colcon_pkg']
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_ws/src/ydlidar_ros2_driver) by extension 'colcon_pkg'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_ws/src/ydlidar_ros2_driver) by extensions ['colcon_meta']
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_ws/src/ydlidar_ros2_driver) by extension 'colcon_meta'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_ws/src/ydlidar_ros2_driver) by extensions ['ros']
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_ws/src/ydlidar_ros2_driver) by extension 'ros'
+[0.363s] DEBUG:colcon.colcon_core.package_identification:Package 'ydlidar_ros2_ws/src/ydlidar_ros2_driver' with type 'ros.ament_cmake' and name 'ydlidar_ros2_driver'
+[0.363s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.363s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.363s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.363s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.363s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.394s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'dashgo_driver_ros2' in 'dashgo_driver_ros2'
+[0.394s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'kobuki_velocity_smoother' in 'kobuki_velocity_smoother'
+[0.394s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'rplidar_ros' in 'rplidar_ros'
+[0.394s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'teleop_twist_keyboard' in 'teleop_twist_keyboard'
+[0.394s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'ydlidar_ros2_driver' in 'ydlidar_ros2_ws/src/ydlidar_ros2_driver'
+[0.394s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'ydlidar_sdk' in 'YDLidar-SDK'
+[0.394s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.394s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.396s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/ngoc/Workspace/Graduation_Project/install
+[0.398s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 325 installed packages in /opt/ros/humble
+[0.400s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.447s] Level 5:colcon.colcon_core.verb:set package 'cartographer' build argument 'cmake_args' from command line to 'None'
+[0.447s] Level 5:colcon.colcon_core.verb:set package 'cartographer' build argument 'cmake_target' from command line to 'None'
+[0.447s] Level 5:colcon.colcon_core.verb:set package 'cartographer' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.447s] Level 5:colcon.colcon_core.verb:set package 'cartographer' build argument 'cmake_clean_cache' from command line to 'False'
+[0.447s] Level 5:colcon.colcon_core.verb:set package 'cartographer' build argument 'cmake_clean_first' from command line to 'False'
+[0.447s] Level 5:colcon.colcon_core.verb:set package 'cartographer' build argument 'cmake_force_configure' from command line to 'False'
+[0.447s] Level 5:colcon.colcon_core.verb:set package 'cartographer' build argument 'ament_cmake_args' from command line to 'None'
+[0.447s] Level 5:colcon.colcon_core.verb:set package 'cartographer' build argument 'catkin_cmake_args' from command line to 'None'
+[0.447s] Level 5:colcon.colcon_core.verb:set package 'cartographer' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.447s] DEBUG:colcon.colcon_core.verb:Building package 'cartographer' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ngoc/Workspace/Graduation_Project/src/build/cartographer', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ngoc/Workspace/Graduation_Project/src/install/cartographer', 'merge_install': False, 'path': '/home/ngoc/Workspace/Graduation_Project/src/cartographer', 'symlink_install': False, 'test_result_base': None}
+[0.447s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.449s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.449s] INFO:colcon.colcon_ros.task.cmake.build:Building ROS package in '/home/ngoc/Workspace/Graduation_Project/src/cartographer' with build type 'cmake'
+[0.449s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ngoc/Workspace/Graduation_Project/src/cartographer'
+[0.452s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.452s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.452s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.463s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ngoc/Workspace/Graduation_Project/src/build/cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngoc/Workspace/Graduation_Project/install/teleop_twist_keyboard:/opt/ros/humble /usr/bin/cmake /home/ngoc/Workspace/Graduation_Project/src/cartographer -DCMAKE_INSTALL_PREFIX=/home/ngoc/Workspace/Graduation_Project/src/install/cartographer
+[2.133s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ngoc/Workspace/Graduation_Project/src/build/cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngoc/Workspace/Graduation_Project/install/teleop_twist_keyboard:/opt/ros/humble /usr/bin/cmake /home/ngoc/Workspace/Graduation_Project/src/cartographer -DCMAKE_INSTALL_PREFIX=/home/ngoc/Workspace/Graduation_Project/src/install/cartographer
+[2.135s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ngoc/Workspace/Graduation_Project/src/build/cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngoc/Workspace/Graduation_Project/install/teleop_twist_keyboard:/opt/ros/humble /usr/bin/cmake --build /home/ngoc/Workspace/Graduation_Project/src/build/cartographer -- -j8 -l8
+[220.700s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ngoc/Workspace/Graduation_Project/src/build/cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngoc/Workspace/Graduation_Project/install/teleop_twist_keyboard:/opt/ros/humble /usr/bin/cmake --build /home/ngoc/Workspace/Graduation_Project/src/build/cartographer -- -j8 -l8
+[221.601s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ngoc/Workspace/Graduation_Project/src/build/cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngoc/Workspace/Graduation_Project/install/teleop_twist_keyboard:/opt/ros/humble /usr/bin/cmake --install /home/ngoc/Workspace/Graduation_Project/src/build/cartographer
+[221.674s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ngoc/Workspace/Graduation_Project/src/build/cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngoc/Workspace/Graduation_Project/install/teleop_twist_keyboard:/opt/ros/humble /usr/bin/cmake --install /home/ngoc/Workspace/Graduation_Project/src/build/cartographer
+[222.562s] Level 1:colcon.colcon_core.shell:create_environment_hook('cartographer', 'pkg_config_path')
+[222.562s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngoc/Workspace/Graduation_Project/src/install/cartographer/share/cartographer/hook/pkg_config_path.ps1'
+[222.563s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ngoc/Workspace/Graduation_Project/src/install/cartographer/share/cartographer/hook/pkg_config_path.dsv'
+[222.564s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngoc/Workspace/Graduation_Project/src/install/cartographer/share/cartographer/hook/pkg_config_path.sh'
+[222.566s] Level 1:colcon.colcon_core.shell:create_environment_hook('cartographer', 'pkg_config_path_multiarch')
+[222.566s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngoc/Workspace/Graduation_Project/src/install/cartographer/share/cartographer/hook/pkg_config_path_multiarch.ps1'
+[222.567s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ngoc/Workspace/Graduation_Project/src/install/cartographer/share/cartographer/hook/pkg_config_path_multiarch.dsv'
+[222.567s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngoc/Workspace/Graduation_Project/src/install/cartographer/share/cartographer/hook/pkg_config_path_multiarch.sh'
+[222.568s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cartographer)
+[222.570s] Level 1:colcon.colcon_core.environment:checking '/home/ngoc/Workspace/Graduation_Project/src/install/cartographer' for CMake module files
+[222.571s] Level 1:colcon.colcon_core.environment:checking '/home/ngoc/Workspace/Graduation_Project/src/install/cartographer' for CMake config files
+[222.571s] Level 1:colcon.colcon_core.shell:create_environment_hook('cartographer', 'cmake_prefix_path')
+[222.571s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngoc/Workspace/Graduation_Project/src/install/cartographer/share/cartographer/hook/cmake_prefix_path.ps1'
+[222.572s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ngoc/Workspace/Graduation_Project/src/install/cartographer/share/cartographer/hook/cmake_prefix_path.dsv'
+[222.572s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngoc/Workspace/Graduation_Project/src/install/cartographer/share/cartographer/hook/cmake_prefix_path.sh'
+[222.573s] Level 1:colcon.colcon_core.environment:checking '/home/ngoc/Workspace/Graduation_Project/src/install/cartographer/lib'
+[222.573s] Level 1:colcon.colcon_core.environment:checking '/home/ngoc/Workspace/Graduation_Project/src/install/cartographer/bin'
+[222.573s] Level 1:colcon.colcon_core.shell:create_environment_hook('cartographer', 'path')
+[222.573s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngoc/Workspace/Graduation_Project/src/install/cartographer/share/cartographer/hook/path.ps1'
+[222.574s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ngoc/Workspace/Graduation_Project/src/install/cartographer/share/cartographer/hook/path.dsv'
+[222.574s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngoc/Workspace/Graduation_Project/src/install/cartographer/share/cartographer/hook/path.sh'
+[222.575s] Level 1:colcon.colcon_core.environment:checking '/home/ngoc/Workspace/Graduation_Project/src/install/cartographer/lib/pkgconfig/cartographer.pc'
+[222.575s] Level 1:colcon.colcon_core.environment:checking '/home/ngoc/Workspace/Graduation_Project/src/install/cartographer/lib/python3.10/site-packages'
+[222.575s] Level 1:colcon.colcon_core.environment:checking '/home/ngoc/Workspace/Graduation_Project/src/install/cartographer/bin'
+[222.576s] Level 1:colcon.colcon_core.shell:create_environment_hook('cartographer', 'pythonscriptspath')
+[222.576s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngoc/Workspace/Graduation_Project/src/install/cartographer/share/cartographer/hook/pythonscriptspath.ps1'
+[222.576s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ngoc/Workspace/Graduation_Project/src/install/cartographer/share/cartographer/hook/pythonscriptspath.dsv'
+[222.577s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngoc/Workspace/Graduation_Project/src/install/cartographer/share/cartographer/hook/pythonscriptspath.sh'
+[222.578s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngoc/Workspace/Graduation_Project/src/install/cartographer/share/cartographer/package.ps1'
+[222.579s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ngoc/Workspace/Graduation_Project/src/install/cartographer/share/cartographer/package.dsv'
+[222.579s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngoc/Workspace/Graduation_Project/src/install/cartographer/share/cartographer/package.sh'
+[222.580s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngoc/Workspace/Graduation_Project/src/install/cartographer/share/cartographer/package.bash'
+[222.581s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngoc/Workspace/Graduation_Project/src/install/cartographer/share/cartographer/package.zsh'
+[222.582s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ngoc/Workspace/Graduation_Project/src/install/cartographer/share/colcon-core/packages/cartographer)
+[222.582s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[222.583s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[222.583s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[222.583s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[222.588s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[222.588s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[222.588s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[222.602s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[222.603s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ngoc/Workspace/Graduation_Project/src/install/local_setup.ps1'
+[222.604s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ngoc/Workspace/Graduation_Project/src/install/_local_setup_util_ps1.py'
+[222.605s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ngoc/Workspace/Graduation_Project/src/install/setup.ps1'
+[222.607s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ngoc/Workspace/Graduation_Project/src/install/local_setup.sh'
+[222.608s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ngoc/Workspace/Graduation_Project/src/install/_local_setup_util_sh.py'
+[222.608s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ngoc/Workspace/Graduation_Project/src/install/setup.sh'
+[222.610s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ngoc/Workspace/Graduation_Project/src/install/local_setup.bash'
+[222.610s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ngoc/Workspace/Graduation_Project/src/install/setup.bash'
+[222.612s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ngoc/Workspace/Graduation_Project/src/install/local_setup.zsh'
+[222.613s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ngoc/Workspace/Graduation_Project/src/install/setup.zsh'

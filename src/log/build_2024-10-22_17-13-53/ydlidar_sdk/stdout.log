@@ -1,0 +1,15 @@
+[ 40%] Built target ydlidar_sdk
+[ 44%] Built target gs_ota
+[ 48%] Built target et_test
+[ 53%] Built target gs_test2
+[ 57%] Built target sdm_test
+[ 61%] Built target scl_test
+[ 65%] Built target sdm18_test
+[ 70%] Built target tea_test
+[ 74%] Built target gs_test
+[ 78%] Built target tmini_test
+[ 82%] Built target tri_and_gs_test
+[ 87%] Built target tof_test
+[ 91%] Built target tri_restart
+[ 95%] Built target tri_test
+[100%] Built target lidar_c_api_test

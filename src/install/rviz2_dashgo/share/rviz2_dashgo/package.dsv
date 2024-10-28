@@ -1,0 +1,8 @@
+source;share/rviz2_dashgo/hook/cmake_prefix_path.ps1
+source;share/rviz2_dashgo/hook/cmake_prefix_path.dsv
+source;share/rviz2_dashgo/hook/cmake_prefix_path.sh
+source;share/rviz2_dashgo/local_setup.bash
+source;share/rviz2_dashgo/local_setup.dsv
+source;share/rviz2_dashgo/local_setup.ps1
+source;share/rviz2_dashgo/local_setup.sh
+source;share/rviz2_dashgo/local_setup.zsh

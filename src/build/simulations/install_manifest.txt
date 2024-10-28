@@ -1,0 +1,15 @@
+/home/ngoc/Workspace/Graduation_Project/src/install/simulations/share/ament_index/resource_index/package_run_dependencies/simulations
+/home/ngoc/Workspace/Graduation_Project/src/install/simulations/share/ament_index/resource_index/parent_prefix_path/simulations
+/home/ngoc/Workspace/Graduation_Project/src/install/simulations/share/simulations/environment/ament_prefix_path.sh
+/home/ngoc/Workspace/Graduation_Project/src/install/simulations/share/simulations/environment/ament_prefix_path.dsv
+/home/ngoc/Workspace/Graduation_Project/src/install/simulations/share/simulations/environment/path.sh
+/home/ngoc/Workspace/Graduation_Project/src/install/simulations/share/simulations/environment/path.dsv
+/home/ngoc/Workspace/Graduation_Project/src/install/simulations/share/simulations/local_setup.bash
+/home/ngoc/Workspace/Graduation_Project/src/install/simulations/share/simulations/local_setup.sh
+/home/ngoc/Workspace/Graduation_Project/src/install/simulations/share/simulations/local_setup.zsh
+/home/ngoc/Workspace/Graduation_Project/src/install/simulations/share/simulations/local_setup.dsv
+/home/ngoc/Workspace/Graduation_Project/src/install/simulations/share/simulations/package.dsv
+/home/ngoc/Workspace/Graduation_Project/src/install/simulations/share/ament_index/resource_index/packages/simulations
+/home/ngoc/Workspace/Graduation_Project/src/install/simulations/share/simulations/cmake/simulationsConfig.cmake
+/home/ngoc/Workspace/Graduation_Project/src/install/simulations/share/simulations/cmake/simulationsConfig-version.cmake
+/home/ngoc/Workspace/Graduation_Project/src/install/simulations/share/simulations/package.xml

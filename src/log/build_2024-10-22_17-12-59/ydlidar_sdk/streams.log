@@ -1,0 +1,16 @@
+[0.113s] Invoking command in '/home/ngoc/Workspace/Graduation_Project/src/build/ydlidar_sdk': /usr/bin/cmake --build /home/ngoc/Workspace/Graduation_Project/src/build/ydlidar_sdk -- -j8 -l8
+[0.362s] [ 40%] Built target ydlidar_sdk
+[0.515s] [ 44%] Built target gs_test
+[0.515s] [ 48%] Built target sdm18_test
+[0.515s] [ 53%] Built target gs_test2
+[0.530s] [ 57%] Built target gs_ota
+[0.534s] [ 61%] Built target tea_test
+[0.536s] [ 65%] Built target sdm_test
+[0.545s] [ 70%] Built target et_test
+[0.554s] [ 74%] Built target scl_test
+[0.606s] [ 78%] Built target lidar_c_api_test
+[0.620s] [ 82%] Built target tri_and_gs_test
+[0.622s] [ 87%] Built target tof_test
+[0.629s] [ 91%] Built target tri_restart
+[0.636s] [ 95%] Built target tmini_test
+[0.641s] [100%] Built target tri_test

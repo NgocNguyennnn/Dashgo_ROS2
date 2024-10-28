@@ -1,0 +1,248 @@
+[0.059s] Invoking command in '/home/ngoc/Workspace/Graduation_Project/src/build/cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngoc/Workspace/Graduation_Project/src/install/teleop_twist_keyboard:/home/ngoc/Workspace/Graduation_Project/install/teleop_twist_keyboard:/opt/ros/humble /usr/bin/cmake --build /home/ngoc/Workspace/Graduation_Project/src/build/cartographer -- -j8 -l8
+[0.214s] [  1%] Built target gtest
+[0.242s] [  1%] Built target cartographer_detect_changes
+[0.281s] [  2%] Built target gmock
+[0.339s] [  2%] Built target gmock_main
+[0.638s] [ 54%] Built target cartographer
+[0.709s] [ 55%] Built target cartographer_pbstream
+[0.713s] [ 55%] Built target cartographer_compute_relations_metrics
+[0.713s] [ 56%] Built target cartographer_autogenerate_ground_truth
+[0.717s] [ 56%] Built target cartographer_print_configuration
+[0.749s] [ 57%] Built target cartographer_test_library
+[0.858s] [ 58%] Built target cartographer.common.thread_pool_test
+[0.874s] [ 59%] Built target cartographer.common.internal.rate_timer_test
+[0.876s] [ 59%] Built target cartographer.common.lua_parameter_dictionary_test
+[0.881s] [ 59%] Built target cartographer.common.fixed_ratio_sampler_test
+[0.884s] [ 59%] Built target cartographer.common.task_test
+[0.895s] [ 61%] Built target cartographer.common.math_test
+[0.896s] [ 61%] Built target cartographer.common.configuration_files_test
+[0.901s] [ 62%] Built target cartographer.common.internal.blocking_queue_test
+[0.976s] [ 63%] Built target cartographer.io.probability_grid_points_processor_test
+[0.990s] [ 63%] Built target cartographer.io.fake_file_writer_test
+[0.994s] [ 63%] Built target cartographer.io.proto_stream_deserializer_test
+[0.994s] [ 64%] Built target cartographer.io.internal.in_memory_proto_stream_test
+[1.006s] [ 65%] Built target cartographer.io.proto_stream_test
+[1.006s] [ 65%] Built target cartographer.io.points_processor_pipeline_builder_test
+[1.007s] [ 65%] Built target cartographer.io.serialization_format_migration_test
+[1.034s] [ 66%] Built target cartographer.mapping.2d.map_limits_test
+[1.086s] [ 66%] Built target cartographer.mapping.2d.probability_grid_test
+[1.102s] [ 67%] Built target cartographer.mapping.2d.xy_index_test
+[1.112s] [ 67%] Built target cartographer.mapping.2d.submap_2d_test
+[1.112s] [ 67%] Built target cartographer.mapping.3d.hybrid_grid_test
+[1.120s] [ 67%] Built target cartographer.mapping.3d.submap_3d_test
+[1.122s] [ 68%] Built target cartographer.mapping.2d.range_data_inserter_2d_test
+[1.126s] [ 69%] Built target cartographer.mapping.id_test
+[1.131s] [ 70%] Built target cartographer.mapping.3d.range_data_inserter_3d_test
+[1.193s] [ 70%] Built target cartographer.mapping.imu_tracker_test
+[1.208s] [ 71%] Built target cartographer.mapping.internal.2d.normal_estimation_2d_test
+[1.220s] [ 71%] Built target cartographer.mapping.internal.2d.overlapping_submaps_trimmer_2d_test
+[1.243s] [ 72%] Built target cartographer.mapping.internal.2d.pose_graph_2d_test
+[1.254s] [ 72%] Built target cartographer.mapping.internal.2d.ray_to_pixel_mask_test
+[1.265s] [ 72%] Built target cartographer.mapping.internal.2d.scan_matching.correlative_scan_matcher_test
+[1.276s] [ 73%] Built target cartographer.mapping.internal.2d.scan_matching.ceres_scan_matcher_2d_test
+[1.277s] [ 74%] Built target cartographer.mapping.internal.2d.scan_matching.fast_correlative_scan_matcher_2d_test
+[1.354s] [ 74%] Built target cartographer.mapping.internal.2d.scan_matching.interpolated_tsdf_2d_test
+[1.365s] [ 75%] Built target cartographer.mapping.internal.2d.scan_matching.occupied_space_cost_function_2d_test
+[1.370s] [ 75%] Built target cartographer.mapping.internal.2d.scan_matching.real_time_correlative_scan_matcher_2d_test
+[1.402s] [ 75%] Built target cartographer.mapping.internal.2d.tsd_value_converter_test
+[1.403s] [ 76%] Built target cartographer.mapping.internal.2d.tsdf_range_data_inserter_2d_test
+[1.416s] [ 77%] Built target cartographer.mapping.internal.2d.scan_matching.tsdf_match_cost_function_2d_test
+[1.447s] [ 77%] Built target cartographer.mapping.internal.3d.local_trajectory_builder_3d_test
+[1.449s] [ 78%] Built target cartographer.mapping.internal.2d.tsdf_2d_test
+[1.497s] [ 78%] Built target cartographer.mapping.internal.3d.rotation_parameterization_test
+[1.514s] [ 79%] Built target cartographer.mapping.internal.3d.scan_matching.ceres_scan_matcher_3d_test
+[1.522s] [ 80%] Built target cartographer.mapping.internal.3d.pose_graph_3d_test
+[1.531s] [ 81%] Built target cartographer.mapping.internal.3d.scan_matching.precomputation_grid_3d_test
+[1.532s] [ 81%] Built target cartographer.mapping.internal.3d.scan_matching.interpolated_grid_test
+[1.534s] [ 81%] Built target cartographer.mapping.internal.3d.scan_matching.fast_correlative_scan_matcher_3d_test
+[1.552s] [ 82%] Built target cartographer.mapping.internal.3d.scan_matching.intensity_cost_function_3d_test
+[1.591s] [ 82%] Built target cartographer.mapping.internal.3d.scan_matching.real_time_correlative_scan_matcher_3d_test
+[1.595s] [ 83%] Built target cartographer.mapping.internal.3d.scan_matching.rotation_delta_cost_functor_3d_test
+[1.620s] [ 83%] Built target cartographer.mapping.internal.constraints.constraint_builder_2d_test
+[1.632s] [ 84%] Built target cartographer.mapping.internal.connected_components_test
+[1.636s] [ 84%] Built target cartographer.mapping.internal.3d.scan_matching.rotational_scan_matcher_test
+[1.661s] [ 84%] Built target cartographer.mapping.internal.motion_filter_test
+[1.664s] [ 85%] Built target cartographer.mapping.internal.constraints.constraint_builder_3d_test
+[1.668s] [ 86%] Built target cartographer.mapping.internal.optimization.cost_functions.landmark_cost_function_2d_test
+[1.698s] [ 87%] Built target cartographer.mapping.internal.optimization.cost_functions.spa_cost_function_2d_test
+[1.712s] [ 87%] Built target cartographer.mapping.internal.optimization.cost_functions.landmark_cost_function_3d_test
+[1.717s] [ 87%] Built target cartographer.mapping.internal.optimization.optimization_problem_3d_test
+[1.757s] [ 88%] Built target cartographer.mapping.internal.range_data_collator_test
+[1.761s] [ 88%] Built target cartographer.mapping.internal.trajectory_connectivity_state_test
+[1.776s] [ 89%] Built target cartographer.mapping.map_builder_test
+[1.776s] [ 89%] Built target cartographer.mapping.pose_extrapolator_test
+[1.776s] [ 90%] Built target cartographer.mapping.pose_graph_test
+[1.792s] [ 90%] Built target cartographer.mapping.pose_graph_trimmer_test
+[1.830s] [ 91%] Built target cartographer.mapping.probability_values_test
+[1.843s] [ 91%] Built target cartographer.mapping.value_conversion_tables_test
+[1.858s] [ 91%] Built target cartographer.mapping.submaps_test
+[1.884s] [ 92%] Built target cartographer.mapping.trajectory_node_test
+[1.884s] [ 92%] Built target cartographer.sensor.internal.trajectory_collator_test
+[1.884s] [ 93%] Built target cartographer.sensor.compressed_point_cloud_test
+[1.885s] [ 93%] Built target cartographer.sensor.internal.collator_test
+[1.892s] [ 94%] Built target cartographer.sensor.internal.ordered_multi_queue_test
+[1.919s] [ 95%] Built target cartographer.sensor.internal.voxel_filter_test
+[2.030s] [ 95%] Built target cartographer.sensor.map_by_time_test
+[2.033s] [ 96%] Built target cartographer.transform.transform_interpolation_buffer_test
+[2.037s] [ 97%] Built target cartographer.sensor.landmark_data_test
+[2.038s] [ 97%] Built target cartographer.sensor.range_data_test
+[2.040s] [ 98%] Built target cartographer.transform.rigid_transform_test
+[2.040s] [ 98%] Built target cartographer.transform.timestamped_transform_test
+[2.041s] [100%] Built target cartographer.sensor.point_cloud_test
+[2.041s] [100%] Built target cartographer.transform.transform_test
+[2.061s] Invoked command in '/home/ngoc/Workspace/Graduation_Project/src/build/cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngoc/Workspace/Graduation_Project/src/install/teleop_twist_keyboard:/home/ngoc/Workspace/Graduation_Project/install/teleop_twist_keyboard:/opt/ros/humble /usr/bin/cmake --build /home/ngoc/Workspace/Graduation_Project/src/build/cartographer -- -j8 -l8
+[3.192s] Invoking command in '/home/ngoc/Workspace/Graduation_Project/src/build/cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngoc/Workspace/Graduation_Project/src/install/teleop_twist_keyboard:/home/ngoc/Workspace/Graduation_Project/install/teleop_twist_keyboard:/opt/ros/humble /usr/bin/cmake --install /home/ngoc/Workspace/Graduation_Project/src/build/cartographer
+[3.202s] -- Install configuration: "Release"
+[3.203s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/share/cartographer/package.xml
+[3.203s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/share/cartographer//configuration_files
+[3.203s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/share/cartographer//configuration_files/map_builder_server.lua
+[3.203s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/share/cartographer//configuration_files/pose_graph.lua
+[3.203s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/share/cartographer//configuration_files/trajectory_builder_2d.lua
+[3.204s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/share/cartographer//configuration_files/trajectory_builder_3d.lua
+[3.204s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/share/cartographer//configuration_files/map_builder.lua
+[3.204s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/share/cartographer//configuration_files/trajectory_builder.lua
+[3.204s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/share/cartographer//cmake
+[3.204s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/share/cartographer//cmake/functions.cmake
+[3.205s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/share/cartographer//cmake/modules
+[3.205s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/share/cartographer//cmake/modules/FindEigen3.cmake
+[3.205s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/share/cartographer//cmake/modules/FindSphinx.cmake
+[3.205s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/share/cartographer//cmake/modules/FindLuaGoogle.cmake
+[3.206s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/share/cartographer//cmake/modules/FindGMock.cmake
+[3.206s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/bin/cartographer_autogenerate_ground_truth
+[3.206s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/bin/cartographer_compute_relations_metrics
+[3.206s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/bin/cartographer_pbstream
+[3.207s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/bin/cartographer_print_configuration
+[3.207s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/lib/libcartographer.a
+[3.207s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/include/cartographer/common/configuration_file_resolver.h
+[3.207s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/include/cartographer/common/fixed_ratio_sampler.h
+[3.208s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/include/cartographer/common/histogram.h
+[3.208s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/include/cartographer/common/lua.h
+[3.208s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/include/cartographer/common/lua_parameter_dictionary.h
+[3.208s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/include/cartographer/common/math.h
+[3.208s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/include/cartographer/common/port.h
+[3.209s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/include/cartographer/common/task.h
+[3.209s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/include/cartographer/common/thread_pool.h
+[3.209s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/include/cartographer/common/time.h
+[3.209s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/include/cartographer/ground_truth/autogenerate_ground_truth.h
+[3.209s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/include/cartographer/ground_truth/relations_text_file.h
+[3.210s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/include/cartographer/io/color.h
+[3.210s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/include/cartographer/io/coloring_points_processor.h
+[3.210s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/include/cartographer/io/counting_points_processor.h
+[3.210s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/include/cartographer/io/draw_trajectories.h
+[3.211s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/include/cartographer/io/file_writer.h
+[3.211s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/include/cartographer/io/fixed_ratio_sampling_points_processor.h
+[3.211s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/include/cartographer/io/frame_id_filtering_points_processor.h
+[3.211s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/include/cartographer/io/hybrid_grid_points_processor.h
+[3.212s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/include/cartographer/io/image.h
+[3.212s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/include/cartographer/io/intensity_to_color_points_processor.h
+[3.212s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/include/cartographer/io/min_max_range_filtering_points_processor.h
+[3.212s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/include/cartographer/io/null_points_processor.h
+[3.212s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/include/cartographer/io/outlier_removing_points_processor.h
+[3.212s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/include/cartographer/io/pcd_writing_points_processor.h
+[3.212s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/include/cartographer/io/ply_writing_points_processor.h
+[3.214s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/include/cartographer/io/points_batch.h
+[3.214s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/include/cartographer/io/points_processor.h
+[3.214s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/include/cartographer/io/points_processor_pipeline_builder.h
+[3.215s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/include/cartographer/io/probability_grid_points_processor.h
+[3.215s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/include/cartographer/io/proto_stream.h
+[3.215s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/include/cartographer/io/proto_stream_deserializer.h
+[3.216s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/include/cartographer/io/proto_stream_interface.h
+[3.216s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/include/cartographer/io/serialization_format_migration.h
+[3.216s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/include/cartographer/io/submap_painter.h
+[3.216s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/include/cartographer/io/vertical_range_filtering_points_processor.h
+[3.216s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/include/cartographer/io/xray_points_processor.h
+[3.216s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/include/cartographer/io/xyz_writing_points_processor.h
+[3.217s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/include/cartographer/mapping/2d/grid_2d.h
+[3.217s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/include/cartographer/mapping/2d/map_limits.h
+[3.217s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/include/cartographer/mapping/2d/probability_grid.h
+[3.217s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/include/cartographer/mapping/2d/probability_grid_range_data_inserter_2d.h
+[3.217s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/include/cartographer/mapping/2d/submap_2d.h
+[3.218s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/include/cartographer/mapping/2d/xy_index.h
+[3.218s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/include/cartographer/mapping/3d/hybrid_grid.h
+[3.218s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/include/cartographer/mapping/3d/range_data_inserter_3d.h
+[3.218s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/include/cartographer/mapping/3d/submap_3d.h
+[3.218s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/include/cartographer/mapping/detect_floors.h
+[3.218s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/include/cartographer/mapping/grid_interface.h
+[3.218s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/include/cartographer/mapping/id.h
+[3.219s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/include/cartographer/mapping/imu_tracker.h
+[3.219s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/include/cartographer/mapping/map_builder.h
+[3.219s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/include/cartographer/mapping/map_builder_interface.h
+[3.219s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/include/cartographer/mapping/pose_extrapolator.h
+[3.219s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/include/cartographer/mapping/pose_extrapolator_interface.h
+[3.219s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/include/cartographer/mapping/pose_graph.h
+[3.219s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/include/cartographer/mapping/pose_graph_interface.h
+[3.220s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/include/cartographer/mapping/pose_graph_trimmer.h
+[3.220s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/include/cartographer/mapping/probability_values.h
+[3.221s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/include/cartographer/mapping/range_data_inserter_interface.h
+[3.221s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/include/cartographer/mapping/submaps.h
+[3.221s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/include/cartographer/mapping/trajectory_builder_interface.h
+[3.221s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/include/cartographer/mapping/trajectory_node.h
+[3.222s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/include/cartographer/mapping/value_conversion_tables.h
+[3.222s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/include/cartographer/metrics/counter.h
+[3.222s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/include/cartographer/metrics/family_factory.h
+[3.223s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/include/cartographer/metrics/gauge.h
+[3.223s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/include/cartographer/metrics/histogram.h
+[3.223s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/include/cartographer/metrics/register.h
+[3.223s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/include/cartographer/sensor/collator_interface.h
+[3.223s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/include/cartographer/sensor/compressed_point_cloud.h
+[3.223s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/include/cartographer/sensor/data.h
+[3.224s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/include/cartographer/sensor/fixed_frame_pose_data.h
+[3.224s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/include/cartographer/sensor/imu_data.h
+[3.224s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/include/cartographer/sensor/landmark_data.h
+[3.224s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/include/cartographer/sensor/map_by_time.h
+[3.224s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/include/cartographer/sensor/odometry_data.h
+[3.224s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/include/cartographer/sensor/point_cloud.h
+[3.225s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/include/cartographer/sensor/range_data.h
+[3.225s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/include/cartographer/sensor/rangefinder_point.h
+[3.225s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/include/cartographer/sensor/timed_point_cloud_data.h
+[3.225s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/include/cartographer/transform/rigid_transform.h
+[3.225s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/include/cartographer/transform/timestamped_transform.h
+[3.225s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/include/cartographer/transform/transform.h
+[3.226s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/include/cartographer/transform/transform_interpolation_buffer.h
+[3.226s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/include/cartographer/io/fake_file_writer.h
+[3.226s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/include/cartographer/transform/rigid_transform_test_helpers.h
+[3.227s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/include/cartographer/common/proto/ceres_solver_options.pb.h
+[3.227s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/include/cartographer/ground_truth/proto/relations.pb.h
+[3.227s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/include/cartographer/mapping/proto/cell_limits_2d.pb.h
+[3.227s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/include/cartographer/mapping/proto/connected_components.pb.h
+[3.227s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/include/cartographer/mapping/proto/grid_2d.pb.h
+[3.227s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/include/cartographer/mapping/proto/grid_2d_options.pb.h
+[3.227s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/include/cartographer/mapping/proto/hybrid_grid.pb.h
+[3.227s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/include/cartographer/mapping/proto/local_trajectory_builder_options_2d.pb.h
+[3.228s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/include/cartographer/mapping/proto/local_trajectory_builder_options_3d.pb.h
+[3.228s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/include/cartographer/mapping/proto/map_builder_options.pb.h
+[3.228s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/include/cartographer/mapping/proto/map_limits.pb.h
+[3.228s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/include/cartographer/mapping/proto/motion_filter_options.pb.h
+[3.228s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/include/cartographer/mapping/proto/normal_estimation_options_2d.pb.h
+[3.228s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/include/cartographer/mapping/proto/pose_extrapolator_options.pb.h
+[3.228s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/include/cartographer/mapping/proto/pose_graph.pb.h
+[3.229s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/include/cartographer/mapping/proto/pose_graph/constraint_builder_options.pb.h
+[3.229s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/include/cartographer/mapping/proto/pose_graph/optimization_problem_options.pb.h
+[3.229s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/include/cartographer/mapping/proto/pose_graph_options.pb.h
+[3.229s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/include/cartographer/mapping/proto/probability_grid.pb.h
+[3.229s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/include/cartographer/mapping/proto/probability_grid_range_data_inserter_options_2d.pb.h
+[3.229s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/include/cartographer/mapping/proto/range_data_inserter_options.pb.h
+[3.229s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/include/cartographer/mapping/proto/range_data_inserter_options_3d.pb.h
+[3.229s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/include/cartographer/mapping/proto/scan_matching/ceres_scan_matcher_options_2d.pb.h
+[3.229s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/include/cartographer/mapping/proto/scan_matching/ceres_scan_matcher_options_3d.pb.h
+[3.230s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/include/cartographer/mapping/proto/scan_matching/fast_correlative_scan_matcher_options_2d.pb.h
+[3.230s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/include/cartographer/mapping/proto/scan_matching/fast_correlative_scan_matcher_options_3d.pb.h
+[3.230s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/include/cartographer/mapping/proto/scan_matching/real_time_correlative_scan_matcher_options.pb.h
+[3.230s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/include/cartographer/mapping/proto/serialization.pb.h
+[3.230s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/include/cartographer/mapping/proto/submap.pb.h
+[3.230s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/include/cartographer/mapping/proto/submap_visualization.pb.h
+[3.231s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/include/cartographer/mapping/proto/submaps_options_2d.pb.h
+[3.231s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/include/cartographer/mapping/proto/submaps_options_3d.pb.h
+[3.231s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/include/cartographer/mapping/proto/trajectory.pb.h
+[3.231s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/include/cartographer/mapping/proto/trajectory_builder_options.pb.h
+[3.231s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/include/cartographer/mapping/proto/trajectory_node_data.pb.h
+[3.231s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/include/cartographer/mapping/proto/tsdf_2d.pb.h
+[3.231s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/include/cartographer/mapping/proto/tsdf_range_data_inserter_options_2d.pb.h
+[3.231s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/include/cartographer/sensor/proto/adaptive_voxel_filter_options.pb.h
+[3.231s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/include/cartographer/sensor/proto/sensor.pb.h
+[3.232s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/include/cartographer/transform/proto/timestamped_transform.pb.h
+[3.232s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/include/cartographer/transform/proto/transform.pb.h
+[3.232s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/share/cartographer/cmake/CartographerTargets.cmake
+[3.232s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/share/cartographer/cmake/CartographerTargets-release.cmake
+[3.232s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer/share/cartographer/cartographer-config.cmake
+[3.233s] Invoked command in '/home/ngoc/Workspace/Graduation_Project/src/build/cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngoc/Workspace/Graduation_Project/src/install/teleop_twist_keyboard:/home/ngoc/Workspace/Graduation_Project/install/teleop_twist_keyboard:/opt/ros/humble /usr/bin/cmake --install /home/ngoc/Workspace/Graduation_Project/src/build/cartographer

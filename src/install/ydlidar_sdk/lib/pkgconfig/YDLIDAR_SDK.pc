@@ -1,0 +1,11 @@
+prefix=/home/ngoc/Workspace/Graduation_Project/src/install/ydlidar_sdk
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: YDLIDAR_SDK
+Description: 
+Version: 1.2.7
+Cflags:   -I/home/ngoc/Workspace/Graduation_Project/src/install/ydlidar_sdk/include/src -I/home/ngoc/Workspace/Graduation_Project/src/install/ydlidar_sdk/include
+Libs: -L${libdir}  -lpthread -lrt -lydlidar_sdk
+

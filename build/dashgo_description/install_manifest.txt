@@ -1,0 +1,43 @@
+/home/ngoc/Workspace/Graduation_Project/install/dashgo_description/share/dashgo_description//launch/dashgo_description.launch.py
+/home/ngoc/Workspace/Graduation_Project/install/dashgo_description/share/dashgo_description//launch/dashgo_description_check.launch.py
+/home/ngoc/Workspace/Graduation_Project/install/dashgo_description/share/dashgo_description//urdf/dashgobase/dashgo.urdf.xacro
+/home/ngoc/Workspace/Graduation_Project/install/dashgo_description/share/dashgo_description//urdf/dashgobase/meshes/sensors/laser_frame.STL
+/home/ngoc/Workspace/Graduation_Project/install/dashgo_description/share/dashgo_description//urdf/dashgobase/meshes/sensors/astra.dae
+/home/ngoc/Workspace/Graduation_Project/install/dashgo_description/share/dashgo_description//urdf/dashgobase/meshes/sensors/r200.jpg
+/home/ngoc/Workspace/Graduation_Project/install/dashgo_description/share/dashgo_description//urdf/dashgobase/meshes/sensors/astra.jpg
+/home/ngoc/Workspace/Graduation_Project/install/dashgo_description/share/dashgo_description//urdf/dashgobase/meshes/sensors/lds.stl
+/home/ngoc/Workspace/Graduation_Project/install/dashgo_description/share/dashgo_description//urdf/dashgobase/meshes/sensors/r200.dae
+/home/ngoc/Workspace/Graduation_Project/install/dashgo_description/share/dashgo_description//urdf/dashgobase/meshes/bases/robot_link.STL
+/home/ngoc/Workspace/Graduation_Project/install/dashgo_description/share/dashgo_description//urdf/dashgobase/meshes/bases/Turtlebot3/waffle_base.stl
+/home/ngoc/Workspace/Graduation_Project/install/dashgo_description/share/dashgo_description//urdf/dashgobase/meshes/bases/Turtlebot3/burger_base.stl
+/home/ngoc/Workspace/Graduation_Project/install/dashgo_description/share/dashgo_description//urdf/dashgobase/meshes/bases/Turtlebot3/waffle_pi_base_for_open_manipulator.stl
+/home/ngoc/Workspace/Graduation_Project/install/dashgo_description/share/dashgo_description//urdf/dashgobase/meshes/bases/Turtlebot3/waffle_base_for_open_manipulator.stl
+/home/ngoc/Workspace/Graduation_Project/install/dashgo_description/share/dashgo_description//urdf/dashgobase/meshes/bases/Turtlebot3/waffle_pi_base.stl
+/home/ngoc/Workspace/Graduation_Project/install/dashgo_description/share/dashgo_description//urdf/dashgobase/meshes/bases/base_link.STL
+/home/ngoc/Workspace/Graduation_Project/install/dashgo_description/share/dashgo_description//urdf/dashgobase/meshes/wheels/banh_xe.STL
+/home/ngoc/Workspace/Graduation_Project/install/dashgo_description/share/dashgo_description//urdf/dashgobase/meshes/wheels/Old version/left_tire.stl
+/home/ngoc/Workspace/Graduation_Project/install/dashgo_description/share/dashgo_description//urdf/dashgobase/meshes/wheels/Old version/wheel_right_link.STL
+/home/ngoc/Workspace/Graduation_Project/install/dashgo_description/share/dashgo_description//urdf/dashgobase/meshes/wheels/Old version/right_tire.stl
+/home/ngoc/Workspace/Graduation_Project/install/dashgo_description/share/dashgo_description//urdf/dashgobase/meshes/wheels/Old version/wheel_left_link.STL
+/home/ngoc/Workspace/Graduation_Project/install/dashgo_description/share/dashgo_description//urdf/dashgobase/dashgo.gazebo.xacro
+/home/ngoc/Workspace/Graduation_Project/install/dashgo_description/share/dashgo_description//urdf/dashgobase/common_properties.xacro
+/home/ngoc/Workspace/Graduation_Project/install/dashgo_description/share/dashgo_description//urdf/dashgobase/Old version/dashgobase.xacro
+/home/ngoc/Workspace/Graduation_Project/install/dashgo_description/share/dashgo_description//urdf/dashgobase/Old version/base.urdf.xacro
+/home/ngoc/Workspace/Graduation_Project/install/dashgo_description/share/dashgo_description//urdf/dashgobase/Old version/materials.urdf.xacro
+/home/ngoc/Workspace/Graduation_Project/install/dashgo_description/share/dashgo_description//urdf/dashgobase/Old version/torso.urdf.xacro
+/home/ngoc/Workspace/Graduation_Project/install/dashgo_description/share/dashgo_description//rviz/urdf_config.rviz
+/home/ngoc/Workspace/Graduation_Project/install/dashgo_description/share/ament_index/resource_index/package_run_dependencies/dashgo_description
+/home/ngoc/Workspace/Graduation_Project/install/dashgo_description/share/ament_index/resource_index/parent_prefix_path/dashgo_description
+/home/ngoc/Workspace/Graduation_Project/install/dashgo_description/share/dashgo_description/environment/ament_prefix_path.sh
+/home/ngoc/Workspace/Graduation_Project/install/dashgo_description/share/dashgo_description/environment/ament_prefix_path.dsv
+/home/ngoc/Workspace/Graduation_Project/install/dashgo_description/share/dashgo_description/environment/path.sh
+/home/ngoc/Workspace/Graduation_Project/install/dashgo_description/share/dashgo_description/environment/path.dsv
+/home/ngoc/Workspace/Graduation_Project/install/dashgo_description/share/dashgo_description/local_setup.bash
+/home/ngoc/Workspace/Graduation_Project/install/dashgo_description/share/dashgo_description/local_setup.sh
+/home/ngoc/Workspace/Graduation_Project/install/dashgo_description/share/dashgo_description/local_setup.zsh
+/home/ngoc/Workspace/Graduation_Project/install/dashgo_description/share/dashgo_description/local_setup.dsv
+/home/ngoc/Workspace/Graduation_Project/install/dashgo_description/share/dashgo_description/package.dsv
+/home/ngoc/Workspace/Graduation_Project/install/dashgo_description/share/ament_index/resource_index/packages/dashgo_description
+/home/ngoc/Workspace/Graduation_Project/install/dashgo_description/share/dashgo_description/cmake/dashgo_descriptionConfig.cmake
+/home/ngoc/Workspace/Graduation_Project/install/dashgo_description/share/dashgo_description/cmake/dashgo_descriptionConfig-version.cmake
+/home/ngoc/Workspace/Graduation_Project/install/dashgo_description/share/dashgo_description/package.xml

@@ -1,0 +1,29 @@
+[0.050s] Invoking command in '/home/ngoc/Workspace/Graduation_Project/src/build/rviz2_dashgo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngoc/Workspace/Graduation_Project/src/install/teleop_twist_keyboard:/home/ngoc/Workspace/Graduation_Project/install/teleop_twist_keyboard:/opt/ros/humble /usr/bin/cmake --build /home/ngoc/Workspace/Graduation_Project/src/build/rviz2_dashgo -- -j8 -l8
+[0.561s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.562s] -- Found rviz2: 0.0.0 (/home/ngoc/Workspace/Graduation_Project/src/install/rviz2/share/rviz2/cmake)
+[0.563s] -- Found nav2_costmap_2d: 1.1.16 (/opt/ros/humble/share/nav2_costmap_2d/cmake)
+[0.565s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.565s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.565s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.565s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.612s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.137s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.154s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.653s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.790s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.001s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.006s] -- Looking for pthread.h
+[2.128s] -- Looking for pthread.h - found
+[2.128s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.259s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.259s] -- Found Threads: TRUE  
+[2.914s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.914s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[3.236s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.347s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.348s] -- Added test 'lint_cmake' to check CMake code style
+[3.348s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.351s] -- Added test 'xmllint' to check XML markup files
+[3.353s] -- Configuring done
+[3.361s] -- Generating done
+[3.365s] -- Build files have been written to: /home/ngoc/Workspace/Graduation_Project/src/build/rviz2_dashgo

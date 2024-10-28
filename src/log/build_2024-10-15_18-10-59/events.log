@@ -1,0 +1,396 @@
+[0.000000] (-) TimerEvent: {}
+[0.000429] (dashgo_driver_ros2) JobQueued: {'identifier': 'dashgo_driver_ros2', 'dependencies': OrderedDict()}
+[0.000495] (kobuki_velocity_smoother) JobQueued: {'identifier': 'kobuki_velocity_smoother', 'dependencies': OrderedDict()}
+[0.000517] (teleop_twist_keyboard) JobQueued: {'identifier': 'teleop_twist_keyboard', 'dependencies': OrderedDict()}
+[0.000536] (dashgo_driver_ros2) JobStarted: {'identifier': 'dashgo_driver_ros2'}
+[0.010523] (kobuki_velocity_smoother) JobStarted: {'identifier': 'kobuki_velocity_smoother'}
+[0.014627] (teleop_twist_keyboard) JobStarted: {'identifier': 'teleop_twist_keyboard'}
+[0.022889] (dashgo_driver_ros2) JobProgress: {'identifier': 'dashgo_driver_ros2', 'progress': 'cmake'}
+[0.023099] (dashgo_driver_ros2) Command: {'cmd': ['/usr/bin/cmake', '/home/ngoc/Workspace/Graduation_Project/src/dashgo_driver_ros2', '-DCMAKE_INSTALL_PREFIX=/home/ngoc/Workspace/Graduation_Project/src/install/dashgo_driver_ros2'], 'cwd': '/home/ngoc/Workspace/Graduation_Project/src/build/dashgo_driver_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'ngoc'), ('LC_TIME', 'vi_VN'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ngoc'), ('OLDPWD', '/home/ngoc/Workspace/Graduation_Project'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'vi_VN'), ('MANAGERPID', '1622'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1928'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=d397849e5357dc08a997def5670e751f'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ngoc'), ('JOURNAL_STREAM', '8:10234'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ngoc'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/ngoc/.local/bin:/opt/ros/humble/bin:/home/ngoc/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ngoc-Precision-7510:@/tmp/.ICE-unix/1928,unix/ngoc-Precision-7510:/tmp/.ICE-unix/1928'), ('INVOCATION_ID', '2d463dd7145e4d969197560234c16070'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'vi_VN'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'vi_VN'), ('TILIX_ID', '14ce9c04-0a8c-4406-92b2-d1bb5e85e2b9'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'vi_VN'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'vi_VN'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ngoc/Workspace/Graduation_Project/src/build/dashgo_driver_ros2'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=d397849e5357dc08a997def5670e751f'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'vi_VN'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.027540] (kobuki_velocity_smoother) JobProgress: {'identifier': 'kobuki_velocity_smoother', 'progress': 'cmake'}
+[0.028552] (kobuki_velocity_smoother) Command: {'cmd': ['/usr/bin/cmake', '/home/ngoc/Workspace/Graduation_Project/src/kobuki_velocity_smoother', '-DCMAKE_INSTALL_PREFIX=/home/ngoc/Workspace/Graduation_Project/src/install/kobuki_velocity_smoother'], 'cwd': '/home/ngoc/Workspace/Graduation_Project/src/build/kobuki_velocity_smoother', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'ngoc'), ('LC_TIME', 'vi_VN'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ngoc'), ('OLDPWD', '/home/ngoc/Workspace/Graduation_Project'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'vi_VN'), ('MANAGERPID', '1622'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1928'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=d397849e5357dc08a997def5670e751f'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ngoc'), ('JOURNAL_STREAM', '8:10234'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ngoc'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/ngoc/.local/bin:/opt/ros/humble/bin:/home/ngoc/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ngoc-Precision-7510:@/tmp/.ICE-unix/1928,unix/ngoc-Precision-7510:/tmp/.ICE-unix/1928'), ('INVOCATION_ID', '2d463dd7145e4d969197560234c16070'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'vi_VN'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'vi_VN'), ('TILIX_ID', '14ce9c04-0a8c-4406-92b2-d1bb5e85e2b9'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'vi_VN'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'vi_VN'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ngoc/Workspace/Graduation_Project/src/build/kobuki_velocity_smoother'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=d397849e5357dc08a997def5670e751f'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'vi_VN'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099210] (-) TimerEvent: {}
+[0.151010] (kobuki_velocity_smoother) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.151375] (dashgo_driver_ros2) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.199349] (-) TimerEvent: {}
+[0.261020] (kobuki_velocity_smoother) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.261515] (dashgo_driver_ros2) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.275020] (dashgo_driver_ros2) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.275319] (kobuki_velocity_smoother) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.299436] (-) TimerEvent: {}
+[0.376198] (dashgo_driver_ros2) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.376454] (kobuki_velocity_smoother) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.384655] (dashgo_driver_ros2) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.385199] (dashgo_driver_ros2) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.386009] (dashgo_driver_ros2) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.387133] (kobuki_velocity_smoother) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.387656] (kobuki_velocity_smoother) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.388350] (kobuki_velocity_smoother) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.391138] (dashgo_driver_ros2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.392692] (kobuki_velocity_smoother) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.399532] (-) TimerEvent: {}
+[0.494487] (kobuki_velocity_smoother) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.494760] (dashgo_driver_ros2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.499626] (-) TimerEvent: {}
+[0.508531] (kobuki_velocity_smoother) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.508844] (dashgo_driver_ros2) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.509008] (kobuki_velocity_smoother) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.509349] (dashgo_driver_ros2) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.509538] (kobuki_velocity_smoother) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.510219] (dashgo_driver_ros2) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.512202] (kobuki_velocity_smoother) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.513798] (dashgo_driver_ros2) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.599757] (-) TimerEvent: {}
+[0.690798] (dashgo_driver_ros2) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.697437] (kobuki_velocity_smoother) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.699864] (-) TimerEvent: {}
+[0.800175] (-) TimerEvent: {}
+[0.816892] (dashgo_driver_ros2) StdoutLine: {'line': b'-- Found rclpy: 3.3.14 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[0.819485] (dashgo_driver_ros2) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.824085] (teleop_twist_keyboard) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/teleop_twist_keyboard', 'build', '--build-base', '/home/ngoc/Workspace/Graduation_Project/src/build/teleop_twist_keyboard/build', 'install', '--record', '/home/ngoc/Workspace/Graduation_Project/src/build/teleop_twist_keyboard/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/ngoc/Workspace/Graduation_Project/src/teleop_twist_keyboard', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US:en', 'USER': 'ngoc', 'LC_TIME': 'vi_VN', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/ngoc', 'OLDPWD': '/home/ngoc/Workspace/Graduation_Project', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'vi_VN', 'MANAGERPID': '1622', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '1928', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=d397849e5357dc08a997def5670e751f', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/opt/ros/humble/', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'ngoc', 'JOURNAL_STREAM': '8:10234', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ngoc', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/home/ngoc/.local/bin:/opt/ros/humble/bin:/home/ngoc/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ngoc-Precision-7510:@/tmp/.ICE-unix/1928,unix/ngoc-Precision-7510:/tmp/.ICE-unix/1928', 'INVOCATION_ID': '2d463dd7145e4d969197560234c16070', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'vi_VN', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'vi_VN', 'TILIX_ID': '14ce9c04-0a8c-4406-92b2-d1bb5e85e2b9', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'vi_VN', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'vi_VN', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'vi_VN', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ngoc/Workspace/Graduation_Project/src/build/teleop_twist_keyboard', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=d397849e5357dc08a997def5670e751f', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ngoc/Workspace/Graduation_Project/src/build/teleop_twist_keyboard/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ngoc/Workspace/Graduation_Project/src/install/teleop_twist_keyboard/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'vi_VN', 'LC_PAPER': 'vi_VN', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[0.835651] (kobuki_velocity_smoother) StdoutLine: {'line': b'-- Found ecl_build: 1.0.3 (/opt/ros/humble/share/ecl_build/cmake)\n'}
+[0.849535] (kobuki_velocity_smoother) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.900278] (-) TimerEvent: {}
+[0.902785] (dashgo_driver_ros2) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.910600] (kobuki_velocity_smoother) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.911012] (dashgo_driver_ros2) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.917120] (kobuki_velocity_smoother) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.925091] (dashgo_driver_ros2) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.927120] (kobuki_velocity_smoother) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.946135] (kobuki_velocity_smoother) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.946421] (dashgo_driver_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.970461] (dashgo_driver_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.970744] (kobuki_velocity_smoother) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.000372] (-) TimerEvent: {}
+[1.032272] (kobuki_velocity_smoother) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[1.032506] (dashgo_driver_ros2) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[1.058387] (kobuki_velocity_smoother) StdoutLine: {'line': b'-- Found rcl_interfaces: 1.2.1 (/opt/ros/humble/share/rcl_interfaces/cmake)\n'}
+[1.058744] (dashgo_driver_ros2) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[1.081052] (kobuki_velocity_smoother) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.086856] (dashgo_driver_ros2) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.100472] (-) TimerEvent: {}
+[1.123351] (kobuki_velocity_smoother) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.127907] (kobuki_velocity_smoother) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.129448] (teleop_twist_keyboard) StdoutLine: {'line': b'running egg_info\n'}
+[1.130305] (teleop_twist_keyboard) StdoutLine: {'line': b'creating ../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info\n'}
+[1.130619] (teleop_twist_keyboard) StdoutLine: {'line': b'writing ../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/PKG-INFO\n'}
+[1.130872] (teleop_twist_keyboard) StdoutLine: {'line': b'writing dependency_links to ../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/dependency_links.txt\n'}
+[1.131065] (teleop_twist_keyboard) StdoutLine: {'line': b'writing entry points to ../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/entry_points.txt\n'}
+[1.131339] (teleop_twist_keyboard) StdoutLine: {'line': b'writing requirements to ../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/requires.txt\n'}
+[1.131556] (teleop_twist_keyboard) StdoutLine: {'line': b'writing top-level names to ../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/top_level.txt\n'}
+[1.131756] (teleop_twist_keyboard) StdoutLine: {'line': b"writing manifest file '../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/SOURCES.txt'\n"}
+[1.132952] (teleop_twist_keyboard) StdoutLine: {'line': b"reading manifest file '../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/SOURCES.txt'\n"}
+[1.133238] (teleop_twist_keyboard) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[1.134073] (teleop_twist_keyboard) StdoutLine: {'line': b"writing manifest file '../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/SOURCES.txt'\n"}
+[1.134357] (teleop_twist_keyboard) StdoutLine: {'line': b'running build\n'}
+[1.134583] (teleop_twist_keyboard) StdoutLine: {'line': b'running build_py\n'}
+[1.134799] (teleop_twist_keyboard) StdoutLine: {'line': b'creating /home/ngoc/Workspace/Graduation_Project/src/build/teleop_twist_keyboard/build\n'}
+[1.134927] (teleop_twist_keyboard) StdoutLine: {'line': b'creating /home/ngoc/Workspace/Graduation_Project/src/build/teleop_twist_keyboard/build/lib\n'}
+[1.135132] (teleop_twist_keyboard) StdoutLine: {'line': b'copying teleop_twist_keyboard.py -> /home/ngoc/Workspace/Graduation_Project/src/build/teleop_twist_keyboard/build/lib\n'}
+[1.135271] (teleop_twist_keyboard) StdoutLine: {'line': b'running install\n'}
+[1.135385] (teleop_twist_keyboard) StdoutLine: {'line': b'running install_lib\n'}
+[1.136014] (teleop_twist_keyboard) StdoutLine: {'line': b'copying /home/ngoc/Workspace/Graduation_Project/src/build/teleop_twist_keyboard/build/lib/teleop_twist_keyboard.py -> /home/ngoc/Workspace/Graduation_Project/src/install/teleop_twist_keyboard/lib/python3.10/site-packages\n'}
+[1.136728] (teleop_twist_keyboard) StdoutLine: {'line': b'byte-compiling /home/ngoc/Workspace/Graduation_Project/src/install/teleop_twist_keyboard/lib/python3.10/site-packages/teleop_twist_keyboard.py to teleop_twist_keyboard.cpython-310.pyc\n'}
+[1.138145] (teleop_twist_keyboard) StdoutLine: {'line': b'running install_data\n'}
+[1.138376] (teleop_twist_keyboard) StdoutLine: {'line': b'creating /home/ngoc/Workspace/Graduation_Project/src/install/teleop_twist_keyboard/share/ament_index\n'}
+[1.138635] (teleop_twist_keyboard) StdoutLine: {'line': b'creating /home/ngoc/Workspace/Graduation_Project/src/install/teleop_twist_keyboard/share/ament_index/resource_index\n'}
+[1.138806] (teleop_twist_keyboard) StdoutLine: {'line': b'creating /home/ngoc/Workspace/Graduation_Project/src/install/teleop_twist_keyboard/share/ament_index/resource_index/packages\n'}
+[1.138919] (teleop_twist_keyboard) StdoutLine: {'line': b'copying resource/teleop_twist_keyboard -> /home/ngoc/Workspace/Graduation_Project/src/install/teleop_twist_keyboard/share/ament_index/resource_index/packages\n'}
+[1.139033] (teleop_twist_keyboard) StdoutLine: {'line': b'copying package.xml -> /home/ngoc/Workspace/Graduation_Project/src/install/teleop_twist_keyboard/share/teleop_twist_keyboard\n'}
+[1.139153] (teleop_twist_keyboard) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.141005] (teleop_twist_keyboard) StdoutLine: {'line': b'Copying ../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info to /home/ngoc/Workspace/Graduation_Project/src/install/teleop_twist_keyboard/lib/python3.10/site-packages/teleop_twist_keyboard-2.4.0-py3.10.egg-info\n'}
+[1.142013] (teleop_twist_keyboard) StdoutLine: {'line': b'running install_scripts\n'}
+[1.167453] (teleop_twist_keyboard) StdoutLine: {'line': b'Installing teleop_twist_keyboard script to /home/ngoc/Workspace/Graduation_Project/src/install/teleop_twist_keyboard/lib/teleop_twist_keyboard\n'}
+[1.167750] (teleop_twist_keyboard) StdoutLine: {'line': b"writing list of installed files to '/home/ngoc/Workspace/Graduation_Project/src/build/teleop_twist_keyboard/install.log'\n"}
+[1.192019] (teleop_twist_keyboard) CommandEnded: {'returncode': 0}
+[1.200830] (-) TimerEvent: {}
+[1.204980] (dashgo_driver_ros2) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.206823] (dashgo_driver_ros2) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.207915] (dashgo_driver_ros2) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[1.210097] (teleop_twist_keyboard) JobEnded: {'identifier': 'teleop_twist_keyboard', 'rc': 0}
+[1.211101] (dashgo_driver_ros2) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.213245] (dashgo_driver_ros2) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.218104] (dashgo_driver_ros2) StdoutLine: {'line': b'-- Generating done\n'}
+[1.219953] (dashgo_driver_ros2) StdoutLine: {'line': b'-- Build files have been written to: /home/ngoc/Workspace/Graduation_Project/src/build/dashgo_driver_ros2\n'}
+[1.227554] (dashgo_driver_ros2) CommandEnded: {'returncode': 0}
+[1.228296] (dashgo_driver_ros2) JobProgress: {'identifier': 'dashgo_driver_ros2', 'progress': 'build'}
+[1.228948] (dashgo_driver_ros2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ngoc/Workspace/Graduation_Project/src/build/dashgo_driver_ros2', '--', '-j8', '-l8'], 'cwd': '/home/ngoc/Workspace/Graduation_Project/src/build/dashgo_driver_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'ngoc'), ('LC_TIME', 'vi_VN'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ngoc'), ('OLDPWD', '/home/ngoc/Workspace/Graduation_Project'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'vi_VN'), ('MANAGERPID', '1622'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1928'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=d397849e5357dc08a997def5670e751f'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ngoc'), ('JOURNAL_STREAM', '8:10234'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ngoc'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/ngoc/.local/bin:/opt/ros/humble/bin:/home/ngoc/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ngoc-Precision-7510:@/tmp/.ICE-unix/1928,unix/ngoc-Precision-7510:/tmp/.ICE-unix/1928'), ('INVOCATION_ID', '2d463dd7145e4d969197560234c16070'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'vi_VN'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'vi_VN'), ('TILIX_ID', '14ce9c04-0a8c-4406-92b2-d1bb5e85e2b9'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'vi_VN'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'vi_VN'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ngoc/Workspace/Graduation_Project/src/build/dashgo_driver_ros2'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=d397849e5357dc08a997def5670e751f'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'vi_VN'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.259715] (kobuki_velocity_smoother) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.273658] (dashgo_driver_ros2) CommandEnded: {'returncode': 0}
+[1.292424] (kobuki_velocity_smoother) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.299243] (dashgo_driver_ros2) JobProgress: {'identifier': 'dashgo_driver_ros2', 'progress': 'install'}
+[1.300913] (-) TimerEvent: {}
+[1.308876] (dashgo_driver_ros2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ngoc/Workspace/Graduation_Project/src/build/dashgo_driver_ros2'], 'cwd': '/home/ngoc/Workspace/Graduation_Project/src/build/dashgo_driver_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'ngoc'), ('LC_TIME', 'vi_VN'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ngoc'), ('OLDPWD', '/home/ngoc/Workspace/Graduation_Project'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'vi_VN'), ('MANAGERPID', '1622'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1928'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=d397849e5357dc08a997def5670e751f'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ngoc'), ('JOURNAL_STREAM', '8:10234'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ngoc'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/ngoc/.local/bin:/opt/ros/humble/bin:/home/ngoc/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ngoc-Precision-7510:@/tmp/.ICE-unix/1928,unix/ngoc-Precision-7510:/tmp/.ICE-unix/1928'), ('INVOCATION_ID', '2d463dd7145e4d969197560234c16070'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'vi_VN'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'vi_VN'), ('TILIX_ID', '14ce9c04-0a8c-4406-92b2-d1bb5e85e2b9'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'vi_VN'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'vi_VN'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ngoc/Workspace/Graduation_Project/src/build/dashgo_driver_ros2'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=d397849e5357dc08a997def5670e751f'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'vi_VN'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.317725] (dashgo_driver_ros2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.318030] (dashgo_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/ngoc/Workspace/Graduation_Project/src/install/dashgo_driver_ros2/lib/dashgo_driver_ros2/driver.py\n'}
+[1.318254] (dashgo_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/ngoc/Workspace/Graduation_Project/src/install/dashgo_driver_ros2/lib/dashgo_driver_ros2/test_cmd.py\n'}
+[1.318484] (dashgo_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/ngoc/Workspace/Graduation_Project/src/install/dashgo_driver_ros2/share/dashgo_driver_ros2/config\n'}
+[1.318697] (dashgo_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/ngoc/Workspace/Graduation_Project/src/install/dashgo_driver_ros2/share/dashgo_driver_ros2/config/velocity_smoother_params.yaml\n'}
+[1.319021] (dashgo_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/ngoc/Workspace/Graduation_Project/src/install/dashgo_driver_ros2/share/dashgo_driver_ros2/config/my_dashgo_params.yaml\n'}
+[1.319308] (dashgo_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/ngoc/Workspace/Graduation_Project/src/install/dashgo_driver_ros2/share/dashgo_driver_ros2/config/my_dashgo_params_imu.yaml\n'}
+[1.319622] (dashgo_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/ngoc/Workspace/Graduation_Project/src/install/dashgo_driver_ros2/share/dashgo_driver_ros2/config/my_dashgo_params_noSonar.yaml\n'}
+[1.319869] (dashgo_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/ngoc/Workspace/Graduation_Project/src/install/dashgo_driver_ros2/share/dashgo_driver_ros2/launch\n'}
+[1.320090] (dashgo_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/ngoc/Workspace/Graduation_Project/src/install/dashgo_driver_ros2/share/dashgo_driver_ros2/launch/driver_noSonar.launch.py\n'}
+[1.320325] (dashgo_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/ngoc/Workspace/Graduation_Project/src/install/dashgo_driver_ros2/share/dashgo_driver_ros2/launch/serial.launch.py\n'}
+[1.320526] (dashgo_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/ngoc/Workspace/Graduation_Project/src/install/dashgo_driver_ros2/share/dashgo_driver_ros2/launch/driver_ir.launch.py\n'}
+[1.320723] (dashgo_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/ngoc/Workspace/Graduation_Project/src/install/dashgo_driver_ros2/share/dashgo_driver_ros2/launch/driver_imu.launch.py\n'}
+[1.320914] (dashgo_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/ngoc/Workspace/Graduation_Project/src/install/dashgo_driver_ros2/share/dashgo_driver_ros2/launch/driver.launch.py\n'}
+[1.321269] (dashgo_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/ngoc/Workspace/Graduation_Project/src/install/dashgo_driver_ros2/share/ament_index/resource_index/package_run_dependencies/dashgo_driver_ros2\n'}
+[1.321589] (dashgo_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/ngoc/Workspace/Graduation_Project/src/install/dashgo_driver_ros2/share/ament_index/resource_index/parent_prefix_path/dashgo_driver_ros2\n'}
+[1.321864] (dashgo_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/ngoc/Workspace/Graduation_Project/src/install/dashgo_driver_ros2/share/dashgo_driver_ros2/environment/ament_prefix_path.sh\n'}
+[1.322072] (dashgo_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/ngoc/Workspace/Graduation_Project/src/install/dashgo_driver_ros2/share/dashgo_driver_ros2/environment/ament_prefix_path.dsv\n'}
+[1.322312] (dashgo_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/ngoc/Workspace/Graduation_Project/src/install/dashgo_driver_ros2/share/dashgo_driver_ros2/environment/path.sh\n'}
+[1.322536] (dashgo_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/ngoc/Workspace/Graduation_Project/src/install/dashgo_driver_ros2/share/dashgo_driver_ros2/environment/path.dsv\n'}
+[1.322762] (dashgo_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/ngoc/Workspace/Graduation_Project/src/install/dashgo_driver_ros2/share/dashgo_driver_ros2/local_setup.bash\n'}
+[1.322993] (dashgo_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/ngoc/Workspace/Graduation_Project/src/install/dashgo_driver_ros2/share/dashgo_driver_ros2/local_setup.sh\n'}
+[1.323236] (dashgo_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/ngoc/Workspace/Graduation_Project/src/install/dashgo_driver_ros2/share/dashgo_driver_ros2/local_setup.zsh\n'}
+[1.323499] (dashgo_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/ngoc/Workspace/Graduation_Project/src/install/dashgo_driver_ros2/share/dashgo_driver_ros2/local_setup.dsv\n'}
+[1.323726] (dashgo_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/ngoc/Workspace/Graduation_Project/src/install/dashgo_driver_ros2/share/dashgo_driver_ros2/package.dsv\n'}
+[1.324006] (dashgo_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/ngoc/Workspace/Graduation_Project/src/install/dashgo_driver_ros2/share/ament_index/resource_index/packages/dashgo_driver_ros2\n'}
+[1.324279] (dashgo_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/ngoc/Workspace/Graduation_Project/src/install/dashgo_driver_ros2/share/dashgo_driver_ros2/cmake/dashgo_driver_ros2Config.cmake\n'}
+[1.324483] (dashgo_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/ngoc/Workspace/Graduation_Project/src/install/dashgo_driver_ros2/share/dashgo_driver_ros2/cmake/dashgo_driver_ros2Config-version.cmake\n'}
+[1.324714] (dashgo_driver_ros2) StdoutLine: {'line': b'-- Installing: /home/ngoc/Workspace/Graduation_Project/src/install/dashgo_driver_ros2/share/dashgo_driver_ros2/package.xml\n'}
+[1.326698] (dashgo_driver_ros2) CommandEnded: {'returncode': 0}
+[1.341838] (kobuki_velocity_smoother) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.355207] (kobuki_velocity_smoother) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.365927] (dashgo_driver_ros2) JobEnded: {'identifier': 'dashgo_driver_ros2', 'rc': 0}
+[1.401041] (-) TimerEvent: {}
+[1.447714] (kobuki_velocity_smoother) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.447974] (kobuki_velocity_smoother) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.501215] (-) TimerEvent: {}
+[1.534487] (kobuki_velocity_smoother) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.536025] (kobuki_velocity_smoother) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.601290] (-) TimerEvent: {}
+[1.602165] (kobuki_velocity_smoother) StdoutLine: {'line': b'-- Found rclcpp_components: 16.0.10 (/opt/ros/humble/share/rclcpp_components/cmake)\n'}
+[1.653115] (kobuki_velocity_smoother) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.701379] (-) TimerEvent: {}
+[1.749965] (kobuki_velocity_smoother) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.773223] (kobuki_velocity_smoother) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[1.779205] (kobuki_velocity_smoother) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[1.779483] (kobuki_velocity_smoother) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.779570] (kobuki_velocity_smoother) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.779633] (kobuki_velocity_smoother) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.801485] (-) TimerEvent: {}
+[1.803026] (kobuki_velocity_smoother) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.849044] (kobuki_velocity_smoother) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.849372] (kobuki_velocity_smoother) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/ngoc/Workspace/Graduation_Project/src/kobuki_velocity_smoother/include\n'}
+[1.849487] (kobuki_velocity_smoother) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.856393] (kobuki_velocity_smoother) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[1.856718] (kobuki_velocity_smoother) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[1.858592] (kobuki_velocity_smoother) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.861900] (kobuki_velocity_smoother) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.864257] (kobuki_velocity_smoother) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[1.873762] (kobuki_velocity_smoother) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.873971] (kobuki_velocity_smoother) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.875887] (kobuki_velocity_smoother) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.878225] (kobuki_velocity_smoother) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.901620] (-) TimerEvent: {}
+[1.908826] (kobuki_velocity_smoother) StdoutLine: {'line': b'-- Generating done\n'}
+[1.910953] (kobuki_velocity_smoother) StdoutLine: {'line': b'-- Build files have been written to: /home/ngoc/Workspace/Graduation_Project/src/build/kobuki_velocity_smoother\n'}
+[1.924171] (kobuki_velocity_smoother) CommandEnded: {'returncode': 0}
+[1.924997] (kobuki_velocity_smoother) JobProgress: {'identifier': 'kobuki_velocity_smoother', 'progress': 'build'}
+[1.926092] (kobuki_velocity_smoother) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ngoc/Workspace/Graduation_Project/src/build/kobuki_velocity_smoother', '--', '-j8', '-l8'], 'cwd': '/home/ngoc/Workspace/Graduation_Project/src/build/kobuki_velocity_smoother', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'ngoc'), ('LC_TIME', 'vi_VN'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ngoc'), ('OLDPWD', '/home/ngoc/Workspace/Graduation_Project'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'vi_VN'), ('MANAGERPID', '1622'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1928'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=d397849e5357dc08a997def5670e751f'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ngoc'), ('JOURNAL_STREAM', '8:10234'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ngoc'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/ngoc/.local/bin:/opt/ros/humble/bin:/home/ngoc/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ngoc-Precision-7510:@/tmp/.ICE-unix/1928,unix/ngoc-Precision-7510:/tmp/.ICE-unix/1928'), ('INVOCATION_ID', '2d463dd7145e4d969197560234c16070'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'vi_VN'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'vi_VN'), ('TILIX_ID', '14ce9c04-0a8c-4406-92b2-d1bb5e85e2b9'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'vi_VN'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'vi_VN'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ngoc/Workspace/Graduation_Project/src/build/kobuki_velocity_smoother'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=d397849e5357dc08a997def5670e751f'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'vi_VN'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.985340] (kobuki_velocity_smoother) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/kobuki_velocity_smoother.dir/src/velocity_smoother.cpp.o\x1b[0m\n'}
+[2.001707] (-) TimerEvent: {}
+[2.101948] (-) TimerEvent: {}
+[2.202338] (-) TimerEvent: {}
+[2.302711] (-) TimerEvent: {}
+[2.402977] (-) TimerEvent: {}
+[2.503227] (-) TimerEvent: {}
+[2.603597] (-) TimerEvent: {}
+[2.703878] (-) TimerEvent: {}
+[2.804169] (-) TimerEvent: {}
+[2.904456] (-) TimerEvent: {}
+[3.004790] (-) TimerEvent: {}
+[3.105154] (-) TimerEvent: {}
+[3.205465] (-) TimerEvent: {}
+[3.305799] (-) TimerEvent: {}
+[3.406099] (-) TimerEvent: {}
+[3.506426] (-) TimerEvent: {}
+[3.606733] (-) TimerEvent: {}
+[3.707069] (-) TimerEvent: {}
+[3.807472] (-) TimerEvent: {}
+[3.907777] (-) TimerEvent: {}
+[4.008085] (-) TimerEvent: {}
+[4.108437] (-) TimerEvent: {}
+[4.208771] (-) TimerEvent: {}
+[4.309074] (-) TimerEvent: {}
+[4.409373] (-) TimerEvent: {}
+[4.509664] (-) TimerEvent: {}
+[4.609957] (-) TimerEvent: {}
+[4.710230] (-) TimerEvent: {}
+[4.810518] (-) TimerEvent: {}
+[4.910833] (-) TimerEvent: {}
+[5.011193] (-) TimerEvent: {}
+[5.111512] (-) TimerEvent: {}
+[5.211816] (-) TimerEvent: {}
+[5.312130] (-) TimerEvent: {}
+[5.412384] (-) TimerEvent: {}
+[5.512727] (-) TimerEvent: {}
+[5.613029] (-) TimerEvent: {}
+[5.713308] (-) TimerEvent: {}
+[5.813614] (-) TimerEvent: {}
+[5.913910] (-) TimerEvent: {}
+[6.014208] (-) TimerEvent: {}
+[6.114496] (-) TimerEvent: {}
+[6.214764] (-) TimerEvent: {}
+[6.315059] (-) TimerEvent: {}
+[6.415324] (-) TimerEvent: {}
+[6.515625] (-) TimerEvent: {}
+[6.615918] (-) TimerEvent: {}
+[6.716205] (-) TimerEvent: {}
+[6.816495] (-) TimerEvent: {}
+[6.916866] (-) TimerEvent: {}
+[7.017196] (-) TimerEvent: {}
+[7.117470] (-) TimerEvent: {}
+[7.217784] (-) TimerEvent: {}
+[7.318086] (-) TimerEvent: {}
+[7.418351] (-) TimerEvent: {}
+[7.518647] (-) TimerEvent: {}
+[7.618952] (-) TimerEvent: {}
+[7.719251] (-) TimerEvent: {}
+[7.819561] (-) TimerEvent: {}
+[7.919856] (-) TimerEvent: {}
+[8.020199] (-) TimerEvent: {}
+[8.120499] (-) TimerEvent: {}
+[8.220806] (-) TimerEvent: {}
+[8.321083] (-) TimerEvent: {}
+[8.421353] (-) TimerEvent: {}
+[8.521635] (-) TimerEvent: {}
+[8.621941] (-) TimerEvent: {}
+[8.722223] (-) TimerEvent: {}
+[8.822515] (-) TimerEvent: {}
+[8.922811] (-) TimerEvent: {}
+[9.023113] (-) TimerEvent: {}
+[9.123421] (-) TimerEvent: {}
+[9.223721] (-) TimerEvent: {}
+[9.324032] (-) TimerEvent: {}
+[9.424306] (-) TimerEvent: {}
+[9.524599] (-) TimerEvent: {}
+[9.624910] (-) TimerEvent: {}
+[9.725191] (-) TimerEvent: {}
+[9.825488] (-) TimerEvent: {}
+[9.925771] (-) TimerEvent: {}
+[10.026067] (-) TimerEvent: {}
+[10.126376] (-) TimerEvent: {}
+[10.226668] (-) TimerEvent: {}
+[10.326948] (-) TimerEvent: {}
+[10.427204] (-) TimerEvent: {}
+[10.527496] (-) TimerEvent: {}
+[10.627800] (-) TimerEvent: {}
+[10.728095] (-) TimerEvent: {}
+[10.828432] (-) TimerEvent: {}
+[10.928727] (-) TimerEvent: {}
+[11.029023] (-) TimerEvent: {}
+[11.129285] (-) TimerEvent: {}
+[11.229566] (-) TimerEvent: {}
+[11.329854] (-) TimerEvent: {}
+[11.430156] (-) TimerEvent: {}
+[11.530440] (-) TimerEvent: {}
+[11.630737] (-) TimerEvent: {}
+[11.731037] (-) TimerEvent: {}
+[11.831343] (-) TimerEvent: {}
+[11.931640] (-) TimerEvent: {}
+[12.031928] (-) TimerEvent: {}
+[12.132216] (-) TimerEvent: {}
+[12.232519] (-) TimerEvent: {}
+[12.332902] (-) TimerEvent: {}
+[12.433230] (-) TimerEvent: {}
+[12.533520] (-) TimerEvent: {}
+[12.633826] (-) TimerEvent: {}
+[12.734097] (-) TimerEvent: {}
+[12.834420] (-) TimerEvent: {}
+[12.934691] (-) TimerEvent: {}
+[13.034989] (-) TimerEvent: {}
+[13.135287] (-) TimerEvent: {}
+[13.235574] (-) TimerEvent: {}
+[13.335845] (-) TimerEvent: {}
+[13.436198] (-) TimerEvent: {}
+[13.536533] (-) TimerEvent: {}
+[13.636853] (-) TimerEvent: {}
+[13.737203] (-) TimerEvent: {}
+[13.837513] (-) TimerEvent: {}
+[13.937808] (-) TimerEvent: {}
+[14.038153] (-) TimerEvent: {}
+[14.138470] (-) TimerEvent: {}
+[14.231772] (kobuki_velocity_smoother) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX shared library libkobuki_velocity_smoother.so\x1b[0m\n'}
+[14.238578] (-) TimerEvent: {}
+[14.338844] (-) TimerEvent: {}
+[14.439221] (-) TimerEvent: {}
+[14.539550] (-) TimerEvent: {}
+[14.639875] (-) TimerEvent: {}
+[14.740177] (-) TimerEvent: {}
+[14.840517] (-) TimerEvent: {}
+[14.914826] (kobuki_velocity_smoother) StdoutLine: {'line': b'[ 50%] Built target kobuki_velocity_smoother\n'}
+[14.938190] (kobuki_velocity_smoother) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/velocity_smoother_node.dir/src/velocity_smoother_node.cpp.o\x1b[0m\n'}
+[14.940586] (-) TimerEvent: {}
+[15.040857] (-) TimerEvent: {}
+[15.141173] (-) TimerEvent: {}
+[15.241433] (-) TimerEvent: {}
+[15.341728] (-) TimerEvent: {}
+[15.442007] (-) TimerEvent: {}
+[15.542333] (-) TimerEvent: {}
+[15.642635] (-) TimerEvent: {}
+[15.742937] (-) TimerEvent: {}
+[15.843242] (-) TimerEvent: {}
+[15.943540] (-) TimerEvent: {}
+[16.043876] (-) TimerEvent: {}
+[16.144191] (-) TimerEvent: {}
+[16.244539] (-) TimerEvent: {}
+[16.344822] (-) TimerEvent: {}
+[16.445089] (-) TimerEvent: {}
+[16.545447] (-) TimerEvent: {}
+[16.645730] (-) TimerEvent: {}
+[16.746014] (-) TimerEvent: {}
+[16.846289] (-) TimerEvent: {}
+[16.946574] (-) TimerEvent: {}
+[17.046869] (-) TimerEvent: {}
+[17.147161] (-) TimerEvent: {}
+[17.247440] (-) TimerEvent: {}
+[17.347723] (-) TimerEvent: {}
+[17.447997] (-) TimerEvent: {}
+[17.548311] (-) TimerEvent: {}
+[17.648591] (-) TimerEvent: {}
+[17.748900] (-) TimerEvent: {}
+[17.849199] (-) TimerEvent: {}
+[17.949482] (-) TimerEvent: {}
+[17.993182] (kobuki_velocity_smoother) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable velocity_smoother\x1b[0m\n'}
+[18.049611] (-) TimerEvent: {}
+[18.149939] (-) TimerEvent: {}
+[18.243558] (kobuki_velocity_smoother) StdoutLine: {'line': b'[100%] Built target velocity_smoother_node\n'}
+[18.250048] (-) TimerEvent: {}
+[18.256362] (kobuki_velocity_smoother) CommandEnded: {'returncode': 0}
+[18.290762] (kobuki_velocity_smoother) JobProgress: {'identifier': 'kobuki_velocity_smoother', 'progress': 'install'}
+[18.292278] (kobuki_velocity_smoother) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ngoc/Workspace/Graduation_Project/src/build/kobuki_velocity_smoother'], 'cwd': '/home/ngoc/Workspace/Graduation_Project/src/build/kobuki_velocity_smoother', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'ngoc'), ('LC_TIME', 'vi_VN'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ngoc'), ('OLDPWD', '/home/ngoc/Workspace/Graduation_Project'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'vi_VN'), ('MANAGERPID', '1622'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1928'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=d397849e5357dc08a997def5670e751f'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ngoc'), ('JOURNAL_STREAM', '8:10234'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ngoc'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/ngoc/.local/bin:/opt/ros/humble/bin:/home/ngoc/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ngoc-Precision-7510:@/tmp/.ICE-unix/1928,unix/ngoc-Precision-7510:/tmp/.ICE-unix/1928'), ('INVOCATION_ID', '2d463dd7145e4d969197560234c16070'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'vi_VN'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'vi_VN'), ('TILIX_ID', '14ce9c04-0a8c-4406-92b2-d1bb5e85e2b9'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'vi_VN'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'vi_VN'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ngoc/Workspace/Graduation_Project/src/build/kobuki_velocity_smoother'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=d397849e5357dc08a997def5670e751f'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'vi_VN'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[18.300170] (kobuki_velocity_smoother) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[18.300482] (kobuki_velocity_smoother) StdoutLine: {'line': b'-- Installing: /home/ngoc/Workspace/Graduation_Project/src/install/kobuki_velocity_smoother/lib/libkobuki_velocity_smoother.so\n'}
+[18.311178] (kobuki_velocity_smoother) StdoutLine: {'line': b'-- Set runtime path of "/home/ngoc/Workspace/Graduation_Project/src/install/kobuki_velocity_smoother/lib/libkobuki_velocity_smoother.so" to ""\n'}
+[18.311595] (kobuki_velocity_smoother) StdoutLine: {'line': b'-- Installing: /home/ngoc/Workspace/Graduation_Project/src/install/kobuki_velocity_smoother/include/kobuki_velocity_smoother\n'}
+[18.311674] (kobuki_velocity_smoother) StdoutLine: {'line': b'-- Installing: /home/ngoc/Workspace/Graduation_Project/src/install/kobuki_velocity_smoother/include/kobuki_velocity_smoother/velocity_smoother.hpp\n'}
+[18.311930] (kobuki_velocity_smoother) StdoutLine: {'line': b'-- Installing: /home/ngoc/Workspace/Graduation_Project/src/install/kobuki_velocity_smoother/lib/kobuki_velocity_smoother/velocity_smoother\n'}
+[18.312896] (kobuki_velocity_smoother) StdoutLine: {'line': b'-- Set runtime path of "/home/ngoc/Workspace/Graduation_Project/src/install/kobuki_velocity_smoother/lib/kobuki_velocity_smoother/velocity_smoother" to ""\n'}
+[18.313078] (kobuki_velocity_smoother) StdoutLine: {'line': b'-- Installing: /home/ngoc/Workspace/Graduation_Project/src/install/kobuki_velocity_smoother/share/kobuki_velocity_smoother/config\n'}
+[18.313197] (kobuki_velocity_smoother) StdoutLine: {'line': b'-- Installing: /home/ngoc/Workspace/Graduation_Project/src/install/kobuki_velocity_smoother/share/kobuki_velocity_smoother/config/velocity_smoother_params.yaml\n'}
+[18.313396] (kobuki_velocity_smoother) StdoutLine: {'line': b'-- Installing: /home/ngoc/Workspace/Graduation_Project/src/install/kobuki_velocity_smoother/share/kobuki_velocity_smoother/launch\n'}
+[18.313586] (kobuki_velocity_smoother) StdoutLine: {'line': b'-- Installing: /home/ngoc/Workspace/Graduation_Project/src/install/kobuki_velocity_smoother/share/kobuki_velocity_smoother/launch/velocity_smoother-composed-launch.py\n'}
+[18.313723] (kobuki_velocity_smoother) StdoutLine: {'line': b'-- Installing: /home/ngoc/Workspace/Graduation_Project/src/install/kobuki_velocity_smoother/share/kobuki_velocity_smoother/launch/velocity_smoother-launch.py\n'}
+[18.313915] (kobuki_velocity_smoother) StdoutLine: {'line': b'-- Installing: /home/ngoc/Workspace/Graduation_Project/src/install/kobuki_velocity_smoother/share/ament_index/resource_index/package_run_dependencies/kobuki_velocity_smoother\n'}
+[18.314056] (kobuki_velocity_smoother) StdoutLine: {'line': b'-- Installing: /home/ngoc/Workspace/Graduation_Project/src/install/kobuki_velocity_smoother/share/ament_index/resource_index/parent_prefix_path/kobuki_velocity_smoother\n'}
+[18.314387] (kobuki_velocity_smoother) StdoutLine: {'line': b'-- Installing: /home/ngoc/Workspace/Graduation_Project/src/install/kobuki_velocity_smoother/share/kobuki_velocity_smoother/environment/ament_prefix_path.sh\n'}
+[18.314584] (kobuki_velocity_smoother) StdoutLine: {'line': b'-- Installing: /home/ngoc/Workspace/Graduation_Project/src/install/kobuki_velocity_smoother/share/kobuki_velocity_smoother/environment/ament_prefix_path.dsv\n'}
+[18.314711] (kobuki_velocity_smoother) StdoutLine: {'line': b'-- Installing: /home/ngoc/Workspace/Graduation_Project/src/install/kobuki_velocity_smoother/share/kobuki_velocity_smoother/environment/path.sh\n'}
+[18.314811] (kobuki_velocity_smoother) StdoutLine: {'line': b'-- Installing: /home/ngoc/Workspace/Graduation_Project/src/install/kobuki_velocity_smoother/share/kobuki_velocity_smoother/environment/path.dsv\n'}
+[18.314968] (kobuki_velocity_smoother) StdoutLine: {'line': b'-- Installing: /home/ngoc/Workspace/Graduation_Project/src/install/kobuki_velocity_smoother/share/kobuki_velocity_smoother/local_setup.bash\n'}
+[18.315153] (kobuki_velocity_smoother) StdoutLine: {'line': b'-- Installing: /home/ngoc/Workspace/Graduation_Project/src/install/kobuki_velocity_smoother/share/kobuki_velocity_smoother/local_setup.sh\n'}
+[18.315330] (kobuki_velocity_smoother) StdoutLine: {'line': b'-- Installing: /home/ngoc/Workspace/Graduation_Project/src/install/kobuki_velocity_smoother/share/kobuki_velocity_smoother/local_setup.zsh\n'}
+[18.315548] (kobuki_velocity_smoother) StdoutLine: {'line': b'-- Installing: /home/ngoc/Workspace/Graduation_Project/src/install/kobuki_velocity_smoother/share/kobuki_velocity_smoother/local_setup.dsv\n'}
+[18.315692] (kobuki_velocity_smoother) StdoutLine: {'line': b'-- Installing: /home/ngoc/Workspace/Graduation_Project/src/install/kobuki_velocity_smoother/share/kobuki_velocity_smoother/package.dsv\n'}
+[18.315896] (kobuki_velocity_smoother) StdoutLine: {'line': b'-- Installing: /home/ngoc/Workspace/Graduation_Project/src/install/kobuki_velocity_smoother/share/ament_index/resource_index/packages/kobuki_velocity_smoother\n'}
+[18.316177] (kobuki_velocity_smoother) StdoutLine: {'line': b'-- Installing: /home/ngoc/Workspace/Graduation_Project/src/install/kobuki_velocity_smoother/share/ament_index/resource_index/rclcpp_components/kobuki_velocity_smoother\n'}
+[18.316419] (kobuki_velocity_smoother) StdoutLine: {'line': b'-- Installing: /home/ngoc/Workspace/Graduation_Project/src/install/kobuki_velocity_smoother/share/kobuki_velocity_smoother/cmake/kobuki_velocity_smootherConfig.cmake\n'}
+[18.316658] (kobuki_velocity_smoother) StdoutLine: {'line': b'-- Installing: /home/ngoc/Workspace/Graduation_Project/src/install/kobuki_velocity_smoother/share/kobuki_velocity_smoother/cmake/kobuki_velocity_smootherConfig-version.cmake\n'}
+[18.316846] (kobuki_velocity_smoother) StdoutLine: {'line': b'-- Installing: /home/ngoc/Workspace/Graduation_Project/src/install/kobuki_velocity_smoother/share/kobuki_velocity_smoother/package.xml\n'}
+[18.319394] (kobuki_velocity_smoother) CommandEnded: {'returncode': 0}
+[18.350205] (-) TimerEvent: {}
+[18.367361] (kobuki_velocity_smoother) JobEnded: {'identifier': 'kobuki_velocity_smoother', 'rc': 0}
+[18.368499] (-) EventReactorShutdown: {}

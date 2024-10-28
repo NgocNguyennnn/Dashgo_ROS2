@@ -1,0 +1,4 @@
+source;share/dashgo_description/local_setup.bash
+source;share/dashgo_description/local_setup.dsv
+source;share/dashgo_description/local_setup.sh
+source;share/dashgo_description/local_setup.zsh

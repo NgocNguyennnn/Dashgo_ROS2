@@ -1,0 +1,6 @@
+Invoking command in '/home/ngoc/Workspace/Graduation_Project/src/build/ydlidar_sdk': /usr/bin/cmake /home/ngoc/Workspace/Graduation_Project/src/YDLidar-SDK -DCMAKE_INSTALL_PREFIX=/home/ngoc/Workspace/Graduation_Project/src/install/ydlidar_sdk
+Invoked command in '/home/ngoc/Workspace/Graduation_Project/src/build/ydlidar_sdk' returned '0': /usr/bin/cmake /home/ngoc/Workspace/Graduation_Project/src/YDLidar-SDK -DCMAKE_INSTALL_PREFIX=/home/ngoc/Workspace/Graduation_Project/src/install/ydlidar_sdk
+Invoking command in '/home/ngoc/Workspace/Graduation_Project/src/build/ydlidar_sdk': /usr/bin/cmake --build /home/ngoc/Workspace/Graduation_Project/src/build/ydlidar_sdk -- -j8 -l8
+Invoked command in '/home/ngoc/Workspace/Graduation_Project/src/build/ydlidar_sdk' returned '0': /usr/bin/cmake --build /home/ngoc/Workspace/Graduation_Project/src/build/ydlidar_sdk -- -j8 -l8
+Invoking command in '/home/ngoc/Workspace/Graduation_Project/src/build/ydlidar_sdk': /usr/bin/cmake --install /home/ngoc/Workspace/Graduation_Project/src/build/ydlidar_sdk
+Invoked command in '/home/ngoc/Workspace/Graduation_Project/src/build/ydlidar_sdk' returned '0': /usr/bin/cmake --install /home/ngoc/Workspace/Graduation_Project/src/build/ydlidar_sdk

@@ -1,0 +1,708 @@
+[0.045s] Invoking command in '/home/ngoc/Workspace/Graduation_Project/build/cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngoc/Workspace/Graduation_Project/install/teleop_twist_keyboard:/opt/ros/humble /usr/bin/cmake /home/ngoc/Workspace/Graduation_Project/src/cartographer -DCMAKE_INSTALL_PREFIX=/home/ngoc/Workspace/Graduation_Project/install/cartographer
+[0.209s] -- The C compiler identification is GNU 11.4.0
+[0.405s] -- The CXX compiler identification is GNU 11.4.0
+[0.422s] -- Detecting C compiler ABI info
+[0.574s] -- Detecting C compiler ABI info - done
+[0.592s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.593s] -- Detecting C compile features
+[0.594s] -- Detecting C compile features - done
+[0.599s] -- Detecting CXX compiler ABI info
+[0.753s] -- Detecting CXX compiler ABI info - done
+[0.772s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.772s] -- Detecting CXX compile features
+[0.773s] -- Detecting CXX compile features - done
+[0.778s] -- Build type: Release
+[0.801s] Files /home/ngoc/Workspace/Graduation_Project/build/cartographer/AllFiles.cmake and - differ
+[1.221s] -- Found Python: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.227s] -- Looking for pthread.h
+[1.403s] -- Looking for pthread.h - found
+[1.405s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.540s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.542s] -- Found Threads: TRUE  
+[1.550s] -- Found GMock: gmock_main  
+[1.590s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: iostreams 
+[1.610s] -- Found required Ceres dependency: Eigen version 3.4.0 in /usr/include/eigen3
+[1.620s] -- Found required Ceres dependency: glog
+[1.622s] -- Found required Ceres dependency: gflags
+[1.623s] -- Found Ceres version: 2.0.0 installed in: /usr with components: [EigenSparse, SparseLinearAlgebraLibrary, LAPACK, SuiteSparse, CXSparse, SchurSpecializations, Multithreading]
+[1.646s] -- Found Lua: /usr/lib/x86_64-linux-gnu/liblua5.2.so;/usr/lib/x86_64-linux-gnu/libm.so (found version "5.2.4") 
+[1.683s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3.0.0") 
+[1.693s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[1.693s] -- Checking for one of the modules 'cairo>=1.12.16'
+[1.798s] -- Found Sphinx: /usr/bin/sphinx-build  
+[1.912s] -- Configuring done
+[2.561s] -- Generating done
+[2.579s] -- Build files have been written to: /home/ngoc/Workspace/Graduation_Project/build/cartographer
+[2.639s] Invoked command in '/home/ngoc/Workspace/Graduation_Project/build/cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngoc/Workspace/Graduation_Project/install/teleop_twist_keyboard:/opt/ros/humble /usr/bin/cmake /home/ngoc/Workspace/Graduation_Project/src/cartographer -DCMAKE_INSTALL_PREFIX=/home/ngoc/Workspace/Graduation_Project/install/cartographer
+[2.641s] Invoking command in '/home/ngoc/Workspace/Graduation_Project/build/cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngoc/Workspace/Graduation_Project/install/teleop_twist_keyboard:/opt/ros/humble /usr/bin/cmake --build /home/ngoc/Workspace/Graduation_Project/build/cartographer -- -j8 -l8
+[2.805s] [  0%] [34m[1mRunning C++ protocol buffer compiler on /home/ngoc/Workspace/Graduation_Project/src/cartographer/cartographer/transform/proto/transform.proto[0m
+[2.806s] [  0%] [34m[1mRunning C++ protocol buffer compiler on /home/ngoc/Workspace/Graduation_Project/src/cartographer/cartographer/common/proto/ceres_solver_options.proto[0m
+[2.806s] [  1%] [34m[1mRunning C++ protocol buffer compiler on /home/ngoc/Workspace/Graduation_Project/src/cartographer/cartographer/mapping/proto/cell_limits_2d.proto[0m
+[2.808s] [  1%] [34m[1mRunning C++ protocol buffer compiler on /home/ngoc/Workspace/Graduation_Project/src/cartographer/cartographer/mapping/proto/connected_components.proto[0m
+[2.812s] [  2%] [32mBuilding CXX object googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[2.813s] [  2%] [34m[1mRunning C++ protocol buffer compiler on /home/ngoc/Workspace/Graduation_Project/src/cartographer/cartographer/ground_truth/proto/relations.proto[0m
+[2.843s] [  2%] [34m[1mBuilding documentation.[0m
+[2.853s] [  2%] [34m[1mRunning C++ protocol buffer compiler on /home/ngoc/Workspace/Graduation_Project/src/cartographer/cartographer/mapping/proto/grid_2d.proto[0m
+[2.858s] [  2%] [34m[1mRunning C++ protocol buffer compiler on /home/ngoc/Workspace/Graduation_Project/src/cartographer/cartographer/mapping/proto/grid_2d_options.proto[0m
+[2.867s] [  2%] [34m[1mRunning C++ protocol buffer compiler on /home/ngoc/Workspace/Graduation_Project/src/cartographer/cartographer/mapping/proto/local_trajectory_builder_options_2d.proto[0m
+[2.868s] [  3%] [34m[1mRunning C++ protocol buffer compiler on /home/ngoc/Workspace/Graduation_Project/src/cartographer/cartographer/mapping/proto/hybrid_grid.proto[0m
+[2.887s] [  3%] [34m[1mRunning C++ protocol buffer compiler on /home/ngoc/Workspace/Graduation_Project/src/cartographer/cartographer/mapping/proto/local_trajectory_builder_options_3d.proto[0m
+[2.888s] [  3%] Built target cartographer_detect_changes
+[2.913s] [  4%] [34m[1mRunning C++ protocol buffer compiler on /home/ngoc/Workspace/Graduation_Project/src/cartographer/cartographer/mapping/proto/map_limits.proto[0m
+[2.923s] [  4%] [34m[1mRunning C++ protocol buffer compiler on /home/ngoc/Workspace/Graduation_Project/src/cartographer/cartographer/mapping/proto/map_builder_options.proto[0m
+[2.945s] [  4%] [34m[1mRunning C++ protocol buffer compiler on /home/ngoc/Workspace/Graduation_Project/src/cartographer/cartographer/mapping/proto/normal_estimation_options_2d.proto[0m
+[2.969s] [  4%] [34m[1mRunning C++ protocol buffer compiler on /home/ngoc/Workspace/Graduation_Project/src/cartographer/cartographer/mapping/proto/motion_filter_options.proto[0m
+[2.969s] [  5%] [34m[1mRunning C++ protocol buffer compiler on /home/ngoc/Workspace/Graduation_Project/src/cartographer/cartographer/mapping/proto/pose_graph.proto[0m
+[2.969s] [  5%] [34m[1mRunning C++ protocol buffer compiler on /home/ngoc/Workspace/Graduation_Project/src/cartographer/cartographer/mapping/proto/pose_graph/constraint_builder_options.proto[0m
+[2.994s] [  5%] [34m[1mRunning C++ protocol buffer compiler on /home/ngoc/Workspace/Graduation_Project/src/cartographer/cartographer/mapping/proto/pose_graph_options.proto[0m
+[2.996s] [  5%] [34m[1mRunning C++ protocol buffer compiler on /home/ngoc/Workspace/Graduation_Project/src/cartographer/cartographer/mapping/proto/pose_extrapolator_options.proto[0m
+[3.001s] [  5%] [34m[1mRunning C++ protocol buffer compiler on /home/ngoc/Workspace/Graduation_Project/src/cartographer/cartographer/mapping/proto/pose_graph/optimization_problem_options.proto[0m
+[3.035s] [  6%] [34m[1mRunning C++ protocol buffer compiler on /home/ngoc/Workspace/Graduation_Project/src/cartographer/cartographer/mapping/proto/probability_grid.proto[0m
+[3.051s] [  6%] [34m[1mRunning C++ protocol buffer compiler on /home/ngoc/Workspace/Graduation_Project/src/cartographer/cartographer/mapping/proto/probability_grid_range_data_inserter_options_2d.proto[0m
+[3.052s] [  6%] [34m[1mRunning C++ protocol buffer compiler on /home/ngoc/Workspace/Graduation_Project/src/cartographer/cartographer/mapping/proto/range_data_inserter_options.proto[0m
+[3.077s] [  7%] [34m[1mRunning C++ protocol buffer compiler on /home/ngoc/Workspace/Graduation_Project/src/cartographer/cartographer/mapping/proto/scan_matching/ceres_scan_matcher_options_2d.proto[0m
+[3.086s] [  7%] [34m[1mRunning C++ protocol buffer compiler on /home/ngoc/Workspace/Graduation_Project/src/cartographer/cartographer/mapping/proto/range_data_inserter_options_3d.proto[0m
+[3.092s] [  7%] [34m[1mRunning C++ protocol buffer compiler on /home/ngoc/Workspace/Graduation_Project/src/cartographer/cartographer/mapping/proto/scan_matching/ceres_scan_matcher_options_3d.proto[0m
+[3.099s] [  7%] [34m[1mRunning C++ protocol buffer compiler on /home/ngoc/Workspace/Graduation_Project/src/cartographer/cartographer/mapping/proto/scan_matching/fast_correlative_scan_matcher_options_2d.proto[0m
+[3.106s] [  7%] [34m[1mRunning C++ protocol buffer compiler on /home/ngoc/Workspace/Graduation_Project/src/cartographer/cartographer/mapping/proto/scan_matching/fast_correlative_scan_matcher_options_3d.proto[0m
+[3.135s] [  8%] [34m[1mRunning C++ protocol buffer compiler on /home/ngoc/Workspace/Graduation_Project/src/cartographer/cartographer/mapping/proto/scan_matching/real_time_correlative_scan_matcher_options.proto[0m
+[3.158s] [  8%] [34m[1mRunning C++ protocol buffer compiler on /home/ngoc/Workspace/Graduation_Project/src/cartographer/cartographer/mapping/proto/submap.proto[0m
+[3.160s] [  9%] [34m[1mRunning C++ protocol buffer compiler on /home/ngoc/Workspace/Graduation_Project/src/cartographer/cartographer/mapping/proto/submaps_options_2d.proto[0m
+[3.188s] [  9%] [34m[1mRunning C++ protocol buffer compiler on /home/ngoc/Workspace/Graduation_Project/src/cartographer/cartographer/mapping/proto/submaps_options_3d.proto[0m
+[3.197s] [  9%] [34m[1mRunning C++ protocol buffer compiler on /home/ngoc/Workspace/Graduation_Project/src/cartographer/cartographer/mapping/proto/serialization.proto[0m
+[3.199s] [  9%] [34m[1mRunning C++ protocol buffer compiler on /home/ngoc/Workspace/Graduation_Project/src/cartographer/cartographer/mapping/proto/trajectory.proto[0m
+[3.200s] [  9%] [34m[1mRunning C++ protocol buffer compiler on /home/ngoc/Workspace/Graduation_Project/src/cartographer/cartographer/mapping/proto/submap_visualization.proto[0m
+[3.222s] [ 10%] [34m[1mRunning C++ protocol buffer compiler on /home/ngoc/Workspace/Graduation_Project/src/cartographer/cartographer/mapping/proto/trajectory_node_data.proto[0m
+[3.238s] [ 10%] [34m[1mRunning C++ protocol buffer compiler on /home/ngoc/Workspace/Graduation_Project/src/cartographer/cartographer/mapping/proto/tsdf_2d.proto[0m
+[3.259s] [ 10%] [34m[1mRunning C++ protocol buffer compiler on /home/ngoc/Workspace/Graduation_Project/src/cartographer/cartographer/mapping/proto/trajectory_builder_options.proto[0m
+[3.281s] [ 10%] [34m[1mRunning C++ protocol buffer compiler on /home/ngoc/Workspace/Graduation_Project/src/cartographer/cartographer/mapping/proto/tsdf_range_data_inserter_options_2d.proto[0m
+[3.293s] [ 11%] [34m[1mRunning C++ protocol buffer compiler on /home/ngoc/Workspace/Graduation_Project/src/cartographer/cartographer/sensor/proto/adaptive_voxel_filter_options.proto[0m
+[3.294s] [ 11%] [34m[1mRunning C++ protocol buffer compiler on /home/ngoc/Workspace/Graduation_Project/src/cartographer/cartographer/sensor/proto/sensor.proto[0m
+[3.310s] [ 11%] [34m[1mRunning C++ protocol buffer compiler on /home/ngoc/Workspace/Graduation_Project/src/cartographer/cartographer/transform/proto/timestamped_transform.proto[0m
+[3.747s] [ 11%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/common/internal/ceres_solver_options.cc.o[0m
+[3.760s] [ 12%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/common/configuration_file_resolver.cc.o[0m
+[3.765s] [ 12%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/common/fixed_ratio_sampler.cc.o[0m
+[3.796s] [ 12%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/common/histogram.cc.o[0m
+[3.796s] [ 13%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/common/lua_parameter_dictionary.cc.o[0m
+[3.797s] [ 13%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/common/internal/testing/thread_pool_for_testing.cc.o[0m
+[4.118s] [01mRunning Sphinx v4.3.2[39;49;00m
+[4.379s] [01mmaking output directory... [39;49;00mdone
+[4.390s] [01mbuilding [mo]: [39;49;00mtargets for 0 po files that are out of date
+[4.391s] [01mbuilding [html]: [39;49;00mtargets for 6 source files that are out of date
+[4.392s] [01mupdating environment: [39;49;00m[new config] 6 added, 0 changed, 0 removed
+[4.589s] [01mreading sources... [39;49;00m[ 16%] [35mconfiguration[39;49;00m                                        
+[4.717s] [01mreading sources... [39;49;00m[ 33%] [35mcost_functions[39;49;00m                                       
+[4.942s] [01mreading sources... [39;49;00m[ 50%] [35mevaluation[39;49;00m                                           
+[5.136s] [01mreading sources... [39;49;00m[ 66%] [35mindex[39;49;00m                                                
+[5.163s] [01mreading sources... [39;49;00m[ 83%] [35mpbstream_migration[39;49;00m                                   
+[5.211s] [01mreading sources... [39;49;00m[100%] [35mterminology[39;49;00m                                          
+[5.211s] 
+[5.212s] [01mlooking for now-outdated files... [39;49;00mnone found
+[5.221s] [01mpickling environment... [39;49;00mdone
+[5.221s] [01mchecking consistency... [39;49;00mdone
+[5.229s] [01mpreparing documents... [39;49;00mdone
+[5.717s] [01mwriting output... [39;49;00m[ 16%] [32mconfiguration[39;49;00m                                         
+[5.784s] [01mwriting output... [39;49;00m[ 33%] [32mcost_functions[39;49;00m                                        
+[5.966s] [01mwriting output... [39;49;00m[ 50%] [32mevaluation[39;49;00m                                            
+[6.177s] [01mwriting output... [39;49;00m[ 66%] [32mindex[39;49;00m                                                 
+[6.736s] [01mwriting output... [39;49;00m[ 83%] [32mpbstream_migration[39;49;00m                                    
+[6.868s] [01mwriting output... [39;49;00m[100%] [32mterminology[39;49;00m                                           
+[6.868s] 
+[7.090s] [01mgenerating indices... [39;49;00mgenindex done
+[7.184s] [01mwriting additional pages... [39;49;00msearch done
+[7.191s] [01mcopying images... [39;49;00m[ 50%] [33mautogenerate_groundtruth.png[39;49;00m                          
+[7.204s] [01mcopying images... [39;49;00m[100%] [33mhigh_level_system_overview.png[39;49;00m                        
+[7.204s] 
+[7.389s] [01mcopying static files... [39;49;00mdone
+[7.389s] [01mcopying extra files... [39;49;00mdone
+[7.413s] [01mdumping search index in English (code: en)... [39;49;00mdone
+[7.425s] [01mdumping object inventory... [39;49;00mdone
+[7.425s] [01mbuild succeeded.[39;49;00m
+[7.425s] 
+[7.425s] The HTML pages are in html.
+[8.404s] [ 13%] Built target build_doc
+[8.451s] [ 13%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/common/task.cc.o[0m
+[10.834s] [ 13%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/common/thread_pool.cc.o[0m
+[14.317s] [ 14%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/common/time.cc.o[0m
+[14.653s] [ 14%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/ground_truth/autogenerate_ground_truth.cc.o[0m
+[16.493s] [ 14%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/ground_truth/relations_text_file.cc.o[0m
+[16.902s] [ 14%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/io/color.cc.o[0m
+[17.985s] [ 15%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/io/coloring_points_processor.cc.o[0m
+[21.542s] [ 15%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/io/counting_points_processor.cc.o[0m
+[30.869s] [ 15%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/io/image.cc.o[0m
+[34.401s] [ 15%] [32m[1mLinking CXX static library ../lib/libgtest.a[0m
+[34.468s] [ 15%] Built target gtest
+[35.833s] [ 15%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/io/internal/in_memory_proto_stream.cc.o[0m
+[37.901s] [ 16%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/io/intensity_to_color_points_processor.cc.o[0m
+[41.646s] [ 16%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/io/internal/mapping_state_serialization.cc.o[0m
+[46.231s] [ 16%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/io/internal/pbstream_info.cc.o[0m
+[47.243s] [ 17%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/io/internal/pbstream_migrate.cc.o[0m
+[47.243s] [ 17%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/io/hybrid_grid_points_processor.cc.o[0m
+[48.254s] [ 17%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/io/frame_id_filtering_points_processor.cc.o[0m
+[48.258s] [ 18%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/io/fixed_ratio_sampling_points_processor.cc.o[0m
+[49.274s] [ 18%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/io/draw_trajectories.cc.o[0m
+[49.276s] [ 18%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/io/file_writer.cc.o[0m
+[49.300s] [ 18%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/io/min_max_range_filtering_points_processor.cc.o[0m
+[49.956s] [ 18%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/io/outlier_removing_points_processor.cc.o[0m
+[51.600s] [ 18%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/io/pcd_writing_points_processor.cc.o[0m
+[52.560s] [ 19%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/io/ply_writing_points_processor.cc.o[0m
+[53.594s] [ 19%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/io/points_batch.cc.o[0m
+[53.642s] [ 19%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/io/points_processor_pipeline_builder.cc.o[0m
+[54.616s] [ 19%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/io/probability_grid_points_processor.cc.o[0m
+[54.971s] [ 20%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/io/proto_stream.cc.o[0m
+[56.683s] [ 20%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/io/proto_stream_deserializer.cc.o[0m
+[57.214s] [ 20%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/io/serialization_format_migration.cc.o[0m
+[58.182s] [ 21%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/io/submap_painter.cc.o[0m
+[58.890s] [ 21%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/io/vertical_range_filtering_points_processor.cc.o[0m
+[60.426s] [ 21%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/io/xray_points_processor.cc.o[0m
+[61.364s] [ 21%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/io/xyz_writing_points_processor.cc.o[0m
+[61.515s] [ 22%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/2d/grid_2d.cc.o[0m
+[62.674s] [ 22%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/2d/probability_grid.cc.o[0m
+[64.160s] [ 22%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/2d/probability_grid_range_data_inserter_2d.cc.o[0m
+[66.683s] [ 22%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/2d/submap_2d.cc.o[0m
+[66.923s] [ 23%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/3d/range_data_inserter_3d.cc.o[0m
+[67.695s] [ 23%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/3d/submap_3d.cc.o[0m
+[68.283s] [ 23%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/detect_floors.cc.o[0m
+[69.392s] [ 23%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/imu_tracker.cc.o[0m
+[69.492s] [ 24%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/internal/2d/local_slam_result_2d.cc.o[0m
+[71.225s] [ 24%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/internal/2d/local_trajectory_builder_2d.cc.o[0m
+[72.353s] [ 24%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/internal/2d/local_trajectory_builder_options_2d.cc.o[0m
+[73.318s] [ 24%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/internal/2d/normal_estimation_2d.cc.o[0m
+[74.307s] [ 25%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/internal/2d/overlapping_submaps_trimmer_2d.cc.o[0m
+[74.533s] [ 25%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/internal/2d/pose_graph_2d.cc.o[0m
+[77.453s] [ 25%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/internal/2d/ray_to_pixel_mask.cc.o[0m
+[77.505s] [ 25%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/internal/2d/scan_matching/ceres_scan_matcher_2d.cc.o[0m
+[78.590s] [ 26%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/internal/2d/scan_matching/correlative_scan_matcher_2d.cc.o[0m
+[78.957s] [ 26%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/internal/2d/scan_matching/fast_correlative_scan_matcher_2d.cc.o[0m
+[80.994s] [ 26%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/internal/2d/scan_matching/occupied_space_cost_function_2d.cc.o[0m
+[82.229s] [ 26%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/internal/2d/scan_matching/real_time_correlative_scan_matcher_2d.cc.o[0m
+[82.773s] [ 27%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/internal/2d/scan_matching/tsdf_match_cost_function_2d.cc.o[0m
+[83.468s] [ 27%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/internal/2d/tsd_value_converter.cc.o[0m
+[84.768s] [ 27%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/internal/2d/tsdf_2d.cc.o[0m
+[86.044s] [ 27%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/internal/2d/tsdf_range_data_inserter_2d.cc.o[0m
+[87.808s] [ 28%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/internal/3d/local_slam_result_3d.cc.o[0m
+[88.124s] [ 28%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/internal/3d/local_trajectory_builder_3d.cc.o[0m
+[90.434s] [ 28%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/internal/3d/local_trajectory_builder_options_3d.cc.o[0m
+[90.700s] [ 28%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/internal/3d/pose_graph_3d.cc.o[0m
+[97.405s] [ 28%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/internal/3d/scan_matching/intensity_cost_function_3d.cc.o[0m
+[97.570s] [ 28%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/internal/3d/scan_matching/fast_correlative_scan_matcher_3d.cc.o[0m
+[97.807s] [ 28%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/internal/3d/scan_matching/low_resolution_matcher.cc.o[0m
+[98.826s] [ 29%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/internal/3d/scan_matching/precomputation_grid_3d.cc.o[0m
+[99.330s] [ 30%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/internal/3d/scan_matching/ceres_scan_matcher_3d.cc.o[0m
+[100.349s] [ 30%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/internal/3d/scan_matching/real_time_correlative_scan_matcher_3d.cc.o[0m
+[103.870s] [ 30%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/internal/3d/scan_matching/rotational_scan_matcher.cc.o[0m
+[105.118s] [ 31%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/internal/collated_trajectory_builder.cc.o[0m
+[106.876s] [ 31%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/internal/connected_components.cc.o[0m
+[107.683s] [ 31%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/internal/constraints/constraint_builder.cc.o[0m
+[107.715s] [ 31%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/internal/constraints/constraint_builder_2d.cc.o[0m
+[109.572s] [ 32%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/internal/constraints/constraint_builder_3d.cc.o[0m
+[110.584s] [ 32%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/internal/eigen_quaterniond_from_two_vectors.cc.o[0m
+[111.144s] [ 32%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/internal/global_trajectory_builder.cc.o[0m
+[113.513s] [ 32%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/internal/imu_based_pose_extrapolator.cc.o[0m
+[113.874s] [ 33%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/internal/motion_filter.cc.o[0m
+[114.071s] [ 33%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/internal/optimization/ceres_pose.cc.o[0m
+[117.281s] [ 33%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/internal/optimization/cost_functions/spa_cost_function_2d.cc.o[0m
+[118.531s] [ 33%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/internal/optimization/optimization_problem_2d.cc.o[0m
+[119.463s] [ 34%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/internal/optimization/optimization_problem_3d.cc.o[0m
+[119.845s] [ 34%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/internal/optimization/optimization_problem_options.cc.o[0m
+[120.516s] [ 34%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/internal/range_data_collator.cc.o[0m
+[120.605s] [ 34%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/internal/scan_matching/real_time_correlative_scan_matcher.cc.o[0m
+[123.511s] [ 35%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/internal/submap_controller.cc.o[0m
+[123.880s] [ 35%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/internal/trajectory_connectivity_state.cc.o[0m
+[124.597s] [ 35%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/map_builder.cc.o[0m
+[127.278s] [ 35%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/map_builder_interface.cc.o[0m
+[129.496s] [ 36%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/pose_extrapolator.cc.o[0m
+[129.827s] [ 36%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/pose_extrapolator_interface.cc.o[0m
+[132.120s] [ 36%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/pose_graph.cc.o[0m
+[133.573s] [ 36%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/pose_graph_trimmer.cc.o[0m
+[134.119s] [ 37%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/probability_values.cc.o[0m
+[135.450s] [ 37%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/range_data_inserter_interface.cc.o[0m
+[136.726s] [ 37%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/trajectory_builder_interface.cc.o[0m
+[136.857s] [ 37%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/trajectory_node.cc.o[0m
+[138.240s] [ 38%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/value_conversion_tables.cc.o[0m
+[138.955s] [ 38%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/metrics/counter.cc.o[0m
+[139.176s] [ 38%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/metrics/gauge.cc.o[0m
+[139.455s] [ 38%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/metrics/histogram.cc.o[0m
+[139.723s] [ 39%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/metrics/register.cc.o[0m
+[140.195s] [ 39%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/sensor/compressed_point_cloud.cc.o[0m
+[140.665s] [ 39%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/sensor/fixed_frame_pose_data.cc.o[0m
+[140.749s] [ 39%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/sensor/imu_data.cc.o[0m
+[141.619s] [ 40%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/sensor/internal/collator.cc.o[0m
+[142.846s] [ 40%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/sensor/internal/ordered_multi_queue.cc.o[0m
+[143.821s] [ 40%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/sensor/internal/trajectory_collator.cc.o[0m
+[144.358s] [ 41%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/sensor/internal/voxel_filter.cc.o[0m
+[145.450s] [ 41%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/sensor/landmark_data.cc.o[0m
+[146.629s] [ 41%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/sensor/odometry_data.cc.o[0m
+[146.928s] [ 41%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/sensor/point_cloud.cc.o[0m
+[147.807s] [ 42%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/sensor/range_data.cc.o[0m
+[149.525s] [ 42%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/sensor/timed_point_cloud_data.cc.o[0m
+[150.504s] [ 42%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/transform/rigid_transform.cc.o[0m
+[151.374s] [ 42%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/transform/timestamped_transform.cc.o[0m
+[151.616s] [ 43%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/transform/transform.cc.o[0m
+[151.653s] [ 43%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/transform/transform_interpolation_buffer.cc.o[0m
+[152.677s] [ 43%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/common/proto/ceres_solver_options.pb.cc.o[0m
+[153.375s] [ 43%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/ground_truth/proto/relations.pb.cc.o[0m
+[154.454s] [ 44%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/proto/cell_limits_2d.pb.cc.o[0m
+[154.884s] [ 44%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/proto/connected_components.pb.cc.o[0m
+[154.903s] [ 44%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/proto/grid_2d.pb.cc.o[0m
+[155.556s] [ 44%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/proto/grid_2d_options.pb.cc.o[0m
+[156.192s] [ 45%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/proto/hybrid_grid.pb.cc.o[0m
+[156.344s] [ 45%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/proto/local_trajectory_builder_options_2d.pb.cc.o[0m
+[156.453s] [ 45%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/proto/local_trajectory_builder_options_3d.pb.cc.o[0m
+[156.527s] [ 45%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/proto/map_builder_options.pb.cc.o[0m
+[156.863s] [ 46%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/proto/map_limits.pb.cc.o[0m
+[157.078s] [ 46%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/proto/motion_filter_options.pb.cc.o[0m
+[157.289s] [ 46%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/proto/normal_estimation_options_2d.pb.cc.o[0m
+[157.985s] [ 46%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/proto/pose_extrapolator_options.pb.cc.o[0m
+[158.381s] [ 47%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/proto/pose_graph.pb.cc.o[0m
+[158.553s] [ 47%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/proto/pose_graph/optimization_problem_options.pb.cc.o[0m
+[158.554s] [ 47%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/proto/pose_graph/constraint_builder_options.pb.cc.o[0m
+[158.784s] [ 47%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/proto/pose_graph_options.pb.cc.o[0m
+[158.869s] [ 48%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/proto/probability_grid.pb.cc.o[0m
+[158.970s] [ 48%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/proto/probability_grid_range_data_inserter_options_2d.pb.cc.o[0m
+[160.498s] [ 48%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/proto/range_data_inserter_options.pb.cc.o[0m
+[160.598s] [ 48%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/proto/range_data_inserter_options_3d.pb.cc.o[0m
+[160.703s] [ 49%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/proto/scan_matching/ceres_scan_matcher_options_2d.pb.cc.o[0m
+[160.845s] [ 49%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/proto/scan_matching/ceres_scan_matcher_options_3d.pb.cc.o[0m
+[160.971s] [ 49%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/proto/scan_matching/fast_correlative_scan_matcher_options_2d.pb.cc.o[0m
+[160.984s] [ 49%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/proto/scan_matching/fast_correlative_scan_matcher_options_3d.pb.cc.o[0m
+[161.481s] [ 50%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/proto/scan_matching/real_time_correlative_scan_matcher_options.pb.cc.o[0m
+[163.022s] [ 50%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/proto/trajectory.pb.cc.o[0m
+[164.664s] [ 51%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/proto/trajectory_builder_options.pb.cc.o[0m
+[166.774s] [ 51%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/proto/trajectory_node_data.pb.cc.o[0m
+[167.786s] [ 51%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/proto/tsdf_2d.pb.cc.o[0m
+[167.786s] [ 51%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/proto/submaps_options_3d.pb.cc.o[0m
+[168.000s] [ 52%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/proto/submap_visualization.pb.cc.o[0m
+[168.003s] [ 52%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/proto/submaps_options_2d.pb.cc.o[0m
+[168.900s] [ 52%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/proto/tsdf_range_data_inserter_options_2d.pb.cc.o[0m
+[168.913s] [ 52%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/proto/submap.pb.cc.o[0m
+[168.913s] [ 53%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/sensor/proto/adaptive_voxel_filter_options.pb.cc.o[0m
+[168.935s] [ 53%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/mapping/proto/serialization.pb.cc.o[0m
+[169.159s] [ 53%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/sensor/proto/sensor.pb.cc.o[0m
+[170.176s] [ 53%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/transform/proto/timestamped_transform.pb.cc.o[0m
+[170.299s] [ 53%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/transform/proto/transform.pb.cc.o[0m
+[172.732s] [ 54%] [32m[1mLinking CXX static library libcartographer.a[0m
+[172.975s] [ 54%] Built target cartographer
+[173.007s] [ 54%] [32mBuilding CXX object CMakeFiles/cartographer_pbstream.dir/cartographer/io/pbstream_main.cc.o[0m
+[173.007s] [ 54%] [32mBuilding CXX object CMakeFiles/cartographer_autogenerate_ground_truth.dir/cartographer/ground_truth/autogenerate_ground_truth_main.cc.o[0m
+[173.008s] [ 55%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[173.008s] [ 55%] [32mBuilding CXX object CMakeFiles/cartographer_print_configuration.dir/cartographer/common/print_configuration_main.cc.o[0m
+[173.011s] [ 55%] [32mBuilding CXX object CMakeFiles/cartographer_compute_relations_metrics.dir/cartographer/ground_truth/compute_relations_metrics_main.cc.o[0m
+[174.730s] [ 56%] [32m[1mLinking CXX executable cartographer_pbstream[0m
+[175.148s] [ 56%] Built target cartographer_pbstream
+[175.177s] [ 57%] [32mBuilding CXX object CMakeFiles/cartographer_test_library.dir/cartographer/io/fake_file_writer_test.cc.o[0m
+[175.177s] [ 56%] [32mBuilding CXX object CMakeFiles/cartographer_test_library.dir/cartographer/io/internal/testing/test_helpers.cc.o[0m
+[175.178s] [ 57%] [32mBuilding CXX object CMakeFiles/cartographer_test_library.dir/cartographer/mapping/internal/testing/test_helpers.cc.o[0m
+[175.178s] [ 57%] [32mBuilding CXX object CMakeFiles/cartographer_test_library.dir/cartographer/io/fake_file_writer.cc.o[0m
+[176.027s] [ 57%] [32m[1mLinking CXX executable cartographer_print_configuration[0m
+[176.294s] [ 57%] Built target cartographer_print_configuration
+[178.135s] [ 58%] [32m[1mLinking CXX executable cartographer_autogenerate_ground_truth[0m
+[178.215s] [ 58%] [32m[1mLinking CXX static library ../lib/libgmock.a[0m
+[178.281s] [ 58%] Built target gmock
+[178.323s] [ 58%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[178.453s] [ 58%] Built target cartographer_autogenerate_ground_truth
+[178.817s] [ 58%] [32m[1mLinking CXX executable cartographer_compute_relations_metrics[0m
+[179.046s] [ 58%] Built target cartographer_compute_relations_metrics
+[179.646s] [ 58%] [32m[1mLinking CXX static library ../lib/libgmock_main.a[0m
+[179.685s] [ 58%] Built target gmock_main
+[180.876s] [ 58%] [32m[1mLinking CXX static library libcartographer_test_library.a[0m
+[180.917s] [ 58%] Built target cartographer_test_library
+[180.945s] [ 58%] [32mBuilding CXX object CMakeFiles/cartographer.common.configuration_files_test.dir/cartographer/common/configuration_files_test.cc.o[0m
+[180.947s] [ 58%] [32mBuilding CXX object CMakeFiles/cartographer.common.internal.blocking_queue_test.dir/cartographer/common/internal/blocking_queue_test.cc.o[0m
+[180.948s] [ 58%] [32mBuilding CXX object CMakeFiles/cartographer.common.lua_parameter_dictionary_test.dir/cartographer/common/lua_parameter_dictionary_test.cc.o[0m
+[180.949s] [ 58%] [32mBuilding CXX object CMakeFiles/cartographer.common.fixed_ratio_sampler_test.dir/cartographer/common/fixed_ratio_sampler_test.cc.o[0m
+[180.949s] [ 58%] [32mBuilding CXX object CMakeFiles/cartographer.common.internal.rate_timer_test.dir/cartographer/common/internal/rate_timer_test.cc.o[0m
+[181.983s] [ 58%] [32mBuilding CXX object CMakeFiles/cartographer.common.task_test.dir/cartographer/common/task_test.cc.o[0m
+[181.989s] [ 58%] [32mBuilding CXX object CMakeFiles/cartographer.common.thread_pool_test.dir/cartographer/common/thread_pool_test.cc.o[0m
+[181.995s] [ 58%] [32mBuilding CXX object CMakeFiles/cartographer.common.math_test.dir/cartographer/common/math_test.cc.o[0m
+[184.884s] [ 59%] [32m[1mLinking CXX executable cartographer.common.fixed_ratio_sampler_test[0m
+[185.300s] [ 59%] Built target cartographer.common.fixed_ratio_sampler_test
+[185.350s] [ 59%] [32mBuilding CXX object CMakeFiles/cartographer.io.fake_file_writer_test.dir/cartographer/io/fake_file_writer_test.cc.o[0m
+[185.987s] [ 60%] [32m[1mLinking CXX executable cartographer.common.internal.rate_timer_test[0m
+[186.256s] [ 60%] Built target cartographer.common.internal.rate_timer_test
+[186.328s] [ 60%] [32mBuilding CXX object CMakeFiles/cartographer.io.internal.in_memory_proto_stream_test.dir/cartographer/io/internal/in_memory_proto_stream_test.cc.o[0m
+[186.855s] [ 61%] [32m[1mLinking CXX executable cartographer.common.thread_pool_test[0m
+[187.096s] [ 61%] Built target cartographer.common.thread_pool_test
+[187.161s] [ 61%] [32mBuilding CXX object CMakeFiles/cartographer.io.points_processor_pipeline_builder_test.dir/cartographer/io/points_processor_pipeline_builder_test.cc.o[0m
+[187.751s] [ 61%] [32m[1mLinking CXX executable cartographer.common.internal.blocking_queue_test[0m
+[188.038s] [ 61%] Built target cartographer.common.internal.blocking_queue_test
+[188.074s] [ 61%] [32mBuilding CXX object CMakeFiles/cartographer.io.probability_grid_points_processor_test.dir/cartographer/io/probability_grid_points_processor_test.cc.o[0m
+[188.190s] [ 61%] [32m[1mLinking CXX executable cartographer.common.lua_parameter_dictionary_test[0m
+[188.260s] [ 61%] [32m[1mLinking CXX executable cartographer.common.configuration_files_test[0m
+[188.301s] [ 62%] [32m[1mLinking CXX executable cartographer.common.math_test[0m
+[188.535s] [ 62%] Built target cartographer.common.lua_parameter_dictionary_test
+[188.597s] [ 62%] [32mBuilding CXX object CMakeFiles/cartographer.io.proto_stream_deserializer_test.dir/cartographer/io/proto_stream_deserializer_test.cc.o[0m
+[188.653s] [ 62%] Built target cartographer.common.math_test
+[188.694s] [ 63%] [32mBuilding CXX object CMakeFiles/cartographer.io.proto_stream_test.dir/cartographer/io/proto_stream_test.cc.o[0m
+[188.947s] [ 63%] Built target cartographer.common.configuration_files_test
+[188.985s] [ 63%] [32mBuilding CXX object CMakeFiles/cartographer.io.serialization_format_migration_test.dir/cartographer/io/serialization_format_migration_test.cc.o[0m
+[189.279s] [ 63%] [32m[1mLinking CXX executable cartographer.common.task_test[0m
+[189.597s] [ 63%] Built target cartographer.common.task_test
+[189.632s] [ 64%] [32mBuilding CXX object CMakeFiles/cartographer.mapping.2d.map_limits_test.dir/cartographer/mapping/2d/map_limits_test.cc.o[0m
+[190.564s] [ 64%] [32m[1mLinking CXX executable cartographer.io.fake_file_writer_test[0m
+[190.825s] [ 64%] Built target cartographer.io.fake_file_writer_test
+[190.860s] [ 64%] [32mBuilding CXX object CMakeFiles/cartographer.mapping.2d.probability_grid_test.dir/cartographer/mapping/2d/probability_grid_test.cc.o[0m
+[191.936s] [ 65%] [32m[1mLinking CXX executable cartographer.io.internal.in_memory_proto_stream_test[0m
+[192.400s] [ 65%] Built target cartographer.io.internal.in_memory_proto_stream_test
+[192.435s] [ 66%] [32mBuilding CXX object CMakeFiles/cartographer.mapping.2d.range_data_inserter_2d_test.dir/cartographer/mapping/2d/range_data_inserter_2d_test.cc.o[0m
+[193.565s] [ 66%] [32m[1mLinking CXX executable cartographer.io.proto_stream_test[0m
+[193.971s] [ 66%] Built target cartographer.io.proto_stream_test
+[194.011s] [ 66%] [32mBuilding CXX object CMakeFiles/cartographer.mapping.2d.submap_2d_test.dir/cartographer/mapping/2d/submap_2d_test.cc.o[0m
+[194.303s] [ 66%] [32m[1mLinking CXX executable cartographer.io.points_processor_pipeline_builder_test[0m
+[194.751s] [ 66%] Built target cartographer.io.points_processor_pipeline_builder_test
+[194.789s] [ 67%] [32mBuilding CXX object CMakeFiles/cartographer.mapping.2d.xy_index_test.dir/cartographer/mapping/2d/xy_index_test.cc.o[0m
+[195.573s] [ 67%] [32m[1mLinking CXX executable cartographer.io.proto_stream_deserializer_test[0m
+[196.030s] [ 67%] Built target cartographer.io.proto_stream_deserializer_test
+[196.100s] [ 67%] [32mBuilding CXX object CMakeFiles/cartographer.mapping.3d.hybrid_grid_test.dir/cartographer/mapping/3d/hybrid_grid_test.cc.o[0m
+[197.255s] [ 67%] [32m[1mLinking CXX executable cartographer.mapping.2d.map_limits_test[0m
+[197.606s] [ 67%] Built target cartographer.mapping.2d.map_limits_test
+[198.204s] [ 67%] [32m[1mLinking CXX executable cartographer.io.serialization_format_migration_test[0m
+[198.293s] [ 68%] [32m[1mLinking CXX executable cartographer.io.probability_grid_points_processor_test[0m
+[198.810s] [ 68%] Built target cartographer.io.probability_grid_points_processor_test
+[198.861s] [ 68%] Built target cartographer.io.serialization_format_migration_test
+[199.558s] [ 68%] [32m[1mLinking CXX executable cartographer.mapping.2d.probability_grid_test[0m
+[199.775s] [ 68%] [32m[1mLinking CXX executable cartographer.mapping.2d.range_data_inserter_2d_test[0m
+[199.783s] [ 68%] Built target cartographer.mapping.2d.probability_grid_test
+[199.997s] [ 68%] Built target cartographer.mapping.2d.range_data_inserter_2d_test
+[200.581s] [ 68%] [32m[1mLinking CXX executable cartographer.mapping.2d.xy_index_test[0m
+[200.759s] [ 68%] Built target cartographer.mapping.2d.xy_index_test
+[202.383s] [ 68%] [32m[1mLinking CXX executable cartographer.mapping.2d.submap_2d_test[0m
+[202.634s] [ 68%] Built target cartographer.mapping.2d.submap_2d_test
+[202.648s] [ 69%] [32mBuilding CXX object CMakeFiles/cartographer.mapping.internal.2d.normal_estimation_2d_test.dir/cartographer/mapping/internal/2d/normal_estimation_2d_test.cc.o[0m
+[202.648s] [ 69%] [32mBuilding CXX object CMakeFiles/cartographer.mapping.internal.2d.overlapping_submaps_trimmer_2d_test.dir/cartographer/mapping/internal/2d/overlapping_submaps_trimmer_2d_test.cc.o[0m
+[202.658s] [ 69%] [32mBuilding CXX object CMakeFiles/cartographer.mapping.imu_tracker_test.dir/cartographer/mapping/imu_tracker_test.cc.o[0m
+[203.680s] [ 71%] [32mBuilding CXX object CMakeFiles/cartographer.mapping.internal.2d.pose_graph_2d_test.dir/cartographer/mapping/internal/2d/pose_graph_2d_test.cc.o[0m
+[203.680s] [ 71%] [32mBuilding CXX object CMakeFiles/cartographer.mapping.id_test.dir/cartographer/mapping/id_test.cc.o[0m
+[204.423s] [ 71%] [32m[1mLinking CXX executable cartographer.mapping.3d.hybrid_grid_test[0m
+[204.612s] [ 71%] Built target cartographer.mapping.3d.hybrid_grid_test
+[204.629s] [ 71%] [32mBuilding CXX object CMakeFiles/cartographer.mapping.3d.submap_3d_test.dir/cartographer/mapping/3d/submap_3d_test.cc.o[0m
+[204.631s] [ 72%] [32mBuilding CXX object CMakeFiles/cartographer.mapping.3d.range_data_inserter_3d_test.dir/cartographer/mapping/3d/range_data_inserter_3d_test.cc.o[0m
+[204.644s] [ 72%] [32mBuilding CXX object CMakeFiles/cartographer.mapping.internal.2d.ray_to_pixel_mask_test.dir/cartographer/mapping/internal/2d/ray_to_pixel_mask_test.cc.o[0m
+[207.183s] [ 72%] [32m[1mLinking CXX executable cartographer.mapping.imu_tracker_test[0m
+[207.467s] [ 72%] Built target cartographer.mapping.imu_tracker_test
+[207.499s] [ 73%] [32mBuilding CXX object CMakeFiles/cartographer.mapping.internal.2d.scan_matching.ceres_scan_matcher_2d_test.dir/cartographer/mapping/internal/2d/scan_matching/ceres_scan_matcher_2d_test.cc.o[0m
+[209.817s] [ 73%] [32m[1mLinking CXX executable cartographer.mapping.internal.2d.normal_estimation_2d_test[0m
+[210.109s] [ 73%] Built target cartographer.mapping.internal.2d.normal_estimation_2d_test
+[210.148s] [ 73%] [32mBuilding CXX object CMakeFiles/cartographer.mapping.internal.2d.scan_matching.correlative_scan_matcher_test.dir/cartographer/mapping/internal/2d/scan_matching/correlative_scan_matcher_test.cc.o[0m
+[211.978s] [ 73%] [32m[1mLinking CXX executable cartographer.mapping.id_test[0m
+[212.289s] [ 73%] Built target cartographer.mapping.id_test
+[212.326s] [ 74%] [32mBuilding CXX object CMakeFiles/cartographer.mapping.internal.2d.scan_matching.fast_correlative_scan_matcher_2d_test.dir/cartographer/mapping/internal/2d/scan_matching/fast_correlative_scan_matcher_2d_test.cc.o[0m
+[213.022s] [ 74%] [32m[1mLinking CXX executable cartographer.mapping.internal.2d.overlapping_submaps_trimmer_2d_test[0m
+[213.430s] [ 74%] Built target cartographer.mapping.internal.2d.overlapping_submaps_trimmer_2d_test
+[213.466s] [ 74%] [32mBuilding CXX object CMakeFiles/cartographer.mapping.internal.2d.scan_matching.interpolated_tsdf_2d_test.dir/cartographer/mapping/internal/2d/scan_matching/interpolated_tsdf_2d_test.cc.o[0m
+[213.635s] [ 74%] [32m[1mLinking CXX executable cartographer.mapping.3d.submap_3d_test[0m
+[213.709s] [ 74%] [32m[1mLinking CXX executable cartographer.mapping.3d.range_data_inserter_3d_test[0m
+[214.055s] [ 74%] Built target cartographer.mapping.3d.submap_3d_test
+[214.089s] [ 74%] [32mBuilding CXX object CMakeFiles/cartographer.mapping.internal.2d.scan_matching.occupied_space_cost_function_2d_test.dir/cartographer/mapping/internal/2d/scan_matching/occupied_space_cost_function_2d_test.cc.o[0m
+[214.104s] [ 74%] Built target cartographer.mapping.3d.range_data_inserter_3d_test
+[214.136s] [ 74%] [32mBuilding CXX object CMakeFiles/cartographer.mapping.internal.2d.scan_matching.real_time_correlative_scan_matcher_2d_test.dir/cartographer/mapping/internal/2d/scan_matching/real_time_correlative_scan_matcher_2d_test.cc.o[0m
+[214.360s] [ 74%] [32m[1mLinking CXX executable cartographer.mapping.internal.2d.ray_to_pixel_mask_test[0m
+[214.660s] [ 74%] Built target cartographer.mapping.internal.2d.ray_to_pixel_mask_test
+[214.697s] [ 74%] [32mBuilding CXX object CMakeFiles/cartographer.mapping.internal.2d.scan_matching.tsdf_match_cost_function_2d_test.dir/cartographer/mapping/internal/2d/scan_matching/tsdf_match_cost_function_2d_test.cc.o[0m
+[216.629s] [ 74%] [32m[1mLinking CXX executable cartographer.mapping.internal.2d.scan_matching.ceres_scan_matcher_2d_test[0m
+[217.029s] [ 74%] Built target cartographer.mapping.internal.2d.scan_matching.ceres_scan_matcher_2d_test
+[217.061s] [ 74%] [32mBuilding CXX object CMakeFiles/cartographer.mapping.internal.2d.tsd_value_converter_test.dir/cartographer/mapping/internal/2d/tsd_value_converter_test.cc.o[0m
+[217.347s] [ 74%] [32m[1mLinking CXX executable cartographer.mapping.internal.2d.scan_matching.correlative_scan_matcher_test[0m
+[217.569s] [ 74%] Built target cartographer.mapping.internal.2d.scan_matching.correlative_scan_matcher_test
+[217.607s] [ 74%] [32mBuilding CXX object CMakeFiles/cartographer.mapping.internal.2d.tsdf_2d_test.dir/cartographer/mapping/internal/2d/tsdf_2d_test.cc.o[0m
+[218.625s] [ 74%] [32m[1mLinking CXX executable cartographer.mapping.internal.2d.pose_graph_2d_test[0m
+[219.184s] [ 74%] Built target cartographer.mapping.internal.2d.pose_graph_2d_test
+[219.219s] [ 74%] [32mBuilding CXX object CMakeFiles/cartographer.mapping.internal.2d.tsdf_range_data_inserter_2d_test.dir/cartographer/mapping/internal/2d/tsdf_range_data_inserter_2d_test.cc.o[0m
+[220.707s] [ 75%] [32m[1mLinking CXX executable cartographer.mapping.internal.2d.scan_matching.interpolated_tsdf_2d_test[0m
+[221.086s] [ 75%] Built target cartographer.mapping.internal.2d.scan_matching.interpolated_tsdf_2d_test
+[221.123s] [ 75%] [32mBuilding CXX object CMakeFiles/cartographer.mapping.internal.3d.local_trajectory_builder_3d_test.dir/cartographer/mapping/internal/3d/local_trajectory_builder_3d_test.cc.o[0m
+[222.070s] [ 75%] [32m[1mLinking CXX executable cartographer.mapping.internal.2d.scan_matching.occupied_space_cost_function_2d_test[0m
+[222.299s] [ 76%] [32m[1mLinking CXX executable cartographer.mapping.internal.2d.scan_matching.real_time_correlative_scan_matcher_2d_test[0m
+[222.546s] [ 76%] Built target cartographer.mapping.internal.2d.scan_matching.occupied_space_cost_function_2d_test
+[222.584s] [ 76%] [32mBuilding CXX object CMakeFiles/cartographer.mapping.internal.3d.pose_graph_3d_test.dir/cartographer/mapping/internal/3d/pose_graph_3d_test.cc.o[0m
+[222.749s] [ 76%] Built target cartographer.mapping.internal.2d.scan_matching.real_time_correlative_scan_matcher_2d_test
+[222.784s] [ 76%] [32mBuilding CXX object CMakeFiles/cartographer.mapping.internal.3d.rotation_parameterization_test.dir/cartographer/mapping/internal/3d/rotation_parameterization_test.cc.o[0m
+[222.818s] [ 76%] [32m[1mLinking CXX executable cartographer.mapping.internal.3d.rotation_parameterization_test[0m
+[222.974s] [ 77%] [32m[1mLinking CXX executable cartographer.mapping.internal.2d.tsd_value_converter_test[0m
+[223.041s] [ 77%] Built target cartographer.mapping.internal.3d.rotation_parameterization_test
+[223.077s] [ 77%] [32mBuilding CXX object CMakeFiles/cartographer.mapping.internal.3d.scan_matching.ceres_scan_matcher_3d_test.dir/cartographer/mapping/internal/3d/scan_matching/ceres_scan_matcher_3d_test.cc.o[0m
+[223.213s] [ 77%] Built target cartographer.mapping.internal.2d.tsd_value_converter_test
+[223.246s] [ 77%] [32mBuilding CXX object CMakeFiles/cartographer.mapping.internal.3d.scan_matching.fast_correlative_scan_matcher_3d_test.dir/cartographer/mapping/internal/3d/scan_matching/fast_correlative_scan_matcher_3d_test.cc.o[0m
+[223.357s] [ 77%] [32m[1mLinking CXX executable cartographer.mapping.internal.2d.scan_matching.fast_correlative_scan_matcher_2d_test[0m
+[223.810s] [ 77%] Built target cartographer.mapping.internal.2d.scan_matching.fast_correlative_scan_matcher_2d_test
+[223.862s] [ 77%] [32mBuilding CXX object CMakeFiles/cartographer.mapping.internal.3d.scan_matching.intensity_cost_function_3d_test.dir/cartographer/mapping/internal/3d/scan_matching/intensity_cost_function_3d_test.cc.o[0m
+[224.605s] [ 77%] [32m[1mLinking CXX executable cartographer.mapping.internal.2d.scan_matching.tsdf_match_cost_function_2d_test[0m
+[225.036s] [ 77%] Built target cartographer.mapping.internal.2d.scan_matching.tsdf_match_cost_function_2d_test
+[225.117s] [ 77%] [32mBuilding CXX object CMakeFiles/cartographer.mapping.internal.3d.scan_matching.interpolated_grid_test.dir/cartographer/mapping/internal/3d/scan_matching/interpolated_grid_test.cc.o[0m
+[225.465s] [ 77%] [32m[1mLinking CXX executable cartographer.mapping.internal.2d.tsdf_2d_test[0m
+[225.862s] [ 77%] Built target cartographer.mapping.internal.2d.tsdf_2d_test
+[225.907s] [ 77%] [32mBuilding CXX object CMakeFiles/cartographer.mapping.internal.3d.scan_matching.precomputation_grid_3d_test.dir/cartographer/mapping/internal/3d/scan_matching/precomputation_grid_3d_test.cc.o[0m
+[229.286s] [ 78%] [32m[1mLinking CXX executable cartographer.mapping.internal.2d.tsdf_range_data_inserter_2d_test[0m
+[229.698s] [ 78%] Built target cartographer.mapping.internal.2d.tsdf_range_data_inserter_2d_test
+[229.734s] [ 78%] [32mBuilding CXX object CMakeFiles/cartographer.mapping.internal.3d.scan_matching.real_time_correlative_scan_matcher_3d_test.dir/cartographer/mapping/internal/3d/scan_matching/real_time_correlative_scan_matcher_3d_test.cc.o[0m
+[232.442s] [ 78%] [32m[1mLinking CXX executable cartographer.mapping.internal.3d.scan_matching.interpolated_grid_test[0m
+[232.783s] [ 78%] Built target cartographer.mapping.internal.3d.scan_matching.interpolated_grid_test
+[232.821s] [ 78%] [32mBuilding CXX object CMakeFiles/cartographer.mapping.internal.3d.scan_matching.rotation_delta_cost_functor_3d_test.dir/cartographer/mapping/internal/3d/scan_matching/rotation_delta_cost_functor_3d_test.cc.o[0m
+[233.048s] [ 79%] [32m[1mLinking CXX executable cartographer.mapping.internal.3d.scan_matching.intensity_cost_function_3d_test[0m
+[233.356s] [ 79%] Built target cartographer.mapping.internal.3d.scan_matching.intensity_cost_function_3d_test
+[233.394s] [ 79%] [32mBuilding CXX object CMakeFiles/cartographer.mapping.internal.3d.scan_matching.rotational_scan_matcher_test.dir/cartographer/mapping/internal/3d/scan_matching/rotational_scan_matcher_test.cc.o[0m
+[233.451s] [ 79%] [32m[1mLinking CXX executable cartographer.mapping.internal.3d.local_trajectory_builder_3d_test[0m
+[233.599s] [ 80%] [32m[1mLinking CXX executable cartographer.mapping.internal.3d.scan_matching.precomputation_grid_3d_test[0m
+[233.833s] [ 80%] Built target cartographer.mapping.internal.3d.scan_matching.precomputation_grid_3d_test
+[233.878s] [ 80%] [32mBuilding CXX object CMakeFiles/cartographer.mapping.internal.connected_components_test.dir/cartographer/mapping/internal/connected_components_test.cc.o[0m
+[233.911s] [ 80%] Built target cartographer.mapping.internal.3d.local_trajectory_builder_3d_test
+[233.945s] [ 80%] [32mBuilding CXX object CMakeFiles/cartographer.mapping.internal.constraints.constraint_builder_2d_test.dir/cartographer/mapping/internal/constraints/constraint_builder_2d_test.cc.o[0m
+[234.278s] [ 81%] [32m[1mLinking CXX executable cartographer.mapping.internal.3d.scan_matching.ceres_scan_matcher_3d_test[0m
+[234.680s] [ 81%] Built target cartographer.mapping.internal.3d.scan_matching.ceres_scan_matcher_3d_test
+[234.714s] [ 82%] [32mBuilding CXX object CMakeFiles/cartographer.mapping.internal.constraints.constraint_builder_3d_test.dir/cartographer/mapping/internal/constraints/constraint_builder_3d_test.cc.o[0m
+[235.625s] [ 82%] [32m[1mLinking CXX executable cartographer.mapping.internal.3d.scan_matching.fast_correlative_scan_matcher_3d_test[0m
+[235.712s] [ 83%] [32m[1mLinking CXX executable cartographer.mapping.internal.3d.pose_graph_3d_test[0m
+[235.939s] [ 83%] Built target cartographer.mapping.internal.3d.scan_matching.fast_correlative_scan_matcher_3d_test
+[235.978s] [ 83%] [32mBuilding CXX object CMakeFiles/cartographer.mapping.internal.motion_filter_test.dir/cartographer/mapping/internal/motion_filter_test.cc.o[0m
+[236.311s] [ 83%] Built target cartographer.mapping.internal.3d.pose_graph_3d_test
+[236.346s] [ 84%] [32mBuilding CXX object CMakeFiles/cartographer.mapping.internal.optimization.cost_functions.landmark_cost_function_2d_test.dir/cartographer/mapping/internal/optimization/cost_functions/landmark_cost_function_2d_test.cc.o[0m
+[238.749s] [ 85%] [32m[1mLinking CXX executable cartographer.mapping.internal.3d.scan_matching.rotation_delta_cost_functor_3d_test[0m
+[238.979s] [ 85%] Built target cartographer.mapping.internal.3d.scan_matching.rotation_delta_cost_functor_3d_test
+[239.015s] [ 85%] [32mBuilding CXX object CMakeFiles/cartographer.mapping.internal.optimization.cost_functions.landmark_cost_function_3d_test.dir/cartographer/mapping/internal/optimization/cost_functions/landmark_cost_function_3d_test.cc.o[0m
+[240.104s] [ 85%] [32m[1mLinking CXX executable cartographer.mapping.internal.3d.scan_matching.rotational_scan_matcher_test[0m
+[240.296s] [ 85%] [32m[1mLinking CXX executable cartographer.mapping.internal.3d.scan_matching.real_time_correlative_scan_matcher_3d_test[0m
+[240.409s] [ 85%] Built target cartographer.mapping.internal.3d.scan_matching.rotational_scan_matcher_test
+[240.446s] [ 86%] [32mBuilding CXX object CMakeFiles/cartographer.mapping.internal.optimization.cost_functions.spa_cost_function_2d_test.dir/cartographer/mapping/internal/optimization/cost_functions/spa_cost_function_2d_test.cc.o[0m
+[240.593s] [ 86%] Built target cartographer.mapping.internal.3d.scan_matching.real_time_correlative_scan_matcher_3d_test
+[240.630s] [ 86%] [32mBuilding CXX object CMakeFiles/cartographer.mapping.internal.optimization.optimization_problem_3d_test.dir/cartographer/mapping/internal/optimization/optimization_problem_3d_test.cc.o[0m
+[241.623s] [ 87%] [32m[1mLinking CXX executable cartographer.mapping.internal.connected_components_test[0m
+[241.987s] [ 87%] Built target cartographer.mapping.internal.connected_components_test
+[242.026s] [ 88%] [32mBuilding CXX object CMakeFiles/cartographer.mapping.internal.range_data_collator_test.dir/cartographer/mapping/internal/range_data_collator_test.cc.o[0m
+[242.740s] [ 88%] [32m[1mLinking CXX executable cartographer.mapping.internal.motion_filter_test[0m
+[243.085s] [ 88%] Built target cartographer.mapping.internal.motion_filter_test
+[243.120s] [ 88%] [32mBuilding CXX object CMakeFiles/cartographer.mapping.internal.trajectory_connectivity_state_test.dir/cartographer/mapping/internal/trajectory_connectivity_state_test.cc.o[0m
+[245.553s] [ 88%] [32m[1mLinking CXX executable cartographer.mapping.internal.constraints.constraint_builder_2d_test[0m
+[246.245s] [ 88%] Built target cartographer.mapping.internal.constraints.constraint_builder_2d_test
+[246.283s] [ 89%] [32mBuilding CXX object CMakeFiles/cartographer.mapping.map_builder_test.dir/cartographer/mapping/map_builder_test.cc.o[0m
+[247.560s] [ 89%] [32m[1mLinking CXX executable cartographer.mapping.internal.constraints.constraint_builder_3d_test[0m
+[248.157s] [ 89%] Built target cartographer.mapping.internal.constraints.constraint_builder_3d_test
+[249.202s] [ 89%] [32m[1mLinking CXX executable cartographer.mapping.internal.optimization.cost_functions.landmark_cost_function_2d_test[0m
+[249.438s] [ 89%] Built target cartographer.mapping.internal.optimization.cost_functions.landmark_cost_function_2d_test
+[249.900s] [ 89%] [32m[1mLinking CXX executable cartographer.mapping.internal.optimization.optimization_problem_3d_test[0m
+[250.183s] [ 89%] Built target cartographer.mapping.internal.optimization.optimization_problem_3d_test
+[250.484s] [ 89%] [32m[1mLinking CXX executable cartographer.mapping.internal.range_data_collator_test[0m
+[250.574s] [ 89%] [32m[1mLinking CXX executable cartographer.mapping.internal.trajectory_connectivity_state_test[0m
+[250.648s] [ 89%] Built target cartographer.mapping.internal.range_data_collator_test
+[250.684s] [ 89%] [32m[1mLinking CXX executable cartographer.mapping.internal.optimization.cost_functions.landmark_cost_function_3d_test[0m
+[250.794s] [ 89%] Built target cartographer.mapping.internal.trajectory_connectivity_state_test
+[250.854s] [ 89%] Built target cartographer.mapping.internal.optimization.cost_functions.landmark_cost_function_3d_test
+[251.006s] [ 89%] [32m[1mLinking CXX executable cartographer.mapping.internal.optimization.cost_functions.spa_cost_function_2d_test[0m
+[251.158s] [ 89%] Built target cartographer.mapping.internal.optimization.cost_functions.spa_cost_function_2d_test
+[252.184s] [ 89%] [32mBuilding CXX object CMakeFiles/cartographer.mapping.value_conversion_tables_test.dir/cartographer/mapping/value_conversion_tables_test.cc.o[0m
+[252.185s] [ 90%] [32mBuilding CXX object CMakeFiles/cartographer.mapping.trajectory_node_test.dir/cartographer/mapping/trajectory_node_test.cc.o[0m
+[253.202s] [ 90%] [32mBuilding CXX object CMakeFiles/cartographer.mapping.submaps_test.dir/cartographer/mapping/submaps_test.cc.o[0m
+[253.207s] [ 91%] [32mBuilding CXX object CMakeFiles/cartographer.mapping.probability_values_test.dir/cartographer/mapping/probability_values_test.cc.o[0m
+[254.227s] [ 91%] [32mBuilding CXX object CMakeFiles/cartographer.mapping.pose_graph_trimmer_test.dir/cartographer/mapping/pose_graph_trimmer_test.cc.o[0m
+[254.227s] [ 92%] [32mBuilding CXX object CMakeFiles/cartographer.mapping.pose_graph_test.dir/cartographer/mapping/pose_graph_test.cc.o[0m
+[254.601s] [ 92%] [32m[1mLinking CXX executable cartographer.mapping.value_conversion_tables_test[0m
+[254.780s] [ 92%] Built target cartographer.mapping.value_conversion_tables_test
+[254.814s] [ 92%] [32mBuilding CXX object CMakeFiles/cartographer.mapping.pose_extrapolator_test.dir/cartographer/mapping/pose_extrapolator_test.cc.o[0m
+[255.833s] [ 93%] [32mBuilding CXX object CMakeFiles/cartographer.sensor.compressed_point_cloud_test.dir/cartographer/sensor/compressed_point_cloud_test.cc.o[0m
+[257.959s] [ 93%] [32m[1mLinking CXX executable cartographer.mapping.probability_values_test[0m
+[258.290s] [ 93%] Built target cartographer.mapping.probability_values_test
+[258.328s] [ 93%] [32mBuilding CXX object CMakeFiles/cartographer.sensor.internal.collator_test.dir/cartographer/sensor/internal/collator_test.cc.o[0m
+[259.074s] [ 93%] [32m[1mLinking CXX executable cartographer.mapping.map_builder_test[0m
+[259.728s] [ 93%] [32m[1mLinking CXX executable cartographer.mapping.submaps_test[0m
+[260.071s] [ 93%] Built target cartographer.mapping.submaps_test
+[260.163s] [ 94%] [32mBuilding CXX object CMakeFiles/cartographer.sensor.internal.ordered_multi_queue_test.dir/cartographer/sensor/internal/ordered_multi_queue_test.cc.o[0m
+[260.232s] [ 94%] Built target cartographer.mapping.map_builder_test
+[260.295s] [ 94%] [32mBuilding CXX object CMakeFiles/cartographer.sensor.internal.trajectory_collator_test.dir/cartographer/sensor/internal/trajectory_collator_test.cc.o[0m
+[260.333s] [ 94%] [32m[1mLinking CXX executable cartographer.mapping.trajectory_node_test[0m
+[260.749s] [ 94%] Built target cartographer.mapping.trajectory_node_test
+[260.817s] [ 94%] [32mBuilding CXX object CMakeFiles/cartographer.sensor.internal.voxel_filter_test.dir/cartographer/sensor/internal/voxel_filter_test.cc.o[0m
+[262.309s] [ 94%] [32m[1mLinking CXX executable cartographer.mapping.pose_graph_trimmer_test[0m
+[262.324s] [ 94%] [32m[1mLinking CXX executable cartographer.mapping.pose_graph_test[0m
+[262.562s] [ 94%] Built target cartographer.mapping.pose_graph_trimmer_test
+[262.613s] [ 94%] [32mBuilding CXX object CMakeFiles/cartographer.sensor.landmark_data_test.dir/cartographer/sensor/landmark_data_test.cc.o[0m
+[263.103s] [ 94%] Built target cartographer.mapping.pose_graph_test
+[263.177s] [ 94%] [32mBuilding CXX object CMakeFiles/cartographer.sensor.map_by_time_test.dir/cartographer/sensor/map_by_time_test.cc.o[0m
+[264.903s] [ 94%] [32m[1mLinking CXX executable cartographer.sensor.compressed_point_cloud_test[0m
+[265.302s] [ 94%] Built target cartographer.sensor.compressed_point_cloud_test
+[265.346s] [ 94%] [32mBuilding CXX object CMakeFiles/cartographer.sensor.point_cloud_test.dir/cartographer/sensor/point_cloud_test.cc.o[0m
+[267.034s] [ 94%] [32m[1mLinking CXX executable cartographer.mapping.pose_extrapolator_test[0m
+[267.458s] [ 94%] Built target cartographer.mapping.pose_extrapolator_test
+[267.532s] [ 94%] [32mBuilding CXX object CMakeFiles/cartographer.sensor.range_data_test.dir/cartographer/sensor/range_data_test.cc.o[0m
+[269.537s] [ 94%] [32m[1mLinking CXX executable cartographer.sensor.map_by_time_test[0m
+[269.590s] [ 94%] [32m[1mLinking CXX executable cartographer.sensor.internal.ordered_multi_queue_test[0m
+[269.836s] [ 94%] Built target cartographer.sensor.internal.ordered_multi_queue_test
+[269.859s] [ 94%] Built target cartographer.sensor.map_by_time_test
+[269.872s] [ 94%] [32mBuilding CXX object CMakeFiles/cartographer.transform.rigid_transform_test.dir/cartographer/transform/rigid_transform_test.cc.o[0m
+[269.893s] [ 94%] [32mBuilding CXX object CMakeFiles/cartographer.transform.timestamped_transform_test.dir/cartographer/transform/timestamped_transform_test.cc.o[0m
+[270.211s] [ 94%] [32m[1mLinking CXX executable cartographer.sensor.internal.collator_test[0m
+[270.343s] [ 94%] [32m[1mLinking CXX executable cartographer.sensor.internal.voxel_filter_test[0m
+[270.464s] [ 94%] Built target cartographer.sensor.internal.collator_test
+[270.515s] [ 94%] [32mBuilding CXX object CMakeFiles/cartographer.transform.transform_interpolation_buffer_test.dir/cartographer/transform/transform_interpolation_buffer_test.cc.o[0m
+[270.624s] [ 94%] Built target cartographer.sensor.internal.voxel_filter_test
+[270.655s] [ 94%] [32mBuilding CXX object CMakeFiles/cartographer.transform.transform_test.dir/cartographer/transform/transform_test.cc.o[0m
+[271.422s] [ 95%] [32m[1mLinking CXX executable cartographer.sensor.internal.trajectory_collator_test[0m
+[271.715s] [ 95%] Built target cartographer.sensor.internal.trajectory_collator_test
+[275.077s] [ 96%] [32m[1mLinking CXX executable cartographer.sensor.landmark_data_test[0m
+[275.319s] [ 97%] [32m[1mLinking CXX executable cartographer.sensor.point_cloud_test[0m
+[275.325s] [ 97%] [32m[1mLinking CXX executable cartographer.sensor.range_data_test[0m
+[275.386s] [ 97%] Built target cartographer.sensor.landmark_data_test
+[275.576s] [ 97%] Built target cartographer.sensor.point_cloud_test
+[275.577s] [ 97%] Built target cartographer.sensor.range_data_test
+[277.145s] [ 97%] [32m[1mLinking CXX executable cartographer.transform.timestamped_transform_test[0m
+[277.369s] [ 97%] Built target cartographer.transform.timestamped_transform_test
+[277.539s] [ 98%] [32m[1mLinking CXX executable cartographer.transform.transform_interpolation_buffer_test[0m
+[277.735s] [ 98%] Built target cartographer.transform.transform_interpolation_buffer_test
+[278.625s] [ 98%] [32m[1mLinking CXX executable cartographer.transform.transform_test[0m
+[278.781s] [ 98%] Built target cartographer.transform.transform_test
+[281.358s] [100%] [32m[1mLinking CXX executable cartographer.transform.rigid_transform_test[0m
+[281.512s] [100%] Built target cartographer.transform.rigid_transform_test
+[281.529s] Invoked command in '/home/ngoc/Workspace/Graduation_Project/build/cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngoc/Workspace/Graduation_Project/install/teleop_twist_keyboard:/opt/ros/humble /usr/bin/cmake --build /home/ngoc/Workspace/Graduation_Project/build/cartographer -- -j8 -l8
+[282.416s] Invoking command in '/home/ngoc/Workspace/Graduation_Project/build/cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngoc/Workspace/Graduation_Project/install/teleop_twist_keyboard:/opt/ros/humble /usr/bin/cmake --install /home/ngoc/Workspace/Graduation_Project/build/cartographer
+[282.425s] -- Install configuration: "Release"
+[282.425s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/share/cartographer/package.xml
+[282.425s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/share/cartographer//configuration_files
+[282.425s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/share/cartographer//configuration_files/map_builder_server.lua
+[282.430s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/share/cartographer//configuration_files/pose_graph.lua
+[282.430s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/share/cartographer//configuration_files/trajectory_builder_2d.lua
+[282.430s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/share/cartographer//configuration_files/trajectory_builder_3d.lua
+[282.431s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/share/cartographer//configuration_files/map_builder.lua
+[282.431s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/share/cartographer//configuration_files/trajectory_builder.lua
+[282.431s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/share/cartographer//cmake
+[282.432s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/share/cartographer//cmake/functions.cmake
+[282.432s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/share/cartographer//cmake/modules
+[282.432s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/share/cartographer//cmake/modules/FindEigen3.cmake
+[282.432s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/share/cartographer//cmake/modules/FindSphinx.cmake
+[282.432s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/share/cartographer//cmake/modules/FindLuaGoogle.cmake
+[282.432s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/share/cartographer//cmake/modules/FindGMock.cmake
+[282.432s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/bin/cartographer_autogenerate_ground_truth
+[282.434s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/bin/cartographer_compute_relations_metrics
+[282.436s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/bin/cartographer_pbstream
+[282.440s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/bin/cartographer_print_configuration
+[282.440s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/lib/libcartographer.a
+[282.454s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/include/cartographer/common/configuration_file_resolver.h
+[282.454s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/include/cartographer/common/fixed_ratio_sampler.h
+[282.454s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/include/cartographer/common/histogram.h
+[282.454s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/include/cartographer/common/lua.h
+[282.454s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/include/cartographer/common/lua_parameter_dictionary.h
+[282.455s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/include/cartographer/common/math.h
+[282.455s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/include/cartographer/common/port.h
+[282.455s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/include/cartographer/common/task.h
+[282.455s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/include/cartographer/common/thread_pool.h
+[282.455s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/include/cartographer/common/time.h
+[282.456s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/include/cartographer/ground_truth/autogenerate_ground_truth.h
+[282.456s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/include/cartographer/ground_truth/relations_text_file.h
+[282.456s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/include/cartographer/io/color.h
+[282.456s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/include/cartographer/io/coloring_points_processor.h
+[282.456s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/include/cartographer/io/counting_points_processor.h
+[282.457s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/include/cartographer/io/draw_trajectories.h
+[282.457s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/include/cartographer/io/file_writer.h
+[282.457s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/include/cartographer/io/fixed_ratio_sampling_points_processor.h
+[282.457s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/include/cartographer/io/frame_id_filtering_points_processor.h
+[282.457s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/include/cartographer/io/hybrid_grid_points_processor.h
+[282.458s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/include/cartographer/io/image.h
+[282.458s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/include/cartographer/io/intensity_to_color_points_processor.h
+[282.458s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/include/cartographer/io/min_max_range_filtering_points_processor.h
+[282.458s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/include/cartographer/io/null_points_processor.h
+[282.459s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/include/cartographer/io/outlier_removing_points_processor.h
+[282.459s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/include/cartographer/io/pcd_writing_points_processor.h
+[282.459s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/include/cartographer/io/ply_writing_points_processor.h
+[282.459s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/include/cartographer/io/points_batch.h
+[282.459s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/include/cartographer/io/points_processor.h
+[282.460s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/include/cartographer/io/points_processor_pipeline_builder.h
+[282.460s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/include/cartographer/io/probability_grid_points_processor.h
+[282.460s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/include/cartographer/io/proto_stream.h
+[282.460s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/include/cartographer/io/proto_stream_deserializer.h
+[282.460s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/include/cartographer/io/proto_stream_interface.h
+[282.461s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/include/cartographer/io/serialization_format_migration.h
+[282.461s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/include/cartographer/io/submap_painter.h
+[282.461s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/include/cartographer/io/vertical_range_filtering_points_processor.h
+[282.461s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/include/cartographer/io/xray_points_processor.h
+[282.461s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/include/cartographer/io/xyz_writing_points_processor.h
+[282.462s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/include/cartographer/mapping/2d/grid_2d.h
+[282.462s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/include/cartographer/mapping/2d/map_limits.h
+[282.462s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/include/cartographer/mapping/2d/probability_grid.h
+[282.462s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/include/cartographer/mapping/2d/probability_grid_range_data_inserter_2d.h
+[282.462s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/include/cartographer/mapping/2d/submap_2d.h
+[282.462s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/include/cartographer/mapping/2d/xy_index.h
+[282.463s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/include/cartographer/mapping/3d/hybrid_grid.h
+[282.463s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/include/cartographer/mapping/3d/range_data_inserter_3d.h
+[282.463s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/include/cartographer/mapping/3d/submap_3d.h
+[282.463s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/include/cartographer/mapping/detect_floors.h
+[282.463s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/include/cartographer/mapping/grid_interface.h
+[282.464s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/include/cartographer/mapping/id.h
+[282.464s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/include/cartographer/mapping/imu_tracker.h
+[282.464s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/include/cartographer/mapping/map_builder.h
+[282.464s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/include/cartographer/mapping/map_builder_interface.h
+[282.465s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/include/cartographer/mapping/pose_extrapolator.h
+[282.465s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/include/cartographer/mapping/pose_extrapolator_interface.h
+[282.465s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/include/cartographer/mapping/pose_graph.h
+[282.465s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/include/cartographer/mapping/pose_graph_interface.h
+[282.465s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/include/cartographer/mapping/pose_graph_trimmer.h
+[282.466s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/include/cartographer/mapping/probability_values.h
+[282.466s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/include/cartographer/mapping/range_data_inserter_interface.h
+[282.466s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/include/cartographer/mapping/submaps.h
+[282.466s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/include/cartographer/mapping/trajectory_builder_interface.h
+[282.466s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/include/cartographer/mapping/trajectory_node.h
+[282.467s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/include/cartographer/mapping/value_conversion_tables.h
+[282.467s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/include/cartographer/metrics/counter.h
+[282.467s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/include/cartographer/metrics/family_factory.h
+[282.467s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/include/cartographer/metrics/gauge.h
+[282.467s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/include/cartographer/metrics/histogram.h
+[282.467s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/include/cartographer/metrics/register.h
+[282.468s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/include/cartographer/sensor/collator_interface.h
+[282.468s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/include/cartographer/sensor/compressed_point_cloud.h
+[282.468s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/include/cartographer/sensor/data.h
+[282.468s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/include/cartographer/sensor/fixed_frame_pose_data.h
+[282.468s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/include/cartographer/sensor/imu_data.h
+[282.469s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/include/cartographer/sensor/landmark_data.h
+[282.469s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/include/cartographer/sensor/map_by_time.h
+[282.469s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/include/cartographer/sensor/odometry_data.h
+[282.469s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/include/cartographer/sensor/point_cloud.h
+[282.469s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/include/cartographer/sensor/range_data.h
+[282.470s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/include/cartographer/sensor/rangefinder_point.h
+[282.470s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/include/cartographer/sensor/timed_point_cloud_data.h
+[282.470s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/include/cartographer/transform/rigid_transform.h
+[282.470s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/include/cartographer/transform/timestamped_transform.h
+[282.470s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/include/cartographer/transform/transform.h
+[282.471s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/include/cartographer/transform/transform_interpolation_buffer.h
+[282.471s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/include/cartographer/io/fake_file_writer.h
+[282.471s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/include/cartographer/transform/rigid_transform_test_helpers.h
+[282.471s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/include/cartographer/common/proto/ceres_solver_options.pb.h
+[282.472s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/include/cartographer/ground_truth/proto/relations.pb.h
+[282.472s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/include/cartographer/mapping/proto/cell_limits_2d.pb.h
+[282.472s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/include/cartographer/mapping/proto/connected_components.pb.h
+[282.472s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/include/cartographer/mapping/proto/grid_2d.pb.h
+[282.472s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/include/cartographer/mapping/proto/grid_2d_options.pb.h
+[282.473s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/include/cartographer/mapping/proto/hybrid_grid.pb.h
+[282.473s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/include/cartographer/mapping/proto/local_trajectory_builder_options_2d.pb.h
+[282.473s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/include/cartographer/mapping/proto/local_trajectory_builder_options_3d.pb.h
+[282.473s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/include/cartographer/mapping/proto/map_builder_options.pb.h
+[282.473s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/include/cartographer/mapping/proto/map_limits.pb.h
+[282.474s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/include/cartographer/mapping/proto/motion_filter_options.pb.h
+[282.474s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/include/cartographer/mapping/proto/normal_estimation_options_2d.pb.h
+[282.474s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/include/cartographer/mapping/proto/pose_extrapolator_options.pb.h
+[282.474s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/include/cartographer/mapping/proto/pose_graph.pb.h
+[282.475s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/include/cartographer/mapping/proto/pose_graph/constraint_builder_options.pb.h
+[282.475s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/include/cartographer/mapping/proto/pose_graph/optimization_problem_options.pb.h
+[282.475s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/include/cartographer/mapping/proto/pose_graph_options.pb.h
+[282.475s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/include/cartographer/mapping/proto/probability_grid.pb.h
+[282.476s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/include/cartographer/mapping/proto/probability_grid_range_data_inserter_options_2d.pb.h
+[282.476s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/include/cartographer/mapping/proto/range_data_inserter_options.pb.h
+[282.476s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/include/cartographer/mapping/proto/range_data_inserter_options_3d.pb.h
+[282.476s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/include/cartographer/mapping/proto/scan_matching/ceres_scan_matcher_options_2d.pb.h
+[282.476s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/include/cartographer/mapping/proto/scan_matching/ceres_scan_matcher_options_3d.pb.h
+[282.477s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/include/cartographer/mapping/proto/scan_matching/fast_correlative_scan_matcher_options_2d.pb.h
+[282.477s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/include/cartographer/mapping/proto/scan_matching/fast_correlative_scan_matcher_options_3d.pb.h
+[282.477s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/include/cartographer/mapping/proto/scan_matching/real_time_correlative_scan_matcher_options.pb.h
+[282.477s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/include/cartographer/mapping/proto/serialization.pb.h
+[282.478s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/include/cartographer/mapping/proto/submap.pb.h
+[282.478s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/include/cartographer/mapping/proto/submap_visualization.pb.h
+[282.478s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/include/cartographer/mapping/proto/submaps_options_2d.pb.h
+[282.478s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/include/cartographer/mapping/proto/submaps_options_3d.pb.h
+[282.478s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/include/cartographer/mapping/proto/trajectory.pb.h
+[282.479s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/include/cartographer/mapping/proto/trajectory_builder_options.pb.h
+[282.479s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/include/cartographer/mapping/proto/trajectory_node_data.pb.h
+[282.479s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/include/cartographer/mapping/proto/tsdf_2d.pb.h
+[282.479s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/include/cartographer/mapping/proto/tsdf_range_data_inserter_options_2d.pb.h
+[282.480s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/include/cartographer/sensor/proto/adaptive_voxel_filter_options.pb.h
+[282.480s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/include/cartographer/sensor/proto/sensor.pb.h
+[282.480s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/include/cartographer/transform/proto/timestamped_transform.pb.h
+[282.480s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/include/cartographer/transform/proto/transform.pb.h
+[282.481s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/share/cartographer/cmake/CartographerTargets.cmake
+[282.481s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/share/cartographer/cmake/CartographerTargets-release.cmake
+[282.481s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/cartographer/share/cartographer/cartographer-config.cmake
+[282.484s] Invoked command in '/home/ngoc/Workspace/Graduation_Project/build/cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngoc/Workspace/Graduation_Project/install/teleop_twist_keyboard:/opt/ros/humble /usr/bin/cmake --install /home/ngoc/Workspace/Graduation_Project/build/cartographer

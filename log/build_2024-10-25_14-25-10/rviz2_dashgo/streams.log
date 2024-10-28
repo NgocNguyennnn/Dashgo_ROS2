@@ -1,0 +1,37 @@
+[0.056s] Invoking command in '/home/ngoc/Workspace/Graduation_Project/build/rviz2_dashgo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngoc/Workspace/Graduation_Project/install/teleop_twist_keyboard:/opt/ros/humble /usr/bin/cmake --build /home/ngoc/Workspace/Graduation_Project/build/rviz2_dashgo -- -j8 -l8
+[0.472s] Invoked command in '/home/ngoc/Workspace/Graduation_Project/build/rviz2_dashgo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngoc/Workspace/Graduation_Project/install/teleop_twist_keyboard:/opt/ros/humble /usr/bin/cmake --build /home/ngoc/Workspace/Graduation_Project/build/rviz2_dashgo -- -j8 -l8
+[0.538s] Invoking command in '/home/ngoc/Workspace/Graduation_Project/build/rviz2_dashgo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngoc/Workspace/Graduation_Project/install/teleop_twist_keyboard:/opt/ros/humble /usr/bin/cmake --install /home/ngoc/Workspace/Graduation_Project/build/rviz2_dashgo
+[0.556s] -- Install configuration: ""
+[0.557s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/install/rviz2_dashgo/share/rviz2_dashgo/rviz
+[0.557s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/install/rviz2_dashgo/share/rviz2_dashgo/rviz/view_navigation.rviz
+[0.557s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/install/rviz2_dashgo/share/rviz2_dashgo/rviz/lidar.rviz
+[0.557s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/install/rviz2_dashgo/share/rviz2_dashgo/rviz/multi_goal.rviz
+[0.557s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/install/rviz2_dashgo/share/rviz2_dashgo/rviz/view_navigation_sonar.rviz
+[0.559s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/install/rviz2_dashgo/share/rviz2_dashgo/rviz/pathgo_imu.rviz
+[0.560s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/install/rviz2_dashgo/share/rviz2_dashgo/launch
+[0.560s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/install/rviz2_dashgo/share/rviz2_dashgo/launch/view_navigation.launch
+[0.561s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/install/rviz2_dashgo/share/rviz2_dashgo/launch/multi_goal.launch
+[0.561s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/install/rviz2_dashgo/share/rviz2_dashgo/launch/view_navigation_sonar.launch
+[0.561s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/install/rviz2_dashgo/share/rviz2_dashgo/launch/view_navigation_sonar.launch.py
+[0.562s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/install/rviz2_dashgo/share/rviz2_dashgo/launch/view_imu.launch
+[0.562s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/install/rviz2_dashgo/share/rviz2_dashgo/launch/view_imu.launch.py
+[0.562s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/install/rviz2_dashgo/share/rviz2_dashgo/launch/view_lidar.launch
+[0.562s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/install/rviz2_dashgo/share/rviz2_dashgo/launch/view_lidar.launch.py
+[0.563s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/install/rviz2_dashgo/share/rviz2_dashgo/launch/view_navigation.launch.py
+[0.563s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/install/rviz2_dashgo/share/rviz2_dashgo/launch/multi_goal.launch.py
+[0.563s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/install/rviz2_dashgo/share/ament_index/resource_index/package_run_dependencies/rviz2_dashgo
+[0.563s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/install/rviz2_dashgo/share/ament_index/resource_index/parent_prefix_path/rviz2_dashgo
+[0.563s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/install/rviz2_dashgo/share/rviz2_dashgo/environment/ament_prefix_path.sh
+[0.564s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/install/rviz2_dashgo/share/rviz2_dashgo/environment/ament_prefix_path.dsv
+[0.564s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/install/rviz2_dashgo/share/rviz2_dashgo/environment/path.sh
+[0.564s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/install/rviz2_dashgo/share/rviz2_dashgo/environment/path.dsv
+[0.564s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/install/rviz2_dashgo/share/rviz2_dashgo/local_setup.bash
+[0.565s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/install/rviz2_dashgo/share/rviz2_dashgo/local_setup.sh
+[0.565s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/install/rviz2_dashgo/share/rviz2_dashgo/local_setup.zsh
+[0.565s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/install/rviz2_dashgo/share/rviz2_dashgo/local_setup.dsv
+[0.565s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/rviz2_dashgo/share/rviz2_dashgo/package.dsv
+[0.569s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/install/rviz2_dashgo/share/ament_index/resource_index/packages/rviz2_dashgo
+[0.569s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/install/rviz2_dashgo/share/rviz2_dashgo/cmake/rviz2_dashgoConfig.cmake
+[0.569s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/install/rviz2_dashgo/share/rviz2_dashgo/cmake/rviz2_dashgoConfig-version.cmake
+[0.569s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/install/rviz2_dashgo/share/rviz2_dashgo/package.xml
+[0.606s] Invoked command in '/home/ngoc/Workspace/Graduation_Project/build/rviz2_dashgo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngoc/Workspace/Graduation_Project/install/teleop_twist_keyboard:/opt/ros/humble /usr/bin/cmake --install /home/ngoc/Workspace/Graduation_Project/build/rviz2_dashgo

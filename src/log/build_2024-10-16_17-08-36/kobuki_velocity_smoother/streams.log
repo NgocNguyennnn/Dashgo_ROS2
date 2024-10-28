@@ -1,0 +1,37 @@
+[0.024s] Invoking command in '/home/ngoc/Workspace/Graduation_Project/src/build/kobuki_velocity_smoother': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngoc/Workspace/Graduation_Project/install/teleop_twist_keyboard:/opt/ros/humble /usr/bin/cmake --build /home/ngoc/Workspace/Graduation_Project/src/build/kobuki_velocity_smoother -- -j8 -l8
+[0.094s] [ 25%] [32mBuilding CXX object CMakeFiles/kobuki_velocity_smoother.dir/src/velocity_smoother.cpp.o[0m
+[12.898s] [ 50%] [32m[1mLinking CXX shared library libkobuki_velocity_smoother.so[0m
+[13.631s] [ 50%] Built target kobuki_velocity_smoother
+[13.665s] [ 75%] [32m[1mLinking CXX executable velocity_smoother[0m
+[13.949s] [100%] Built target velocity_smoother_node
+[13.963s] Invoked command in '/home/ngoc/Workspace/Graduation_Project/src/build/kobuki_velocity_smoother' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngoc/Workspace/Graduation_Project/install/teleop_twist_keyboard:/opt/ros/humble /usr/bin/cmake --build /home/ngoc/Workspace/Graduation_Project/src/build/kobuki_velocity_smoother -- -j8 -l8
+[14.003s] Invoking command in '/home/ngoc/Workspace/Graduation_Project/src/build/kobuki_velocity_smoother': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngoc/Workspace/Graduation_Project/install/teleop_twist_keyboard:/opt/ros/humble /usr/bin/cmake --install /home/ngoc/Workspace/Graduation_Project/src/build/kobuki_velocity_smoother
+[14.014s] -- Install configuration: ""
+[14.015s] -- Installing: /home/ngoc/Workspace/Graduation_Project/src/install/kobuki_velocity_smoother/lib/libkobuki_velocity_smoother.so
+[14.032s] -- Set runtime path of "/home/ngoc/Workspace/Graduation_Project/src/install/kobuki_velocity_smoother/lib/libkobuki_velocity_smoother.so" to ""
+[14.032s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/kobuki_velocity_smoother/include/kobuki_velocity_smoother
+[14.032s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/kobuki_velocity_smoother/include/kobuki_velocity_smoother/velocity_smoother.hpp
+[14.033s] -- Installing: /home/ngoc/Workspace/Graduation_Project/src/install/kobuki_velocity_smoother/lib/kobuki_velocity_smoother/velocity_smoother
+[14.034s] -- Set runtime path of "/home/ngoc/Workspace/Graduation_Project/src/install/kobuki_velocity_smoother/lib/kobuki_velocity_smoother/velocity_smoother" to ""
+[14.034s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/kobuki_velocity_smoother/share/kobuki_velocity_smoother/config
+[14.034s] -- Installing: /home/ngoc/Workspace/Graduation_Project/src/install/kobuki_velocity_smoother/share/kobuki_velocity_smoother/config/velocity_smoother_params.yaml
+[14.034s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/kobuki_velocity_smoother/share/kobuki_velocity_smoother/launch
+[14.034s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/kobuki_velocity_smoother/share/kobuki_velocity_smoother/launch/velocity_smoother-composed-launch.py
+[14.035s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/kobuki_velocity_smoother/share/kobuki_velocity_smoother/launch/velocity_smoother-launch.py
+[14.035s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/kobuki_velocity_smoother/share/ament_index/resource_index/package_run_dependencies/kobuki_velocity_smoother
+[14.035s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/kobuki_velocity_smoother/share/ament_index/resource_index/parent_prefix_path/kobuki_velocity_smoother
+[14.035s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/kobuki_velocity_smoother/share/kobuki_velocity_smoother/environment/ament_prefix_path.sh
+[14.035s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/kobuki_velocity_smoother/share/kobuki_velocity_smoother/environment/ament_prefix_path.dsv
+[14.036s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/kobuki_velocity_smoother/share/kobuki_velocity_smoother/environment/path.sh
+[14.036s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/kobuki_velocity_smoother/share/kobuki_velocity_smoother/environment/path.dsv
+[14.036s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/kobuki_velocity_smoother/share/kobuki_velocity_smoother/local_setup.bash
+[14.036s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/kobuki_velocity_smoother/share/kobuki_velocity_smoother/local_setup.sh
+[14.036s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/kobuki_velocity_smoother/share/kobuki_velocity_smoother/local_setup.zsh
+[14.036s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/kobuki_velocity_smoother/share/kobuki_velocity_smoother/local_setup.dsv
+[14.036s] -- Installing: /home/ngoc/Workspace/Graduation_Project/src/install/kobuki_velocity_smoother/share/kobuki_velocity_smoother/package.dsv
+[14.036s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/kobuki_velocity_smoother/share/ament_index/resource_index/packages/kobuki_velocity_smoother
+[14.036s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/kobuki_velocity_smoother/share/ament_index/resource_index/rclcpp_components/kobuki_velocity_smoother
+[14.037s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/kobuki_velocity_smoother/share/kobuki_velocity_smoother/cmake/kobuki_velocity_smootherConfig.cmake
+[14.037s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/kobuki_velocity_smoother/share/kobuki_velocity_smoother/cmake/kobuki_velocity_smootherConfig-version.cmake
+[14.037s] -- Up-to-date: /home/ngoc/Workspace/Graduation_Project/src/install/kobuki_velocity_smoother/share/kobuki_velocity_smoother/package.xml
+[14.039s] Invoked command in '/home/ngoc/Workspace/Graduation_Project/src/build/kobuki_velocity_smoother' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngoc/Workspace/Graduation_Project/install/teleop_twist_keyboard:/opt/ros/humble /usr/bin/cmake --install /home/ngoc/Workspace/Graduation_Project/src/build/kobuki_velocity_smoother

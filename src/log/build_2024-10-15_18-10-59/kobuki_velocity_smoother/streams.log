@@ -1,0 +1,97 @@
+[0.021s] Invoking command in '/home/ngoc/Workspace/Graduation_Project/src/build/kobuki_velocity_smoother': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ngoc/Workspace/Graduation_Project/src/kobuki_velocity_smoother -DCMAKE_INSTALL_PREFIX=/home/ngoc/Workspace/Graduation_Project/src/install/kobuki_velocity_smoother
+[0.141s] -- The C compiler identification is GNU 11.4.0
+[0.251s] -- The CXX compiler identification is GNU 11.4.0
+[0.265s] -- Detecting C compiler ABI info
+[0.366s] -- Detecting C compiler ABI info - done
+[0.377s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.377s] -- Detecting C compile features
+[0.378s] -- Detecting C compile features - done
+[0.382s] -- Detecting CXX compiler ABI info
+[0.484s] -- Detecting CXX compiler ABI info - done
+[0.498s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.499s] -- Detecting CXX compile features
+[0.499s] -- Detecting CXX compile features - done
+[0.502s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.687s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.825s] -- Found ecl_build: 1.0.3 (/opt/ros/humble/share/ecl_build/cmake)
+[0.839s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.900s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.907s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.917s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.936s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.960s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.022s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.048s] -- Found rcl_interfaces: 1.2.1 (/opt/ros/humble/share/rcl_interfaces/cmake)
+[1.071s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[1.113s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.118s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.249s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.282s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.331s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.345s] -- Looking for pthread.h
+[1.437s] -- Looking for pthread.h - found
+[1.438s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.524s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.526s] -- Found Threads: TRUE  
+[1.592s] -- Found rclcpp_components: 16.0.10 (/opt/ros/humble/share/rclcpp_components/cmake)
+[1.643s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.740s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.763s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.769s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.769s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.769s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.769s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.793s] -- Found PythonExtra: .so  
+[1.839s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.839s] -- Configured cppcheck include dirs: /home/ngoc/Workspace/Graduation_Project/src/kobuki_velocity_smoother/include
+[1.839s] -- Configured cppcheck exclude dirs and/or files: 
+[1.846s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.846s] -- Configured cpplint exclude dirs and/or files: 
+[1.848s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.851s] -- Added test 'lint_cmake' to check CMake code style
+[1.854s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.863s] -- Added test 'uncrustify' to check C / C++ code style
+[1.864s] -- Configured uncrustify additional arguments: 
+[1.865s] -- Added test 'xmllint' to check XML markup files
+[1.868s] -- Configuring done
+[1.898s] -- Generating done
+[1.901s] -- Build files have been written to: /home/ngoc/Workspace/Graduation_Project/src/build/kobuki_velocity_smoother
+[1.914s] Invoked command in '/home/ngoc/Workspace/Graduation_Project/src/build/kobuki_velocity_smoother' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ngoc/Workspace/Graduation_Project/src/kobuki_velocity_smoother -DCMAKE_INSTALL_PREFIX=/home/ngoc/Workspace/Graduation_Project/src/install/kobuki_velocity_smoother
+[1.916s] Invoking command in '/home/ngoc/Workspace/Graduation_Project/src/build/kobuki_velocity_smoother': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ngoc/Workspace/Graduation_Project/src/build/kobuki_velocity_smoother -- -j8 -l8
+[1.975s] [ 25%] [32mBuilding CXX object CMakeFiles/kobuki_velocity_smoother.dir/src/velocity_smoother.cpp.o[0m
+[14.221s] [ 50%] [32m[1mLinking CXX shared library libkobuki_velocity_smoother.so[0m
+[14.904s] [ 50%] Built target kobuki_velocity_smoother
+[14.928s] [ 75%] [32mBuilding CXX object CMakeFiles/velocity_smoother_node.dir/src/velocity_smoother_node.cpp.o[0m
+[17.983s] [100%] [32m[1mLinking CXX executable velocity_smoother[0m
+[18.233s] [100%] Built target velocity_smoother_node
+[18.246s] Invoked command in '/home/ngoc/Workspace/Graduation_Project/src/build/kobuki_velocity_smoother' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ngoc/Workspace/Graduation_Project/src/build/kobuki_velocity_smoother -- -j8 -l8
+[18.282s] Invoking command in '/home/ngoc/Workspace/Graduation_Project/src/build/kobuki_velocity_smoother': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ngoc/Workspace/Graduation_Project/src/build/kobuki_velocity_smoother
+[18.290s] -- Install configuration: ""
+[18.290s] -- Installing: /home/ngoc/Workspace/Graduation_Project/src/install/kobuki_velocity_smoother/lib/libkobuki_velocity_smoother.so
+[18.301s] -- Set runtime path of "/home/ngoc/Workspace/Graduation_Project/src/install/kobuki_velocity_smoother/lib/libkobuki_velocity_smoother.so" to ""
+[18.301s] -- Installing: /home/ngoc/Workspace/Graduation_Project/src/install/kobuki_velocity_smoother/include/kobuki_velocity_smoother
+[18.301s] -- Installing: /home/ngoc/Workspace/Graduation_Project/src/install/kobuki_velocity_smoother/include/kobuki_velocity_smoother/velocity_smoother.hpp
+[18.301s] -- Installing: /home/ngoc/Workspace/Graduation_Project/src/install/kobuki_velocity_smoother/lib/kobuki_velocity_smoother/velocity_smoother
+[18.302s] -- Set runtime path of "/home/ngoc/Workspace/Graduation_Project/src/install/kobuki_velocity_smoother/lib/kobuki_velocity_smoother/velocity_smoother" to ""
+[18.303s] -- Installing: /home/ngoc/Workspace/Graduation_Project/src/install/kobuki_velocity_smoother/share/kobuki_velocity_smoother/config
+[18.303s] -- Installing: /home/ngoc/Workspace/Graduation_Project/src/install/kobuki_velocity_smoother/share/kobuki_velocity_smoother/config/velocity_smoother_params.yaml
+[18.303s] -- Installing: /home/ngoc/Workspace/Graduation_Project/src/install/kobuki_velocity_smoother/share/kobuki_velocity_smoother/launch
+[18.303s] -- Installing: /home/ngoc/Workspace/Graduation_Project/src/install/kobuki_velocity_smoother/share/kobuki_velocity_smoother/launch/velocity_smoother-composed-launch.py
+[18.303s] -- Installing: /home/ngoc/Workspace/Graduation_Project/src/install/kobuki_velocity_smoother/share/kobuki_velocity_smoother/launch/velocity_smoother-launch.py
+[18.303s] -- Installing: /home/ngoc/Workspace/Graduation_Project/src/install/kobuki_velocity_smoother/share/ament_index/resource_index/package_run_dependencies/kobuki_velocity_smoother
+[18.304s] -- Installing: /home/ngoc/Workspace/Graduation_Project/src/install/kobuki_velocity_smoother/share/ament_index/resource_index/parent_prefix_path/kobuki_velocity_smoother
+[18.304s] -- Installing: /home/ngoc/Workspace/Graduation_Project/src/install/kobuki_velocity_smoother/share/kobuki_velocity_smoother/environment/ament_prefix_path.sh
+[18.304s] -- Installing: /home/ngoc/Workspace/Graduation_Project/src/install/kobuki_velocity_smoother/share/kobuki_velocity_smoother/environment/ament_prefix_path.dsv
+[18.304s] -- Installing: /home/ngoc/Workspace/Graduation_Project/src/install/kobuki_velocity_smoother/share/kobuki_velocity_smoother/environment/path.sh
+[18.304s] -- Installing: /home/ngoc/Workspace/Graduation_Project/src/install/kobuki_velocity_smoother/share/kobuki_velocity_smoother/environment/path.dsv
+[18.304s] -- Installing: /home/ngoc/Workspace/Graduation_Project/src/install/kobuki_velocity_smoother/share/kobuki_velocity_smoother/local_setup.bash
+[18.305s] -- Installing: /home/ngoc/Workspace/Graduation_Project/src/install/kobuki_velocity_smoother/share/kobuki_velocity_smoother/local_setup.sh
+[18.305s] -- Installing: /home/ngoc/Workspace/Graduation_Project/src/install/kobuki_velocity_smoother/share/kobuki_velocity_smoother/local_setup.zsh
+[18.305s] -- Installing: /home/ngoc/Workspace/Graduation_Project/src/install/kobuki_velocity_smoother/share/kobuki_velocity_smoother/local_setup.dsv
+[18.305s] -- Installing: /home/ngoc/Workspace/Graduation_Project/src/install/kobuki_velocity_smoother/share/kobuki_velocity_smoother/package.dsv
+[18.305s] -- Installing: /home/ngoc/Workspace/Graduation_Project/src/install/kobuki_velocity_smoother/share/ament_index/resource_index/packages/kobuki_velocity_smoother
+[18.306s] -- Installing: /home/ngoc/Workspace/Graduation_Project/src/install/kobuki_velocity_smoother/share/ament_index/resource_index/rclcpp_components/kobuki_velocity_smoother
+[18.306s] -- Installing: /home/ngoc/Workspace/Graduation_Project/src/install/kobuki_velocity_smoother/share/kobuki_velocity_smoother/cmake/kobuki_velocity_smootherConfig.cmake
+[18.306s] -- Installing: /home/ngoc/Workspace/Graduation_Project/src/install/kobuki_velocity_smoother/share/kobuki_velocity_smoother/cmake/kobuki_velocity_smootherConfig-version.cmake
+[18.306s] -- Installing: /home/ngoc/Workspace/Graduation_Project/src/install/kobuki_velocity_smoother/share/kobuki_velocity_smoother/package.xml
+[18.309s] Invoked command in '/home/ngoc/Workspace/Graduation_Project/src/build/kobuki_velocity_smoother' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ngoc/Workspace/Graduation_Project/src/build/kobuki_velocity_smoother

@@ -1,0 +1,15 @@
+/home/ngoc/Workspace/Graduation_Project/src/install/rviz2/share/ament_index/resource_index/package_run_dependencies/rviz2
+/home/ngoc/Workspace/Graduation_Project/src/install/rviz2/share/ament_index/resource_index/parent_prefix_path/rviz2
+/home/ngoc/Workspace/Graduation_Project/src/install/rviz2/share/rviz2/environment/ament_prefix_path.sh
+/home/ngoc/Workspace/Graduation_Project/src/install/rviz2/share/rviz2/environment/ament_prefix_path.dsv
+/home/ngoc/Workspace/Graduation_Project/src/install/rviz2/share/rviz2/environment/path.sh
+/home/ngoc/Workspace/Graduation_Project/src/install/rviz2/share/rviz2/environment/path.dsv
+/home/ngoc/Workspace/Graduation_Project/src/install/rviz2/share/rviz2/local_setup.bash
+/home/ngoc/Workspace/Graduation_Project/src/install/rviz2/share/rviz2/local_setup.sh
+/home/ngoc/Workspace/Graduation_Project/src/install/rviz2/share/rviz2/local_setup.zsh
+/home/ngoc/Workspace/Graduation_Project/src/install/rviz2/share/rviz2/local_setup.dsv
+/home/ngoc/Workspace/Graduation_Project/src/install/rviz2/share/rviz2/package.dsv
+/home/ngoc/Workspace/Graduation_Project/src/install/rviz2/share/ament_index/resource_index/packages/rviz2
+/home/ngoc/Workspace/Graduation_Project/src/install/rviz2/share/rviz2/cmake/rviz2Config.cmake
+/home/ngoc/Workspace/Graduation_Project/src/install/rviz2/share/rviz2/cmake/rviz2Config-version.cmake
+/home/ngoc/Workspace/Graduation_Project/src/install/rviz2/share/rviz2/package.xml

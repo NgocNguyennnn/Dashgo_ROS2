@@ -1,0 +1,2 @@
+Invoking command in '/home/ngoc/Workspace/Graduation_Project/src/build/rviz2': /usr/bin/cmake --build /home/ngoc/Workspace/Graduation_Project/src/build/rviz2 -- -j8 -l8
+Invoked command in '/home/ngoc/Workspace/Graduation_Project/src/build/rviz2' returned '2': /usr/bin/cmake --build /home/ngoc/Workspace/Graduation_Project/src/build/rviz2 -- -j8 -l8

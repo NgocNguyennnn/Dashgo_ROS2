@@ -1,0 +1,177 @@
+[0.041s] Invoking command in '/home/ngoc/Workspace/Graduation_Project/build/dashgo_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngoc/Workspace/Graduation_Project/install/teleop_twist_keyboard:/opt/ros/humble /usr/bin/cmake /home/ngoc/Workspace/Graduation_Project/src/dashgo_simulation/dashgo_description -DCMAKE_INSTALL_PREFIX=/home/ngoc/Workspace/Graduation_Project/install/dashgo_description
+[0.200s] -- The C compiler identification is GNU 11.4.0
+[0.380s] -- The CXX compiler identification is GNU 11.4.0
+[0.395s] -- Detecting C compiler ABI info
+[0.529s] -- Detecting C compiler ABI info - done
+[0.543s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.544s] -- Detecting C compile features
+[0.546s] -- Detecting C compile features - done
+[0.557s] -- Detecting CXX compiler ABI info
+[0.722s] -- Detecting CXX compiler ABI info - done
+[0.741s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.741s] -- Detecting CXX compile features
+[0.742s] -- Detecting CXX compile features - done
+[0.750s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.077s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.260s] -- Found robot_state_publisher: 3.0.3 (/opt/ros/humble/share/robot_state_publisher/cmake)
+[1.353s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.367s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.390s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.422s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.476s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.590s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.593s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.593s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.681s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.683s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.843s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.893s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.977s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.993s] -- Looking for pthread.h
+[2.100s] -- Looking for pthread.h - found
+[2.100s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.241s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.247s] -- Found Threads: TRUE  
+[2.983s] -- Found rviz2: 11.2.13 (/opt/ros/humble/share/rviz2/cmake)
+[2.994s] -- Found xacro: 2.0.8 (/opt/ros/humble/share/xacro/cmake)
+[3.025s] -- Found rclpy: 3.3.14 (/opt/ros/humble/share/rclpy/cmake)
+[3.029s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[3.099s] -- Found gazebo_ros: 3.7.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[3.201s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[3.214s] -- Checking for module 'bullet>=2.82'
+[3.312s] --   Found bullet, version 3.05
+[3.813s] -- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") 
+[4.061s] -- Found assimp: /usr/include (found version "5.2.0") 
+[4.159s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[4.397s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[4.510s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[4.536s] -- Looking for ignition-math6 -- found version 6.15.1
+[4.566s] -- Searching for dependencies of ignition-math6
+[4.579s] -- Looking for OGRE...
+[4.579s] -- OGRE_PREFIX_WATCH changed.
+[4.588s] -- Checking for module 'OGRE'
+[4.618s] --   Found OGRE, version 1.9.0
+[4.722s] -- Found Ogre Ghadamon (1.9.0)
+[4.834s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[4.974s] -- Looking for OGRE_Paging...
+[5.125s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[5.125s] -- Looking for OGRE_Terrain...
+[5.235s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[5.235s] -- Looking for OGRE_Property...
+[5.363s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[5.400s] -- Looking for OGRE_RTShaderSystem...
+[5.497s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[5.497s] -- Looking for OGRE_Volume...
+[5.608s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[5.608s] -- Looking for OGRE_Overlay...
+[5.709s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[7.139s] -- Looking for ignition-math6 -- found version 6.15.1
+[7.151s] -- Looking for ignition-transport8 -- found version 8.2.1
+[7.152s] -- Searching for dependencies of ignition-transport8
+[7.235s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[7.307s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[7.337s] -- Checking for module 'libzmq >= 4'
+[7.418s] --   Found libzmq , version 4.3.4
+[7.646s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[7.702s] -- Checking for module 'uuid'
+[7.788s] --   Found uuid, version 2.37.2
+[8.002s] -- Found UUID: TRUE  
+[8.016s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[8.021s] -- Searching for dependencies of ignition-msgs5
+[8.163s] -- Looking for ignition-math6 -- found version 6.15.1
+[8.181s] -- Checking for module 'tinyxml2'
+[8.237s] --   Found tinyxml2, version 9.0.0
+[8.493s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[8.541s] -- Looking for ignition-common3 -- found version 3.14.0
+[8.541s] -- Searching for dependencies of ignition-common3
+[8.558s] -- Looking for dlfcn.h - found
+[8.571s] -- Looking for libdl - found
+[8.614s] -- Found DL: TRUE  
+[8.745s] -- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") 
+[8.756s] -- Searching for <ignition-common3> component [graphics]
+[8.782s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[8.788s] -- Searching for dependencies of ignition-common3-graphics
+[8.797s] -- Looking for ignition-math6 -- found version 6.15.1
+[8.841s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[8.841s] -- Searching for dependencies of ignition-fuel_tools4
+[9.338s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[9.370s] -- Checking for module 'jsoncpp'
+[9.428s] --   Found jsoncpp, version 1.9.5
+[9.672s] -- Found JSONCPP: TRUE  
+[9.778s] -- Checking for module 'libzip'
+[9.924s] --   Found libzip, version 1.7.3
+[10.111s] -- Found ZIP: TRUE  
+[10.115s] -- Looking for ignition-common3 -- found version 3.14.0
+[10.119s] -- Looking for ignition-math6 -- found version 6.15.1
+[10.122s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[10.159s] -- Gazebo version: 11.10
+[10.159s] -- Checking for module 'tbb'
+[10.272s] --   Found tbb, version 2021.5.0
+[10.546s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[11.369s] -- Added test 'flake8' to check Python code syntax and style conventions
+[11.388s] -- Added test 'lint_cmake' to check CMake code style
+[11.413s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[11.451s] -- Added test 'xmllint' to check XML markup files
+[11.473s] -- Configuring done
+[11.599s] -- Generating done
+[11.609s] -- Build files have been written to: /home/ngoc/Workspace/Graduation_Project/build/dashgo_description
+[11.909s] Invoked command in '/home/ngoc/Workspace/Graduation_Project/build/dashgo_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngoc/Workspace/Graduation_Project/install/teleop_twist_keyboard:/opt/ros/humble /usr/bin/cmake /home/ngoc/Workspace/Graduation_Project/src/dashgo_simulation/dashgo_description -DCMAKE_INSTALL_PREFIX=/home/ngoc/Workspace/Graduation_Project/install/dashgo_description
+[11.910s] Invoking command in '/home/ngoc/Workspace/Graduation_Project/build/dashgo_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngoc/Workspace/Graduation_Project/install/teleop_twist_keyboard:/opt/ros/humble /usr/bin/cmake --build /home/ngoc/Workspace/Graduation_Project/build/dashgo_description -- -j8 -l8
+[12.210s] Invoked command in '/home/ngoc/Workspace/Graduation_Project/build/dashgo_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngoc/Workspace/Graduation_Project/install/teleop_twist_keyboard:/opt/ros/humble /usr/bin/cmake --build /home/ngoc/Workspace/Graduation_Project/build/dashgo_description -- -j8 -l8
+[12.317s] Invoking command in '/home/ngoc/Workspace/Graduation_Project/build/dashgo_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngoc/Workspace/Graduation_Project/install/teleop_twist_keyboard:/opt/ros/humble /usr/bin/cmake --install /home/ngoc/Workspace/Graduation_Project/build/dashgo_description
+[12.352s] -- Install configuration: ""
+[12.353s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/dashgo_description/share/dashgo_description//launch
+[12.353s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/dashgo_description/share/dashgo_description//launch/dashgo_description.launch.py
+[12.355s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/dashgo_description/share/dashgo_description//launch/dashgo_description_check.launch.py
+[12.355s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/dashgo_description/share/dashgo_description//urdf
+[12.358s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/dashgo_description/share/dashgo_description//urdf/dashgobase
+[12.358s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/dashgo_description/share/dashgo_description//urdf/dashgobase/dashgo.urdf.xacro
+[12.361s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/dashgo_description/share/dashgo_description//urdf/dashgobase/meshes
+[12.361s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/dashgo_description/share/dashgo_description//urdf/dashgobase/meshes/sensors
+[12.363s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/dashgo_description/share/dashgo_description//urdf/dashgobase/meshes/sensors/laser_frame.STL
+[12.363s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/dashgo_description/share/dashgo_description//urdf/dashgobase/meshes/sensors/astra.dae
+[12.413s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/dashgo_description/share/dashgo_description//urdf/dashgobase/meshes/sensors/r200.jpg
+[12.413s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/dashgo_description/share/dashgo_description//urdf/dashgobase/meshes/sensors/astra.jpg
+[12.413s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/dashgo_description/share/dashgo_description//urdf/dashgobase/meshes/sensors/lds.stl
+[12.419s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/dashgo_description/share/dashgo_description//urdf/dashgobase/meshes/sensors/r200.dae
+[12.421s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/dashgo_description/share/dashgo_description//urdf/dashgobase/meshes/bases
+[12.421s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/dashgo_description/share/dashgo_description//urdf/dashgobase/meshes/bases/robot_link.STL
+[12.426s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/dashgo_description/share/dashgo_description//urdf/dashgobase/meshes/bases/Turtlebot3
+[12.426s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/dashgo_description/share/dashgo_description//urdf/dashgobase/meshes/bases/Turtlebot3/waffle_base.stl
+[12.520s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/dashgo_description/share/dashgo_description//urdf/dashgobase/meshes/bases/Turtlebot3/burger_base.stl
+[12.551s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/dashgo_description/share/dashgo_description//urdf/dashgobase/meshes/bases/Turtlebot3/waffle_pi_base_for_open_manipulator.stl
+[12.595s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/dashgo_description/share/dashgo_description//urdf/dashgobase/meshes/bases/Turtlebot3/waffle_base_for_open_manipulator.stl
+[12.727s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/dashgo_description/share/dashgo_description//urdf/dashgobase/meshes/bases/Turtlebot3/waffle_pi_base.stl
+[12.817s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/dashgo_description/share/dashgo_description//urdf/dashgobase/meshes/bases/base_link.STL
+[12.818s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/dashgo_description/share/dashgo_description//urdf/dashgobase/meshes/wheels
+[12.818s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/dashgo_description/share/dashgo_description//urdf/dashgobase/meshes/wheels/banh_xe.STL
+[12.841s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/dashgo_description/share/dashgo_description//urdf/dashgobase/meshes/wheels/Old version
+[12.841s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/dashgo_description/share/dashgo_description//urdf/dashgobase/meshes/wheels/Old version/left_tire.stl
+[12.841s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/dashgo_description/share/dashgo_description//urdf/dashgobase/meshes/wheels/Old version/wheel_right_link.STL
+[12.853s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/dashgo_description/share/dashgo_description//urdf/dashgobase/meshes/wheels/Old version/right_tire.stl
+[12.867s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/dashgo_description/share/dashgo_description//urdf/dashgobase/meshes/wheels/Old version/wheel_left_link.STL
+[12.867s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/dashgo_description/share/dashgo_description//urdf/dashgobase/dashgo.gazebo.xacro
+[12.868s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/dashgo_description/share/dashgo_description//urdf/dashgobase/common_properties.xacro
+[12.868s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/dashgo_description/share/dashgo_description//urdf/dashgobase/Old version
+[12.869s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/dashgo_description/share/dashgo_description//urdf/dashgobase/Old version/dashgobase.xacro
+[12.873s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/dashgo_description/share/dashgo_description//urdf/dashgobase/Old version/base.urdf.xacro
+[12.874s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/dashgo_description/share/dashgo_description//urdf/dashgobase/Old version/materials.urdf.xacro
+[12.874s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/dashgo_description/share/dashgo_description//urdf/dashgobase/Old version/torso.urdf.xacro
+[12.875s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/dashgo_description/share/dashgo_description//rviz
+[12.875s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/dashgo_description/share/dashgo_description//rviz/urdf_config.rviz
+[12.891s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/dashgo_description/share/ament_index/resource_index/package_run_dependencies/dashgo_description
+[12.891s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/dashgo_description/share/ament_index/resource_index/parent_prefix_path/dashgo_description
+[12.891s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/dashgo_description/share/dashgo_description/environment/ament_prefix_path.sh
+[12.891s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/dashgo_description/share/dashgo_description/environment/ament_prefix_path.dsv
+[12.892s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/dashgo_description/share/dashgo_description/environment/path.sh
+[12.892s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/dashgo_description/share/dashgo_description/environment/path.dsv
+[12.892s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/dashgo_description/share/dashgo_description/local_setup.bash
+[12.903s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/dashgo_description/share/dashgo_description/local_setup.sh
+[12.903s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/dashgo_description/share/dashgo_description/local_setup.zsh
+[12.903s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/dashgo_description/share/dashgo_description/local_setup.dsv
+[12.903s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/dashgo_description/share/dashgo_description/package.dsv
+[12.903s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/dashgo_description/share/ament_index/resource_index/packages/dashgo_description
+[12.904s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/dashgo_description/share/dashgo_description/cmake/dashgo_descriptionConfig.cmake
+[12.904s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/dashgo_description/share/dashgo_description/cmake/dashgo_descriptionConfig-version.cmake
+[12.904s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/dashgo_description/share/dashgo_description/package.xml
+[12.955s] Invoked command in '/home/ngoc/Workspace/Graduation_Project/build/dashgo_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngoc/Workspace/Graduation_Project/install/teleop_twist_keyboard:/opt/ros/humble /usr/bin/cmake --install /home/ngoc/Workspace/Graduation_Project/build/dashgo_description

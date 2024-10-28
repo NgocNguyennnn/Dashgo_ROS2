@@ -1,0 +1,92 @@
+[0.012s] Invoking command in '/home/ngoc/Workspace/Graduation_Project/build/dashgo_nav': CMAKE_PREFIX_PATH=/home/ngoc/Workspace/Graduation_Project/install/cartographer:/home/ngoc/Workspace/Graduation_Project/install/ydlidar_sdk:/home/ngoc/Workspace/Graduation_Project/install/ydlidar_ros2_driver:/home/ngoc/Workspace/Graduation_Project/install/rviz2_dashgo:/home/ngoc/Workspace/Graduation_Project/install/rplidar_ros:/home/ngoc/Workspace/Graduation_Project/install/kobuki_velocity_smoother:/home/ngoc/Workspace/Graduation_Project/install/dashgo_nav:/home/ngoc/Workspace/Graduation_Project/install/dashgo_gazebo:/home/ngoc/Workspace/Graduation_Project/install/dashgo_driver_ros2:/home/ngoc/Workspace/Graduation_Project/install/dashgo_description:/home/ngoc/Workspace/Graduation_Project/install/teleop_twist_keyboard:/opt/ros/humble PATH=/home/ngoc/Workspace/Graduation_Project/install/cartographer/bin:/home/ngoc/Workspace/Graduation_Project/install/ydlidar_sdk/bin:/home/ngoc/.local/bin:/opt/ros/humble/bin:/home/ngoc/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin /usr/bin/cmake /home/ngoc/Workspace/Graduation_Project/src/dashgo_nav -DCMAKE_INSTALL_PREFIX=/home/ngoc/Workspace/Graduation_Project/install/dashgo_nav
+[0.114s] -- The C compiler identification is GNU 11.4.0
+[0.178s] -- The CXX compiler identification is GNU 11.4.0
+[0.186s] -- Detecting C compiler ABI info
+[0.263s] -- Detecting C compiler ABI info - done
+[0.277s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.277s] -- Detecting C compile features
+[0.277s] -- Detecting C compile features - done
+[0.281s] -- Detecting CXX compiler ABI info
+[0.373s] -- Detecting CXX compiler ABI info - done
+[0.382s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.382s] -- Detecting CXX compile features
+[0.383s] -- Detecting CXX compile features - done
+[0.387s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.552s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.676s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.778s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.780s] -- Added test 'lint_cmake' to check CMake code style
+[0.781s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.785s] -- Added test 'xmllint' to check XML markup files
+[0.787s] -- Configuring done
+[0.790s] -- Generating done
+[0.791s] -- Build files have been written to: /home/ngoc/Workspace/Graduation_Project/build/dashgo_nav
+[0.797s] Invoked command in '/home/ngoc/Workspace/Graduation_Project/build/dashgo_nav' returned '0': CMAKE_PREFIX_PATH=/home/ngoc/Workspace/Graduation_Project/install/cartographer:/home/ngoc/Workspace/Graduation_Project/install/ydlidar_sdk:/home/ngoc/Workspace/Graduation_Project/install/ydlidar_ros2_driver:/home/ngoc/Workspace/Graduation_Project/install/rviz2_dashgo:/home/ngoc/Workspace/Graduation_Project/install/rplidar_ros:/home/ngoc/Workspace/Graduation_Project/install/kobuki_velocity_smoother:/home/ngoc/Workspace/Graduation_Project/install/dashgo_nav:/home/ngoc/Workspace/Graduation_Project/install/dashgo_gazebo:/home/ngoc/Workspace/Graduation_Project/install/dashgo_driver_ros2:/home/ngoc/Workspace/Graduation_Project/install/dashgo_description:/home/ngoc/Workspace/Graduation_Project/install/teleop_twist_keyboard:/opt/ros/humble PATH=/home/ngoc/Workspace/Graduation_Project/install/cartographer/bin:/home/ngoc/Workspace/Graduation_Project/install/ydlidar_sdk/bin:/home/ngoc/.local/bin:/opt/ros/humble/bin:/home/ngoc/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin /usr/bin/cmake /home/ngoc/Workspace/Graduation_Project/src/dashgo_nav -DCMAKE_INSTALL_PREFIX=/home/ngoc/Workspace/Graduation_Project/install/dashgo_nav
+[0.799s] Invoking command in '/home/ngoc/Workspace/Graduation_Project/build/dashgo_nav': CMAKE_PREFIX_PATH=/home/ngoc/Workspace/Graduation_Project/install/cartographer:/home/ngoc/Workspace/Graduation_Project/install/ydlidar_sdk:/home/ngoc/Workspace/Graduation_Project/install/ydlidar_ros2_driver:/home/ngoc/Workspace/Graduation_Project/install/rviz2_dashgo:/home/ngoc/Workspace/Graduation_Project/install/rplidar_ros:/home/ngoc/Workspace/Graduation_Project/install/kobuki_velocity_smoother:/home/ngoc/Workspace/Graduation_Project/install/dashgo_nav:/home/ngoc/Workspace/Graduation_Project/install/dashgo_gazebo:/home/ngoc/Workspace/Graduation_Project/install/dashgo_driver_ros2:/home/ngoc/Workspace/Graduation_Project/install/dashgo_description:/home/ngoc/Workspace/Graduation_Project/install/teleop_twist_keyboard:/opt/ros/humble PATH=/home/ngoc/Workspace/Graduation_Project/install/cartographer/bin:/home/ngoc/Workspace/Graduation_Project/install/ydlidar_sdk/bin:/home/ngoc/.local/bin:/opt/ros/humble/bin:/home/ngoc/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin /usr/bin/cmake --build /home/ngoc/Workspace/Graduation_Project/build/dashgo_nav -- -j8 -l8
+[0.841s] Invoked command in '/home/ngoc/Workspace/Graduation_Project/build/dashgo_nav' returned '0': CMAKE_PREFIX_PATH=/home/ngoc/Workspace/Graduation_Project/install/cartographer:/home/ngoc/Workspace/Graduation_Project/install/ydlidar_sdk:/home/ngoc/Workspace/Graduation_Project/install/ydlidar_ros2_driver:/home/ngoc/Workspace/Graduation_Project/install/rviz2_dashgo:/home/ngoc/Workspace/Graduation_Project/install/rplidar_ros:/home/ngoc/Workspace/Graduation_Project/install/kobuki_velocity_smoother:/home/ngoc/Workspace/Graduation_Project/install/dashgo_nav:/home/ngoc/Workspace/Graduation_Project/install/dashgo_gazebo:/home/ngoc/Workspace/Graduation_Project/install/dashgo_driver_ros2:/home/ngoc/Workspace/Graduation_Project/install/dashgo_description:/home/ngoc/Workspace/Graduation_Project/install/teleop_twist_keyboard:/opt/ros/humble PATH=/home/ngoc/Workspace/Graduation_Project/install/cartographer/bin:/home/ngoc/Workspace/Graduation_Project/install/ydlidar_sdk/bin:/home/ngoc/.local/bin:/opt/ros/humble/bin:/home/ngoc/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin /usr/bin/cmake --build /home/ngoc/Workspace/Graduation_Project/build/dashgo_nav -- -j8 -l8
+[0.869s] Invoking command in '/home/ngoc/Workspace/Graduation_Project/build/dashgo_nav': CMAKE_PREFIX_PATH=/home/ngoc/Workspace/Graduation_Project/install/cartographer:/home/ngoc/Workspace/Graduation_Project/install/ydlidar_sdk:/home/ngoc/Workspace/Graduation_Project/install/ydlidar_ros2_driver:/home/ngoc/Workspace/Graduation_Project/install/rviz2_dashgo:/home/ngoc/Workspace/Graduation_Project/install/rplidar_ros:/home/ngoc/Workspace/Graduation_Project/install/kobuki_velocity_smoother:/home/ngoc/Workspace/Graduation_Project/install/dashgo_nav:/home/ngoc/Workspace/Graduation_Project/install/dashgo_gazebo:/home/ngoc/Workspace/Graduation_Project/install/dashgo_driver_ros2:/home/ngoc/Workspace/Graduation_Project/install/dashgo_description:/home/ngoc/Workspace/Graduation_Project/install/teleop_twist_keyboard:/opt/ros/humble PATH=/home/ngoc/Workspace/Graduation_Project/install/cartographer/bin:/home/ngoc/Workspace/Graduation_Project/install/ydlidar_sdk/bin:/home/ngoc/.local/bin:/opt/ros/humble/bin:/home/ngoc/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin /usr/bin/cmake --install /home/ngoc/Workspace/Graduation_Project/build/dashgo_nav
+[0.877s] -- Install configuration: ""
+[0.878s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/dashgo_nav/share/dashgo_nav/config
+[0.878s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/dashgo_nav/share/dashgo_nav/config/imu
+[0.878s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/dashgo_nav/share/dashgo_nav/config/imu/costmap_common_params.yaml
+[0.878s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/dashgo_nav/share/dashgo_nav/config/imu/local_costmap_params.yaml
+[0.878s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/dashgo_nav/share/dashgo_nav/config/imu/costmap_exploration.yaml
+[0.879s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/dashgo_nav/share/dashgo_nav/config/imu/global_costmap_params.yaml
+[0.879s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/dashgo_nav/share/dashgo_nav/config/imu/costmap_conversion_params.yaml
+[0.879s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/dashgo_nav/share/dashgo_nav/config/imu/teb_local_planner_params.yaml
+[0.880s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/dashgo_nav/share/dashgo_nav/config/imu/dwa_local_planner_params.yaml
+[0.880s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/dashgo_nav/share/dashgo_nav/config/imu/move_base_params.yaml
+[0.880s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/dashgo_nav/share/dashgo_nav/config/imu/base_global_planner_param.yaml
+[0.881s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/dashgo_nav/share/dashgo_nav/config/imu/base_local_planner_params.yaml
+[0.881s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/dashgo_nav/share/dashgo_nav/config/odom
+[0.881s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/dashgo_nav/share/dashgo_nav/config/odom/costmap_common_params.yaml
+[0.881s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/dashgo_nav/share/dashgo_nav/config/odom/local_costmap_params.yaml
+[0.882s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/dashgo_nav/share/dashgo_nav/config/odom/costmap_exploration.yaml
+[0.882s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/dashgo_nav/share/dashgo_nav/config/odom/costmap_common_params.yaml.save
+[0.882s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/dashgo_nav/share/dashgo_nav/config/odom/global_costmap_params.yaml
+[0.883s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/dashgo_nav/share/dashgo_nav/config/odom/costmap_conversion_params.yaml
+[0.883s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/dashgo_nav/share/dashgo_nav/config/odom/teb_local_planner_params.yaml
+[0.883s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/dashgo_nav/share/dashgo_nav/config/odom/move_base_params.yaml
+[0.884s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/dashgo_nav/share/dashgo_nav/config/odom/base_global_planner_param.yaml
+[0.884s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/dashgo_nav/share/dashgo_nav/config/odom/base_local_planner_params.yaml
+[0.884s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/dashgo_nav/share/dashgo_nav/config/nav_obstacles_params.yaml
+[0.885s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/dashgo_nav/share/dashgo_nav/config/dashgo_cartographer.lua
+[0.885s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/dashgo_nav/share/dashgo_nav/config/nav_test_params.yaml
+[0.885s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/dashgo_nav/share/dashgo_nav/launch
+[0.885s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/dashgo_nav/share/dashgo_nav/launch/navigation.launch
+[0.886s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/dashgo_nav/share/dashgo_nav/launch/include
+[0.886s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/dashgo_nav/share/dashgo_nav/launch/include/imu
+[0.886s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/dashgo_nav/share/dashgo_nav/launch/include/imu/move_base.launch
+[0.886s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/dashgo_nav/share/dashgo_nav/launch/include/imu/org_amcl.launch.xml
+[0.887s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/dashgo_nav/share/dashgo_nav/launch/include/imu/gmapping_base.launch
+[0.887s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/dashgo_nav/share/dashgo_nav/launch/include/imu/amcl.launch.xml
+[0.887s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/dashgo_nav/share/dashgo_nav/launch/include/imu/teb_move_base.launch
+[0.888s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/dashgo_nav/share/dashgo_nav/launch/include/odom
+[0.888s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/dashgo_nav/share/dashgo_nav/launch/include/odom/move_base.launch
+[0.888s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/dashgo_nav/share/dashgo_nav/launch/include/odom/gmapping_base.launch
+[0.888s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/dashgo_nav/share/dashgo_nav/launch/include/odom/cartographer_base.launch.py
+[0.889s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/dashgo_nav/share/dashgo_nav/launch/include/odom/amcl.launch.xml
+[0.889s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/dashgo_nav/share/dashgo_nav/launch/include/odom/teb_move_base.launch
+[0.889s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/dashgo_nav/share/dashgo_nav/launch/gmapping.launch.save
+[0.890s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/dashgo_nav/share/dashgo_nav/launch/.navigation_imu.launch.swp
+[0.890s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/dashgo_nav/share/dashgo_nav/launch/cartographer_noSonar.launch.py
+[0.890s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/dashgo_nav/share/dashgo_nav/launch/navigation.launch~
+[0.890s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/dashgo_nav/share/dashgo_nav/launch/gmapping_noSonar.launch
+[0.891s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/dashgo_nav/share/dashgo_nav/launch/gmapping.launch
+[0.891s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/dashgo_nav/share/dashgo_nav/launch/navigation_noSonar.launch
+[0.891s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/dashgo_nav/share/ament_index/resource_index/package_run_dependencies/dashgo_nav
+[0.892s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/dashgo_nav/share/ament_index/resource_index/parent_prefix_path/dashgo_nav
+[0.892s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/dashgo_nav/share/dashgo_nav/environment/ament_prefix_path.sh
+[0.892s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/dashgo_nav/share/dashgo_nav/environment/ament_prefix_path.dsv
+[0.892s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/dashgo_nav/share/dashgo_nav/environment/path.sh
+[0.892s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/dashgo_nav/share/dashgo_nav/environment/path.dsv
+[0.893s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/dashgo_nav/share/dashgo_nav/local_setup.bash
+[0.893s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/dashgo_nav/share/dashgo_nav/local_setup.sh
+[0.893s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/dashgo_nav/share/dashgo_nav/local_setup.zsh
+[0.893s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/dashgo_nav/share/dashgo_nav/local_setup.dsv
+[0.893s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/dashgo_nav/share/dashgo_nav/package.dsv
+[0.894s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/dashgo_nav/share/ament_index/resource_index/packages/dashgo_nav
+[0.894s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/dashgo_nav/share/dashgo_nav/cmake/dashgo_navConfig.cmake
+[0.894s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/dashgo_nav/share/dashgo_nav/cmake/dashgo_navConfig-version.cmake
+[0.894s] -- Installing: /home/ngoc/Workspace/Graduation_Project/install/dashgo_nav/share/dashgo_nav/package.xml
+[0.897s] Invoked command in '/home/ngoc/Workspace/Graduation_Project/build/dashgo_nav' returned '0': CMAKE_PREFIX_PATH=/home/ngoc/Workspace/Graduation_Project/install/cartographer:/home/ngoc/Workspace/Graduation_Project/install/ydlidar_sdk:/home/ngoc/Workspace/Graduation_Project/install/ydlidar_ros2_driver:/home/ngoc/Workspace/Graduation_Project/install/rviz2_dashgo:/home/ngoc/Workspace/Graduation_Project/install/rplidar_ros:/home/ngoc/Workspace/Graduation_Project/install/kobuki_velocity_smoother:/home/ngoc/Workspace/Graduation_Project/install/dashgo_nav:/home/ngoc/Workspace/Graduation_Project/install/dashgo_gazebo:/home/ngoc/Workspace/Graduation_Project/install/dashgo_driver_ros2:/home/ngoc/Workspace/Graduation_Project/install/dashgo_description:/home/ngoc/Workspace/Graduation_Project/install/teleop_twist_keyboard:/opt/ros/humble PATH=/home/ngoc/Workspace/Graduation_Project/install/cartographer/bin:/home/ngoc/Workspace/Graduation_Project/install/ydlidar_sdk/bin:/home/ngoc/.local/bin:/opt/ros/humble/bin:/home/ngoc/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin /usr/bin/cmake --install /home/ngoc/Workspace/Graduation_Project/build/dashgo_nav

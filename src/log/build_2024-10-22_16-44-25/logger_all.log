@@ -1,0 +1,596 @@
+[0.130s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.130s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7b1ab52225c0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7b1ab532e1d0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7b1ab532e1d0>>, mixin_verb=('build',))
+[0.336s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.336s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.336s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.336s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.336s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.336s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.336s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ngoc/Workspace/Graduation_Project/src'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(YDLidar-SDK) by extensions ['ignore', 'ignore_ament_install']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(YDLidar-SDK) by extension 'ignore'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(YDLidar-SDK) by extension 'ignore_ament_install'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(YDLidar-SDK) by extensions ['colcon_pkg']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(YDLidar-SDK) by extension 'colcon_pkg'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(YDLidar-SDK) by extensions ['colcon_meta']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(YDLidar-SDK) by extension 'colcon_meta'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(YDLidar-SDK) by extensions ['ros']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(YDLidar-SDK) by extension 'ros'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(YDLidar-SDK) by extensions ['cmake', 'python']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(YDLidar-SDK) by extension 'cmake'
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(YDLidar-SDK) by extension 'python'
+[0.375s] DEBUG:colcon.colcon_core.package_identification:Package 'YDLidar-SDK' with type 'cmake' and name 'ydlidar_sdk'
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(cartographer) by extensions ['ignore', 'ignore_ament_install']
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(cartographer) by extension 'ignore'
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(cartographer) by extension 'ignore_ament_install'
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(cartographer) by extensions ['colcon_pkg']
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(cartographer) by extension 'colcon_pkg'
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(cartographer) by extensions ['colcon_meta']
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(cartographer) by extension 'colcon_meta'
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(cartographer) by extensions ['ros']
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(cartographer) by extension 'ros'
+[0.379s] DEBUG:colcon.colcon_core.package_identification:Package 'cartographer' with type 'ros.cmake' and name 'cartographer'
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(dashgo_driver_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(dashgo_driver_ros2) by extension 'ignore'
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(dashgo_driver_ros2) by extension 'ignore_ament_install'
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(dashgo_driver_ros2) by extensions ['colcon_pkg']
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(dashgo_driver_ros2) by extension 'colcon_pkg'
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(dashgo_driver_ros2) by extensions ['colcon_meta']
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(dashgo_driver_ros2) by extension 'colcon_meta'
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(dashgo_driver_ros2) by extensions ['ros']
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(dashgo_driver_ros2) by extension 'ros'
+[0.381s] DEBUG:colcon.colcon_core.package_identification:Package 'dashgo_driver_ros2' with type 'ros.ament_cmake' and name 'dashgo_driver_ros2'
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(kobuki_velocity_smoother) by extensions ['ignore', 'ignore_ament_install']
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(kobuki_velocity_smoother) by extension 'ignore'
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(kobuki_velocity_smoother) by extension 'ignore_ament_install'
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(kobuki_velocity_smoother) by extensions ['colcon_pkg']
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(kobuki_velocity_smoother) by extension 'colcon_pkg'
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(kobuki_velocity_smoother) by extensions ['colcon_meta']
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(kobuki_velocity_smoother) by extension 'colcon_meta'
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(kobuki_velocity_smoother) by extensions ['ros']
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(kobuki_velocity_smoother) by extension 'ros'
+[0.383s] DEBUG:colcon.colcon_core.package_identification:Package 'kobuki_velocity_smoother' with type 'ros.ament_cmake' and name 'kobuki_velocity_smoother'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(rplidar_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(rplidar_ros) by extension 'ignore'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(rplidar_ros) by extension 'ignore_ament_install'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(rplidar_ros) by extensions ['colcon_pkg']
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(rplidar_ros) by extension 'colcon_pkg'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(rplidar_ros) by extensions ['colcon_meta']
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(rplidar_ros) by extension 'colcon_meta'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(rplidar_ros) by extensions ['ros']
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(rplidar_ros) by extension 'ros'
+[0.385s] DEBUG:colcon.colcon_core.package_identification:Package 'rplidar_ros' with type 'ros.ament_cmake' and name 'rplidar_ros'
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(rviz2_dashgo) by extensions ['ignore', 'ignore_ament_install']
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(rviz2_dashgo) by extension 'ignore'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(rviz2_dashgo) by extension 'ignore_ament_install'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(rviz2_dashgo) by extensions ['colcon_pkg']
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(rviz2_dashgo) by extension 'colcon_pkg'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(rviz2_dashgo) by extensions ['colcon_meta']
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(rviz2_dashgo) by extension 'colcon_meta'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(rviz2_dashgo) by extensions ['ros']
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(rviz2_dashgo) by extension 'ros'
+[0.387s] DEBUG:colcon.colcon_core.package_identification:Package 'rviz2_dashgo' with type 'ros.ament_cmake' and name 'rviz2_dashgo'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(teleop_twist_keyboard) by extensions ['ignore', 'ignore_ament_install']
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(teleop_twist_keyboard) by extension 'ignore'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(teleop_twist_keyboard) by extension 'ignore_ament_install'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(teleop_twist_keyboard) by extensions ['colcon_pkg']
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(teleop_twist_keyboard) by extension 'colcon_pkg'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(teleop_twist_keyboard) by extensions ['colcon_meta']
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(teleop_twist_keyboard) by extension 'colcon_meta'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(teleop_twist_keyboard) by extensions ['ros']
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(teleop_twist_keyboard) by extension 'ros'
+[0.388s] DEBUG:colcon.colcon_core.package_identification:Package 'teleop_twist_keyboard' with type 'ros.ament_python' and name 'teleop_twist_keyboard'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_ws) by extensions ['ignore', 'ignore_ament_install']
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_ws) by extension 'ignore'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_ws) by extension 'ignore_ament_install'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_ws) by extensions ['colcon_pkg']
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_ws) by extension 'colcon_pkg'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_ws) by extensions ['colcon_meta']
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_ws) by extension 'colcon_meta'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_ws) by extensions ['ros']
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_ws) by extension 'ros'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_ws) by extensions ['cmake', 'python']
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_ws) by extension 'cmake'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_ws) by extension 'python'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_ws) by extensions ['python_setup_py']
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_ws) by extension 'python_setup_py'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_ws/src) by extension 'ignore'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_ws/src) by extension 'ignore_ament_install'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_ws/src) by extensions ['colcon_pkg']
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_ws/src) by extension 'colcon_pkg'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_ws/src) by extensions ['colcon_meta']
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_ws/src) by extension 'colcon_meta'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_ws/src) by extensions ['ros']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_ws/src) by extension 'ros'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_ws/src) by extensions ['cmake', 'python']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_ws/src) by extension 'cmake'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_ws/src) by extension 'python'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_ws/src) by extensions ['python_setup_py']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_ws/src) by extension 'python_setup_py'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_ws/src/ydlidar_ros2_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_ws/src/ydlidar_ros2_driver) by extension 'ignore'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_ws/src/ydlidar_ros2_driver) by extension 'ignore_ament_install'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_ws/src/ydlidar_ros2_driver) by extensions ['colcon_pkg']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_ws/src/ydlidar_ros2_driver) by extension 'colcon_pkg'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_ws/src/ydlidar_ros2_driver) by extensions ['colcon_meta']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_ws/src/ydlidar_ros2_driver) by extension 'colcon_meta'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_ws/src/ydlidar_ros2_driver) by extensions ['ros']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_ws/src/ydlidar_ros2_driver) by extension 'ros'
+[0.391s] DEBUG:colcon.colcon_core.package_identification:Package 'ydlidar_ros2_ws/src/ydlidar_ros2_driver' with type 'ros.ament_cmake' and name 'ydlidar_ros2_driver'
+[0.391s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.391s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.391s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.391s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.391s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.424s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.424s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.427s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 10 installed packages in /home/ngoc/Workspace/Graduation_Project/src/install
+[0.428s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/ngoc/Workspace/Graduation_Project/install
+[0.430s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 325 installed packages in /opt/ros/humble
+[0.432s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.487s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'teleop_twist_keyboard' is in: /home/ngoc/Workspace/Graduation_Project/src/install/teleop_twist_keyboard, /home/ngoc/Workspace/Graduation_Project/install/teleop_twist_keyboard, /opt/ros/humble
+	'cartographer' is in: /home/ngoc/Workspace/Graduation_Project/src/install/cartographer
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding cartographer teleop_twist_keyboard
+
+This may be promoted to an error in a future release of colcon-override-check.
+[0.488s] Level 5:colcon.colcon_core.verb:set package 'cartographer' build argument 'cmake_args' from command line to 'None'
+[0.488s] Level 5:colcon.colcon_core.verb:set package 'cartographer' build argument 'cmake_target' from command line to 'None'
+[0.488s] Level 5:colcon.colcon_core.verb:set package 'cartographer' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.488s] Level 5:colcon.colcon_core.verb:set package 'cartographer' build argument 'cmake_clean_cache' from command line to 'False'
+[0.488s] Level 5:colcon.colcon_core.verb:set package 'cartographer' build argument 'cmake_clean_first' from command line to 'False'
+[0.488s] Level 5:colcon.colcon_core.verb:set package 'cartographer' build argument 'cmake_force_configure' from command line to 'False'
+[0.488s] Level 5:colcon.colcon_core.verb:set package 'cartographer' build argument 'ament_cmake_args' from command line to 'None'
+[0.488s] Level 5:colcon.colcon_core.verb:set package 'cartographer' build argument 'catkin_cmake_args' from command line to 'None'
+[0.488s] Level 5:colcon.colcon_core.verb:set package 'cartographer' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.488s] DEBUG:colcon.colcon_core.verb:Building package 'cartographer' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ngoc/Workspace/Graduation_Project/src/build/cartographer', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ngoc/Workspace/Graduation_Project/src/install/cartographer', 'merge_install': False, 'path': '/home/ngoc/Workspace/Graduation_Project/src/cartographer', 'symlink_install': False, 'test_result_base': None}
+[0.489s] Level 5:colcon.colcon_core.verb:set package 'dashgo_driver_ros2' build argument 'cmake_args' from command line to 'None'
+[0.489s] Level 5:colcon.colcon_core.verb:set package 'dashgo_driver_ros2' build argument 'cmake_target' from command line to 'None'
+[0.489s] Level 5:colcon.colcon_core.verb:set package 'dashgo_driver_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.489s] Level 5:colcon.colcon_core.verb:set package 'dashgo_driver_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.489s] Level 5:colcon.colcon_core.verb:set package 'dashgo_driver_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[0.489s] Level 5:colcon.colcon_core.verb:set package 'dashgo_driver_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[0.489s] Level 5:colcon.colcon_core.verb:set package 'dashgo_driver_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[0.489s] Level 5:colcon.colcon_core.verb:set package 'dashgo_driver_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.489s] Level 5:colcon.colcon_core.verb:set package 'dashgo_driver_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.489s] DEBUG:colcon.colcon_core.verb:Building package 'dashgo_driver_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ngoc/Workspace/Graduation_Project/src/build/dashgo_driver_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ngoc/Workspace/Graduation_Project/src/install/dashgo_driver_ros2', 'merge_install': False, 'path': '/home/ngoc/Workspace/Graduation_Project/src/dashgo_driver_ros2', 'symlink_install': False, 'test_result_base': None}
+[0.490s] Level 5:colcon.colcon_core.verb:set package 'kobuki_velocity_smoother' build argument 'cmake_args' from command line to 'None'
+[0.490s] Level 5:colcon.colcon_core.verb:set package 'kobuki_velocity_smoother' build argument 'cmake_target' from command line to 'None'
+[0.490s] Level 5:colcon.colcon_core.verb:set package 'kobuki_velocity_smoother' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.490s] Level 5:colcon.colcon_core.verb:set package 'kobuki_velocity_smoother' build argument 'cmake_clean_cache' from command line to 'False'
+[0.490s] Level 5:colcon.colcon_core.verb:set package 'kobuki_velocity_smoother' build argument 'cmake_clean_first' from command line to 'False'
+[0.490s] Level 5:colcon.colcon_core.verb:set package 'kobuki_velocity_smoother' build argument 'cmake_force_configure' from command line to 'False'
+[0.490s] Level 5:colcon.colcon_core.verb:set package 'kobuki_velocity_smoother' build argument 'ament_cmake_args' from command line to 'None'
+[0.490s] Level 5:colcon.colcon_core.verb:set package 'kobuki_velocity_smoother' build argument 'catkin_cmake_args' from command line to 'None'
+[0.490s] Level 5:colcon.colcon_core.verb:set package 'kobuki_velocity_smoother' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.490s] DEBUG:colcon.colcon_core.verb:Building package 'kobuki_velocity_smoother' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ngoc/Workspace/Graduation_Project/src/build/kobuki_velocity_smoother', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ngoc/Workspace/Graduation_Project/src/install/kobuki_velocity_smoother', 'merge_install': False, 'path': '/home/ngoc/Workspace/Graduation_Project/src/kobuki_velocity_smoother', 'symlink_install': False, 'test_result_base': None}
+[0.490s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_args' from command line to 'None'
+[0.490s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_target' from command line to 'None'
+[0.490s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.490s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[0.490s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_clean_first' from command line to 'False'
+[0.491s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_force_configure' from command line to 'False'
+[0.491s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'ament_cmake_args' from command line to 'None'
+[0.491s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[0.491s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.491s] DEBUG:colcon.colcon_core.verb:Building package 'rplidar_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ngoc/Workspace/Graduation_Project/src/build/rplidar_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ngoc/Workspace/Graduation_Project/src/install/rplidar_ros', 'merge_install': False, 'path': '/home/ngoc/Workspace/Graduation_Project/src/rplidar_ros', 'symlink_install': False, 'test_result_base': None}
+[0.491s] Level 5:colcon.colcon_core.verb:set package 'rviz2_dashgo' build argument 'cmake_args' from command line to 'None'
+[0.491s] Level 5:colcon.colcon_core.verb:set package 'rviz2_dashgo' build argument 'cmake_target' from command line to 'None'
+[0.491s] Level 5:colcon.colcon_core.verb:set package 'rviz2_dashgo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.492s] Level 5:colcon.colcon_core.verb:set package 'rviz2_dashgo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.492s] Level 5:colcon.colcon_core.verb:set package 'rviz2_dashgo' build argument 'cmake_clean_first' from command line to 'False'
+[0.492s] Level 5:colcon.colcon_core.verb:set package 'rviz2_dashgo' build argument 'cmake_force_configure' from command line to 'False'
+[0.492s] Level 5:colcon.colcon_core.verb:set package 'rviz2_dashgo' build argument 'ament_cmake_args' from command line to 'None'
+[0.492s] Level 5:colcon.colcon_core.verb:set package 'rviz2_dashgo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.492s] Level 5:colcon.colcon_core.verb:set package 'rviz2_dashgo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.492s] DEBUG:colcon.colcon_core.verb:Building package 'rviz2_dashgo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ngoc/Workspace/Graduation_Project/src/build/rviz2_dashgo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ngoc/Workspace/Graduation_Project/src/install/rviz2_dashgo', 'merge_install': False, 'path': '/home/ngoc/Workspace/Graduation_Project/src/rviz2_dashgo', 'symlink_install': False, 'test_result_base': None}
+[0.493s] Level 5:colcon.colcon_core.verb:set package 'teleop_twist_keyboard' build argument 'cmake_args' from command line to 'None'
+[0.493s] Level 5:colcon.colcon_core.verb:set package 'teleop_twist_keyboard' build argument 'cmake_target' from command line to 'None'
+[0.493s] Level 5:colcon.colcon_core.verb:set package 'teleop_twist_keyboard' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.493s] Level 5:colcon.colcon_core.verb:set package 'teleop_twist_keyboard' build argument 'cmake_clean_cache' from command line to 'False'
+[0.493s] Level 5:colcon.colcon_core.verb:set package 'teleop_twist_keyboard' build argument 'cmake_clean_first' from command line to 'False'
+[0.493s] Level 5:colcon.colcon_core.verb:set package 'teleop_twist_keyboard' build argument 'cmake_force_configure' from command line to 'False'
+[0.493s] Level 5:colcon.colcon_core.verb:set package 'teleop_twist_keyboard' build argument 'ament_cmake_args' from command line to 'None'
+[0.493s] Level 5:colcon.colcon_core.verb:set package 'teleop_twist_keyboard' build argument 'catkin_cmake_args' from command line to 'None'
+[0.493s] Level 5:colcon.colcon_core.verb:set package 'teleop_twist_keyboard' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.493s] DEBUG:colcon.colcon_core.verb:Building package 'teleop_twist_keyboard' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ngoc/Workspace/Graduation_Project/src/build/teleop_twist_keyboard', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ngoc/Workspace/Graduation_Project/src/install/teleop_twist_keyboard', 'merge_install': False, 'path': '/home/ngoc/Workspace/Graduation_Project/src/teleop_twist_keyboard', 'symlink_install': False, 'test_result_base': None}
+[0.494s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_args' from command line to 'None'
+[0.494s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_target' from command line to 'None'
+[0.494s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.494s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[0.494s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_clean_first' from command line to 'False'
+[0.494s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_force_configure' from command line to 'False'
+[0.494s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'ament_cmake_args' from command line to 'None'
+[0.494s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[0.494s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.494s] DEBUG:colcon.colcon_core.verb:Building package 'ydlidar_ros2_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ngoc/Workspace/Graduation_Project/src/build/ydlidar_ros2_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ngoc/Workspace/Graduation_Project/src/install/ydlidar_ros2_driver', 'merge_install': False, 'path': '/home/ngoc/Workspace/Graduation_Project/src/ydlidar_ros2_ws/src/ydlidar_ros2_driver', 'symlink_install': False, 'test_result_base': None}
+[0.495s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_sdk' build argument 'cmake_args' from command line to 'None'
+[0.495s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_sdk' build argument 'cmake_target' from command line to 'None'
+[0.495s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_sdk' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.495s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_sdk' build argument 'cmake_clean_cache' from command line to 'False'
+[0.495s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_sdk' build argument 'cmake_clean_first' from command line to 'False'
+[0.495s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_sdk' build argument 'cmake_force_configure' from command line to 'False'
+[0.495s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_sdk' build argument 'ament_cmake_args' from command line to 'None'
+[0.495s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_sdk' build argument 'catkin_cmake_args' from command line to 'None'
+[0.495s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_sdk' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.495s] DEBUG:colcon.colcon_core.verb:Building package 'ydlidar_sdk' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ngoc/Workspace/Graduation_Project/src/build/ydlidar_sdk', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ngoc/Workspace/Graduation_Project/src/install/ydlidar_sdk', 'merge_install': False, 'path': '/home/ngoc/Workspace/Graduation_Project/src/YDLidar-SDK', 'symlink_install': False, 'test_result_base': None}
+[0.495s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.497s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.497s] INFO:colcon.colcon_ros.task.cmake.build:Building ROS package in '/home/ngoc/Workspace/Graduation_Project/src/cartographer' with build type 'cmake'
+[0.497s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ngoc/Workspace/Graduation_Project/src/cartographer'
+[0.500s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.500s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.500s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.505s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ngoc/Workspace/Graduation_Project/src/dashgo_driver_ros2' with build type 'ament_cmake'
+[0.506s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ngoc/Workspace/Graduation_Project/src/dashgo_driver_ros2'
+[0.506s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.506s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.511s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ngoc/Workspace/Graduation_Project/src/kobuki_velocity_smoother' with build type 'ament_cmake'
+[0.512s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ngoc/Workspace/Graduation_Project/src/kobuki_velocity_smoother'
+[0.512s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.512s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.517s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ngoc/Workspace/Graduation_Project/src/rplidar_ros' with build type 'ament_cmake'
+[0.518s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ngoc/Workspace/Graduation_Project/src/rplidar_ros'
+[0.518s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.518s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.523s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ngoc/Workspace/Graduation_Project/src/rviz2_dashgo' with build type 'ament_cmake'
+[0.524s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ngoc/Workspace/Graduation_Project/src/rviz2_dashgo'
+[0.524s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.524s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.529s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ngoc/Workspace/Graduation_Project/src/teleop_twist_keyboard' with build type 'ament_python'
+[0.530s] Level 1:colcon.colcon_core.shell:create_environment_hook('teleop_twist_keyboard', 'ament_prefix_path')
+[0.530s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngoc/Workspace/Graduation_Project/src/install/teleop_twist_keyboard/share/teleop_twist_keyboard/hook/ament_prefix_path.ps1'
+[0.531s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ngoc/Workspace/Graduation_Project/src/install/teleop_twist_keyboard/share/teleop_twist_keyboard/hook/ament_prefix_path.dsv'
+[0.532s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngoc/Workspace/Graduation_Project/src/install/teleop_twist_keyboard/share/teleop_twist_keyboard/hook/ament_prefix_path.sh'
+[0.532s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.532s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.537s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ngoc/Workspace/Graduation_Project/src/ydlidar_ros2_ws/src/ydlidar_ros2_driver' with build type 'ament_cmake'
+[0.538s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ngoc/Workspace/Graduation_Project/src/ydlidar_ros2_ws/src/ydlidar_ros2_driver'
+[0.538s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.538s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.543s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ngoc/Workspace/Graduation_Project/src/YDLidar-SDK'
+[0.544s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.544s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.556s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ngoc/Workspace/Graduation_Project/src/build/cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngoc/Workspace/Graduation_Project/src/install/teleop_twist_keyboard:/home/ngoc/Workspace/Graduation_Project/install/teleop_twist_keyboard:/opt/ros/humble /usr/bin/cmake --build /home/ngoc/Workspace/Graduation_Project/src/build/cartographer -- -j8 -l8
+[0.563s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ngoc/Workspace/Graduation_Project/src/build/dashgo_driver_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngoc/Workspace/Graduation_Project/src/install/teleop_twist_keyboard:/home/ngoc/Workspace/Graduation_Project/install/teleop_twist_keyboard:/opt/ros/humble /usr/bin/cmake --build /home/ngoc/Workspace/Graduation_Project/src/build/dashgo_driver_ros2 -- -j8 -l8
+[0.568s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ngoc/Workspace/Graduation_Project/src/build/kobuki_velocity_smoother': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngoc/Workspace/Graduation_Project/src/install/teleop_twist_keyboard:/home/ngoc/Workspace/Graduation_Project/install/teleop_twist_keyboard:/opt/ros/humble /usr/bin/cmake --build /home/ngoc/Workspace/Graduation_Project/src/build/kobuki_velocity_smoother -- -j8 -l8
+[0.573s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ngoc/Workspace/Graduation_Project/src/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngoc/Workspace/Graduation_Project/src/install/teleop_twist_keyboard:/home/ngoc/Workspace/Graduation_Project/install/teleop_twist_keyboard:/opt/ros/humble /usr/bin/cmake --build /home/ngoc/Workspace/Graduation_Project/src/build/rplidar_ros -- -j8 -l8
+[0.574s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ngoc/Workspace/Graduation_Project/src/build/rviz2_dashgo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngoc/Workspace/Graduation_Project/src/install/teleop_twist_keyboard:/home/ngoc/Workspace/Graduation_Project/install/teleop_twist_keyboard:/opt/ros/humble /usr/bin/cmake --build /home/ngoc/Workspace/Graduation_Project/src/build/rviz2_dashgo -- -j8 -l8
+[0.948s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ngoc/Workspace/Graduation_Project/src/teleop_twist_keyboard'
+[0.948s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.948s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.959s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ngoc/Workspace/Graduation_Project/src/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngoc/Workspace/Graduation_Project/src/install/teleop_twist_keyboard:/home/ngoc/Workspace/Graduation_Project/install/teleop_twist_keyboard:/opt/ros/humble /usr/bin/cmake --build /home/ngoc/Workspace/Graduation_Project/src/build/ydlidar_ros2_driver -- -j8 -l8
+[0.970s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ngoc/Workspace/Graduation_Project/src/build/ydlidar_sdk': /usr/bin/cmake --build /home/ngoc/Workspace/Graduation_Project/src/build/ydlidar_sdk -- -j8 -l8
+[0.971s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ngoc/Workspace/Graduation_Project/src/build/dashgo_driver_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngoc/Workspace/Graduation_Project/src/install/teleop_twist_keyboard:/home/ngoc/Workspace/Graduation_Project/install/teleop_twist_keyboard:/opt/ros/humble /usr/bin/cmake --build /home/ngoc/Workspace/Graduation_Project/src/build/dashgo_driver_ros2 -- -j8 -l8
+[0.971s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ngoc/Workspace/Graduation_Project/src/build/rviz2_dashgo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngoc/Workspace/Graduation_Project/src/install/teleop_twist_keyboard:/home/ngoc/Workspace/Graduation_Project/install/teleop_twist_keyboard:/opt/ros/humble /usr/bin/cmake --build /home/ngoc/Workspace/Graduation_Project/src/build/rviz2_dashgo -- -j8 -l8
+[0.973s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ngoc/Workspace/Graduation_Project/src/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngoc/Workspace/Graduation_Project/src/install/teleop_twist_keyboard:/home/ngoc/Workspace/Graduation_Project/install/teleop_twist_keyboard:/opt/ros/humble /usr/bin/cmake --build /home/ngoc/Workspace/Graduation_Project/src/build/rplidar_ros -- -j8 -l8
+[0.979s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ngoc/Workspace/Graduation_Project/src/build/kobuki_velocity_smoother' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngoc/Workspace/Graduation_Project/src/install/teleop_twist_keyboard:/home/ngoc/Workspace/Graduation_Project/install/teleop_twist_keyboard:/opt/ros/humble /usr/bin/cmake --build /home/ngoc/Workspace/Graduation_Project/src/build/kobuki_velocity_smoother -- -j8 -l8
+[1.034s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ngoc/Workspace/Graduation_Project/src/build/dashgo_driver_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngoc/Workspace/Graduation_Project/src/install/teleop_twist_keyboard:/home/ngoc/Workspace/Graduation_Project/install/teleop_twist_keyboard:/opt/ros/humble /usr/bin/cmake --install /home/ngoc/Workspace/Graduation_Project/src/build/dashgo_driver_ros2
+[1.055s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ngoc/Workspace/Graduation_Project/src/build/rviz2_dashgo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngoc/Workspace/Graduation_Project/src/install/teleop_twist_keyboard:/home/ngoc/Workspace/Graduation_Project/install/teleop_twist_keyboard:/opt/ros/humble /usr/bin/cmake --install /home/ngoc/Workspace/Graduation_Project/src/build/rviz2_dashgo
+[1.067s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dashgo_driver_ros2)
+[1.076s] Level 1:colcon.colcon_core.environment:checking '/home/ngoc/Workspace/Graduation_Project/src/install/dashgo_driver_ros2' for CMake module files
+[1.078s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ngoc/Workspace/Graduation_Project/src/build/dashgo_driver_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngoc/Workspace/Graduation_Project/src/install/teleop_twist_keyboard:/home/ngoc/Workspace/Graduation_Project/install/teleop_twist_keyboard:/opt/ros/humble /usr/bin/cmake --install /home/ngoc/Workspace/Graduation_Project/src/build/dashgo_driver_ros2
+[1.079s] Level 1:colcon.colcon_core.environment:checking '/home/ngoc/Workspace/Graduation_Project/src/install/dashgo_driver_ros2' for CMake config files
+[1.083s] Level 1:colcon.colcon_core.shell:create_environment_hook('dashgo_driver_ros2', 'cmake_prefix_path')
+[1.084s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngoc/Workspace/Graduation_Project/src/install/dashgo_driver_ros2/share/dashgo_driver_ros2/hook/cmake_prefix_path.ps1'
+[1.085s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ngoc/Workspace/Graduation_Project/src/install/dashgo_driver_ros2/share/dashgo_driver_ros2/hook/cmake_prefix_path.dsv'
+[1.086s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngoc/Workspace/Graduation_Project/src/install/dashgo_driver_ros2/share/dashgo_driver_ros2/hook/cmake_prefix_path.sh'
+[1.089s] Level 1:colcon.colcon_core.environment:checking '/home/ngoc/Workspace/Graduation_Project/src/install/dashgo_driver_ros2/lib'
+[1.089s] Level 1:colcon.colcon_core.environment:checking '/home/ngoc/Workspace/Graduation_Project/src/install/dashgo_driver_ros2/bin'
+[1.089s] Level 1:colcon.colcon_core.environment:checking '/home/ngoc/Workspace/Graduation_Project/src/install/dashgo_driver_ros2/lib/pkgconfig/dashgo_driver_ros2.pc'
+[1.089s] Level 1:colcon.colcon_core.environment:checking '/home/ngoc/Workspace/Graduation_Project/src/install/dashgo_driver_ros2/lib/python3.10/site-packages'
+[1.090s] Level 1:colcon.colcon_core.environment:checking '/home/ngoc/Workspace/Graduation_Project/src/install/dashgo_driver_ros2/bin'
+[1.090s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngoc/Workspace/Graduation_Project/src/install/dashgo_driver_ros2/share/dashgo_driver_ros2/package.ps1'
+[1.092s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ngoc/Workspace/Graduation_Project/src/install/dashgo_driver_ros2/share/dashgo_driver_ros2/package.dsv'
+[1.092s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngoc/Workspace/Graduation_Project/src/install/dashgo_driver_ros2/share/dashgo_driver_ros2/package.sh'
+[1.095s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngoc/Workspace/Graduation_Project/src/install/dashgo_driver_ros2/share/dashgo_driver_ros2/package.bash'
+[1.097s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngoc/Workspace/Graduation_Project/src/install/dashgo_driver_ros2/share/dashgo_driver_ros2/package.zsh'
+[1.098s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ngoc/Workspace/Graduation_Project/src/install/dashgo_driver_ros2/share/colcon-core/packages/dashgo_driver_ros2)
+[1.103s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rviz2_dashgo)
+[1.105s] Level 1:colcon.colcon_core.environment:checking '/home/ngoc/Workspace/Graduation_Project/src/install/rviz2_dashgo' for CMake module files
+[1.107s] Level 1:colcon.colcon_core.environment:checking '/home/ngoc/Workspace/Graduation_Project/src/install/rviz2_dashgo' for CMake config files
+[1.104s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ngoc/Workspace/Graduation_Project/src/build/rviz2_dashgo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngoc/Workspace/Graduation_Project/src/install/teleop_twist_keyboard:/home/ngoc/Workspace/Graduation_Project/install/teleop_twist_keyboard:/opt/ros/humble /usr/bin/cmake --install /home/ngoc/Workspace/Graduation_Project/src/build/rviz2_dashgo
+[1.108s] Level 1:colcon.colcon_core.shell:create_environment_hook('rviz2_dashgo', 'cmake_prefix_path')
+[1.108s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngoc/Workspace/Graduation_Project/src/install/rviz2_dashgo/share/rviz2_dashgo/hook/cmake_prefix_path.ps1'
+[1.109s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ngoc/Workspace/Graduation_Project/src/install/rviz2_dashgo/share/rviz2_dashgo/hook/cmake_prefix_path.dsv'
+[1.110s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngoc/Workspace/Graduation_Project/src/install/rviz2_dashgo/share/rviz2_dashgo/hook/cmake_prefix_path.sh'
+[1.110s] Level 1:colcon.colcon_core.environment:checking '/home/ngoc/Workspace/Graduation_Project/src/install/rviz2_dashgo/bin'
+[1.110s] Level 1:colcon.colcon_core.environment:checking '/home/ngoc/Workspace/Graduation_Project/src/install/rviz2_dashgo/lib/pkgconfig/rviz2_dashgo.pc'
+[1.115s] Level 1:colcon.colcon_core.environment:checking '/home/ngoc/Workspace/Graduation_Project/src/install/rviz2_dashgo/lib/python3.10/site-packages'
+[1.115s] Level 1:colcon.colcon_core.environment:checking '/home/ngoc/Workspace/Graduation_Project/src/install/rviz2_dashgo/bin'
+[1.116s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngoc/Workspace/Graduation_Project/src/install/rviz2_dashgo/share/rviz2_dashgo/package.ps1'
+[1.117s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ngoc/Workspace/Graduation_Project/src/install/rviz2_dashgo/share/rviz2_dashgo/package.dsv'
+[1.117s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngoc/Workspace/Graduation_Project/src/install/rviz2_dashgo/share/rviz2_dashgo/package.sh'
+[1.118s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngoc/Workspace/Graduation_Project/src/install/rviz2_dashgo/share/rviz2_dashgo/package.bash'
+[1.118s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngoc/Workspace/Graduation_Project/src/install/rviz2_dashgo/share/rviz2_dashgo/package.zsh'
+[1.119s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ngoc/Workspace/Graduation_Project/src/install/rviz2_dashgo/share/colcon-core/packages/rviz2_dashgo)
+[1.136s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ngoc/Workspace/Graduation_Project/src/build/kobuki_velocity_smoother': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngoc/Workspace/Graduation_Project/src/install/teleop_twist_keyboard:/home/ngoc/Workspace/Graduation_Project/install/teleop_twist_keyboard:/opt/ros/humble /usr/bin/cmake --install /home/ngoc/Workspace/Graduation_Project/src/build/kobuki_velocity_smoother
+[1.144s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ngoc/Workspace/Graduation_Project/src/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngoc/Workspace/Graduation_Project/src/install/teleop_twist_keyboard:/home/ngoc/Workspace/Graduation_Project/install/teleop_twist_keyboard:/opt/ros/humble /usr/bin/cmake --build /home/ngoc/Workspace/Graduation_Project/src/build/ydlidar_ros2_driver -- -j8 -l8
+[1.231s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rviz2_dashgo)
+[1.231s] Level 1:colcon.colcon_core.environment:checking '/home/ngoc/Workspace/Graduation_Project/src/install/rviz2_dashgo' for CMake module files
+[1.241s] Level 1:colcon.colcon_core.environment:checking '/home/ngoc/Workspace/Graduation_Project/src/install/rviz2_dashgo' for CMake config files
+[1.241s] Level 1:colcon.colcon_core.shell:create_environment_hook('rviz2_dashgo', 'cmake_prefix_path')
+[1.242s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngoc/Workspace/Graduation_Project/src/install/rviz2_dashgo/share/rviz2_dashgo/hook/cmake_prefix_path.ps1'
+[1.243s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ngoc/Workspace/Graduation_Project/src/install/rviz2_dashgo/share/rviz2_dashgo/hook/cmake_prefix_path.dsv'
+[1.243s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngoc/Workspace/Graduation_Project/src/install/rviz2_dashgo/share/rviz2_dashgo/hook/cmake_prefix_path.sh'
+[1.255s] Level 1:colcon.colcon_core.environment:checking '/home/ngoc/Workspace/Graduation_Project/src/install/rviz2_dashgo/bin'
+[1.255s] Level 1:colcon.colcon_core.environment:checking '/home/ngoc/Workspace/Graduation_Project/src/install/rviz2_dashgo/lib/pkgconfig/rviz2_dashgo.pc'
+[1.255s] Level 1:colcon.colcon_core.environment:checking '/home/ngoc/Workspace/Graduation_Project/src/install/rviz2_dashgo/lib/python3.10/site-packages'
+[1.256s] Level 1:colcon.colcon_core.environment:checking '/home/ngoc/Workspace/Graduation_Project/src/install/rviz2_dashgo/bin'
+[1.257s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngoc/Workspace/Graduation_Project/src/install/rviz2_dashgo/share/rviz2_dashgo/package.ps1'
+[1.262s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ngoc/Workspace/Graduation_Project/src/install/rviz2_dashgo/share/rviz2_dashgo/package.dsv'
+[1.262s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngoc/Workspace/Graduation_Project/src/install/rviz2_dashgo/share/rviz2_dashgo/package.sh'
+[1.263s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngoc/Workspace/Graduation_Project/src/install/rviz2_dashgo/share/rviz2_dashgo/package.bash'
+[1.265s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngoc/Workspace/Graduation_Project/src/install/rviz2_dashgo/share/rviz2_dashgo/package.zsh'
+[1.271s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ngoc/Workspace/Graduation_Project/src/install/rviz2_dashgo/share/colcon-core/packages/rviz2_dashgo)
+[1.273s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dashgo_driver_ros2)
+[1.273s] Level 1:colcon.colcon_core.environment:checking '/home/ngoc/Workspace/Graduation_Project/src/install/dashgo_driver_ros2' for CMake module files
+[1.274s] Level 1:colcon.colcon_core.environment:checking '/home/ngoc/Workspace/Graduation_Project/src/install/dashgo_driver_ros2' for CMake config files
+[1.274s] Level 1:colcon.colcon_core.shell:create_environment_hook('dashgo_driver_ros2', 'cmake_prefix_path')
+[1.277s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngoc/Workspace/Graduation_Project/src/install/dashgo_driver_ros2/share/dashgo_driver_ros2/hook/cmake_prefix_path.ps1'
+[1.280s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ngoc/Workspace/Graduation_Project/src/install/dashgo_driver_ros2/share/dashgo_driver_ros2/hook/cmake_prefix_path.dsv'
+[1.281s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngoc/Workspace/Graduation_Project/src/install/dashgo_driver_ros2/share/dashgo_driver_ros2/hook/cmake_prefix_path.sh'
+[1.281s] Level 1:colcon.colcon_core.environment:checking '/home/ngoc/Workspace/Graduation_Project/src/install/dashgo_driver_ros2/lib'
+[1.282s] Level 1:colcon.colcon_core.environment:checking '/home/ngoc/Workspace/Graduation_Project/src/install/dashgo_driver_ros2/bin'
+[1.282s] Level 1:colcon.colcon_core.environment:checking '/home/ngoc/Workspace/Graduation_Project/src/install/dashgo_driver_ros2/lib/pkgconfig/dashgo_driver_ros2.pc'
+[1.282s] Level 1:colcon.colcon_core.environment:checking '/home/ngoc/Workspace/Graduation_Project/src/install/dashgo_driver_ros2/lib/python3.10/site-packages'
+[1.283s] Level 1:colcon.colcon_core.environment:checking '/home/ngoc/Workspace/Graduation_Project/src/install/dashgo_driver_ros2/bin'
+[1.283s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngoc/Workspace/Graduation_Project/src/install/dashgo_driver_ros2/share/dashgo_driver_ros2/package.ps1'
+[1.284s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ngoc/Workspace/Graduation_Project/src/install/dashgo_driver_ros2/share/dashgo_driver_ros2/package.dsv'
+[1.285s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngoc/Workspace/Graduation_Project/src/install/dashgo_driver_ros2/share/dashgo_driver_ros2/package.sh'
+[1.286s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngoc/Workspace/Graduation_Project/src/install/dashgo_driver_ros2/share/dashgo_driver_ros2/package.bash'
+[1.288s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngoc/Workspace/Graduation_Project/src/install/dashgo_driver_ros2/share/dashgo_driver_ros2/package.zsh'
+[1.290s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ngoc/Workspace/Graduation_Project/src/install/dashgo_driver_ros2/share/colcon-core/packages/dashgo_driver_ros2)
+[1.302s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ngoc/Workspace/Graduation_Project/src/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngoc/Workspace/Graduation_Project/src/install/teleop_twist_keyboard:/home/ngoc/Workspace/Graduation_Project/install/teleop_twist_keyboard:/opt/ros/humble /usr/bin/cmake --install /home/ngoc/Workspace/Graduation_Project/src/build/rplidar_ros
+[1.311s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(kobuki_velocity_smoother)
+[1.311s] Level 1:colcon.colcon_core.environment:checking '/home/ngoc/Workspace/Graduation_Project/src/install/kobuki_velocity_smoother' for CMake module files
+[1.313s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ngoc/Workspace/Graduation_Project/src/build/kobuki_velocity_smoother' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngoc/Workspace/Graduation_Project/src/install/teleop_twist_keyboard:/home/ngoc/Workspace/Graduation_Project/install/teleop_twist_keyboard:/opt/ros/humble /usr/bin/cmake --install /home/ngoc/Workspace/Graduation_Project/src/build/kobuki_velocity_smoother
+[1.315s] Level 1:colcon.colcon_core.environment:checking '/home/ngoc/Workspace/Graduation_Project/src/install/kobuki_velocity_smoother' for CMake config files
+[1.315s] Level 1:colcon.colcon_core.shell:create_environment_hook('kobuki_velocity_smoother', 'cmake_prefix_path')
+[1.323s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngoc/Workspace/Graduation_Project/src/install/kobuki_velocity_smoother/share/kobuki_velocity_smoother/hook/cmake_prefix_path.ps1'
+[1.324s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ngoc/Workspace/Graduation_Project/src/install/kobuki_velocity_smoother/share/kobuki_velocity_smoother/hook/cmake_prefix_path.dsv'
+[1.347s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngoc/Workspace/Graduation_Project/src/install/kobuki_velocity_smoother/share/kobuki_velocity_smoother/hook/cmake_prefix_path.sh'
+[1.352s] Level 1:colcon.colcon_core.environment:checking '/home/ngoc/Workspace/Graduation_Project/src/install/kobuki_velocity_smoother/lib'
+[1.352s] Level 1:colcon.colcon_core.shell:create_environment_hook('kobuki_velocity_smoother', 'ld_library_path_lib')
+[1.352s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngoc/Workspace/Graduation_Project/src/install/kobuki_velocity_smoother/share/kobuki_velocity_smoother/hook/ld_library_path_lib.ps1'
+[1.353s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ngoc/Workspace/Graduation_Project/src/install/kobuki_velocity_smoother/share/kobuki_velocity_smoother/hook/ld_library_path_lib.dsv'
+[1.354s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngoc/Workspace/Graduation_Project/src/install/kobuki_velocity_smoother/share/kobuki_velocity_smoother/hook/ld_library_path_lib.sh'
+[1.354s] Level 1:colcon.colcon_core.environment:checking '/home/ngoc/Workspace/Graduation_Project/src/install/kobuki_velocity_smoother/bin'
+[1.355s] Level 1:colcon.colcon_core.environment:checking '/home/ngoc/Workspace/Graduation_Project/src/install/kobuki_velocity_smoother/lib/pkgconfig/kobuki_velocity_smoother.pc'
+[1.355s] Level 1:colcon.colcon_core.environment:checking '/home/ngoc/Workspace/Graduation_Project/src/install/kobuki_velocity_smoother/lib/python3.10/site-packages'
+[1.365s] Level 1:colcon.colcon_core.environment:checking '/home/ngoc/Workspace/Graduation_Project/src/install/kobuki_velocity_smoother/bin'
+[1.365s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngoc/Workspace/Graduation_Project/src/install/kobuki_velocity_smoother/share/kobuki_velocity_smoother/package.ps1'
+[1.366s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ngoc/Workspace/Graduation_Project/src/install/kobuki_velocity_smoother/share/kobuki_velocity_smoother/package.dsv'
+[1.367s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngoc/Workspace/Graduation_Project/src/install/kobuki_velocity_smoother/share/kobuki_velocity_smoother/package.sh'
+[1.368s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngoc/Workspace/Graduation_Project/src/install/kobuki_velocity_smoother/share/kobuki_velocity_smoother/package.bash'
+[1.380s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngoc/Workspace/Graduation_Project/src/install/kobuki_velocity_smoother/share/kobuki_velocity_smoother/package.zsh'
+[1.380s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ngoc/Workspace/Graduation_Project/src/install/kobuki_velocity_smoother/share/colcon-core/packages/kobuki_velocity_smoother)
+[1.401s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ngoc/Workspace/Graduation_Project/src/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngoc/Workspace/Graduation_Project/src/install/teleop_twist_keyboard:/home/ngoc/Workspace/Graduation_Project/install/teleop_twist_keyboard:/opt/ros/humble /usr/bin/cmake --install /home/ngoc/Workspace/Graduation_Project/src/build/ydlidar_ros2_driver
+[1.404s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rplidar_ros)
+[1.404s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ngoc/Workspace/Graduation_Project/src/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngoc/Workspace/Graduation_Project/src/install/teleop_twist_keyboard:/home/ngoc/Workspace/Graduation_Project/install/teleop_twist_keyboard:/opt/ros/humble /usr/bin/cmake --install /home/ngoc/Workspace/Graduation_Project/src/build/rplidar_ros
+[1.405s] Level 1:colcon.colcon_core.environment:checking '/home/ngoc/Workspace/Graduation_Project/src/install/rplidar_ros' for CMake module files
+[1.406s] Level 1:colcon.colcon_core.environment:checking '/home/ngoc/Workspace/Graduation_Project/src/install/rplidar_ros' for CMake config files
+[1.406s] Level 1:colcon.colcon_core.shell:create_environment_hook('rplidar_ros', 'cmake_prefix_path')
+[1.407s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngoc/Workspace/Graduation_Project/src/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.ps1'
+[1.408s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ngoc/Workspace/Graduation_Project/src/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.dsv'
+[1.409s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngoc/Workspace/Graduation_Project/src/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.sh'
+[1.410s] Level 1:colcon.colcon_core.environment:checking '/home/ngoc/Workspace/Graduation_Project/src/install/rplidar_ros/lib'
+[1.410s] Level 1:colcon.colcon_core.environment:checking '/home/ngoc/Workspace/Graduation_Project/src/install/rplidar_ros/bin'
+[1.410s] Level 1:colcon.colcon_core.environment:checking '/home/ngoc/Workspace/Graduation_Project/src/install/rplidar_ros/lib/pkgconfig/rplidar_ros.pc'
+[1.410s] Level 1:colcon.colcon_core.environment:checking '/home/ngoc/Workspace/Graduation_Project/src/install/rplidar_ros/lib/python3.10/site-packages'
+[1.411s] Level 1:colcon.colcon_core.environment:checking '/home/ngoc/Workspace/Graduation_Project/src/install/rplidar_ros/bin'
+[1.411s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngoc/Workspace/Graduation_Project/src/install/rplidar_ros/share/rplidar_ros/package.ps1'
+[1.413s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ngoc/Workspace/Graduation_Project/src/install/rplidar_ros/share/rplidar_ros/package.dsv'
+[1.414s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngoc/Workspace/Graduation_Project/src/install/rplidar_ros/share/rplidar_ros/package.sh'
+[1.415s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngoc/Workspace/Graduation_Project/src/install/rplidar_ros/share/rplidar_ros/package.bash'
+[1.420s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngoc/Workspace/Graduation_Project/src/install/rplidar_ros/share/rplidar_ros/package.zsh'
+[1.421s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ngoc/Workspace/Graduation_Project/src/install/rplidar_ros/share/colcon-core/packages/rplidar_ros)
+[1.432s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ydlidar_ros2_driver)
+[1.433s] Level 1:colcon.colcon_core.environment:checking '/home/ngoc/Workspace/Graduation_Project/src/install/ydlidar_ros2_driver' for CMake module files
+[1.434s] Level 1:colcon.colcon_core.environment:checking '/home/ngoc/Workspace/Graduation_Project/src/install/ydlidar_ros2_driver' for CMake config files
+[1.434s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ngoc/Workspace/Graduation_Project/src/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngoc/Workspace/Graduation_Project/src/install/teleop_twist_keyboard:/home/ngoc/Workspace/Graduation_Project/install/teleop_twist_keyboard:/opt/ros/humble /usr/bin/cmake --install /home/ngoc/Workspace/Graduation_Project/src/build/ydlidar_ros2_driver
+[1.435s] Level 1:colcon.colcon_core.shell:create_environment_hook('ydlidar_ros2_driver', 'cmake_prefix_path')
+[1.436s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngoc/Workspace/Graduation_Project/src/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.ps1'
+[1.436s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ngoc/Workspace/Graduation_Project/src/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.dsv'
+[1.437s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngoc/Workspace/Graduation_Project/src/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.sh'
+[1.438s] Level 1:colcon.colcon_core.environment:checking '/home/ngoc/Workspace/Graduation_Project/src/install/ydlidar_ros2_driver/lib'
+[1.438s] Level 1:colcon.colcon_core.environment:checking '/home/ngoc/Workspace/Graduation_Project/src/install/ydlidar_ros2_driver/bin'
+[1.438s] Level 1:colcon.colcon_core.environment:checking '/home/ngoc/Workspace/Graduation_Project/src/install/ydlidar_ros2_driver/lib/pkgconfig/ydlidar_ros2_driver.pc'
+[1.439s] Level 1:colcon.colcon_core.environment:checking '/home/ngoc/Workspace/Graduation_Project/src/install/ydlidar_ros2_driver/lib/python3.10/site-packages'
+[1.439s] Level 1:colcon.colcon_core.environment:checking '/home/ngoc/Workspace/Graduation_Project/src/install/ydlidar_ros2_driver/bin'
+[1.444s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngoc/Workspace/Graduation_Project/src/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.ps1'
+[1.445s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ngoc/Workspace/Graduation_Project/src/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.dsv'
+[1.446s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngoc/Workspace/Graduation_Project/src/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.sh'
+[1.448s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngoc/Workspace/Graduation_Project/src/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.bash'
+[1.450s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngoc/Workspace/Graduation_Project/src/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.zsh'
+[1.450s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ngoc/Workspace/Graduation_Project/src/install/ydlidar_ros2_driver/share/colcon-core/packages/ydlidar_ros2_driver)
+[1.459s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ngoc/Workspace/Graduation_Project/src/build/ydlidar_sdk' returned '0': /usr/bin/cmake --build /home/ngoc/Workspace/Graduation_Project/src/build/ydlidar_sdk -- -j8 -l8
+[1.489s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(kobuki_velocity_smoother)
+[1.490s] Level 1:colcon.colcon_core.environment:checking '/home/ngoc/Workspace/Graduation_Project/src/install/kobuki_velocity_smoother' for CMake module files
+[1.491s] Level 1:colcon.colcon_core.environment:checking '/home/ngoc/Workspace/Graduation_Project/src/install/kobuki_velocity_smoother' for CMake config files
+[1.494s] Level 1:colcon.colcon_core.shell:create_environment_hook('kobuki_velocity_smoother', 'cmake_prefix_path')
+[1.494s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngoc/Workspace/Graduation_Project/src/install/kobuki_velocity_smoother/share/kobuki_velocity_smoother/hook/cmake_prefix_path.ps1'
+[1.495s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ngoc/Workspace/Graduation_Project/src/install/kobuki_velocity_smoother/share/kobuki_velocity_smoother/hook/cmake_prefix_path.dsv'
+[1.496s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngoc/Workspace/Graduation_Project/src/install/kobuki_velocity_smoother/share/kobuki_velocity_smoother/hook/cmake_prefix_path.sh'
+[1.498s] Level 1:colcon.colcon_core.environment:checking '/home/ngoc/Workspace/Graduation_Project/src/install/kobuki_velocity_smoother/lib'
+[1.498s] Level 1:colcon.colcon_core.shell:create_environment_hook('kobuki_velocity_smoother', 'ld_library_path_lib')
+[1.500s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngoc/Workspace/Graduation_Project/src/install/kobuki_velocity_smoother/share/kobuki_velocity_smoother/hook/ld_library_path_lib.ps1'
+[1.501s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ngoc/Workspace/Graduation_Project/src/install/kobuki_velocity_smoother/share/kobuki_velocity_smoother/hook/ld_library_path_lib.dsv'
+[1.503s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngoc/Workspace/Graduation_Project/src/install/kobuki_velocity_smoother/share/kobuki_velocity_smoother/hook/ld_library_path_lib.sh'
+[1.504s] Level 1:colcon.colcon_core.environment:checking '/home/ngoc/Workspace/Graduation_Project/src/install/kobuki_velocity_smoother/bin'
+[1.504s] Level 1:colcon.colcon_core.environment:checking '/home/ngoc/Workspace/Graduation_Project/src/install/kobuki_velocity_smoother/lib/pkgconfig/kobuki_velocity_smoother.pc'
+[1.504s] Level 1:colcon.colcon_core.environment:checking '/home/ngoc/Workspace/Graduation_Project/src/install/kobuki_velocity_smoother/lib/python3.10/site-packages'
+[1.507s] Level 1:colcon.colcon_core.environment:checking '/home/ngoc/Workspace/Graduation_Project/src/install/kobuki_velocity_smoother/bin'
+[1.509s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngoc/Workspace/Graduation_Project/src/install/kobuki_velocity_smoother/share/kobuki_velocity_smoother/package.ps1'
+[1.513s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ngoc/Workspace/Graduation_Project/src/install/kobuki_velocity_smoother/share/kobuki_velocity_smoother/package.dsv'
+[1.514s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngoc/Workspace/Graduation_Project/src/install/kobuki_velocity_smoother/share/kobuki_velocity_smoother/package.sh'
+[1.515s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngoc/Workspace/Graduation_Project/src/install/kobuki_velocity_smoother/share/kobuki_velocity_smoother/package.bash'
+[1.516s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngoc/Workspace/Graduation_Project/src/install/kobuki_velocity_smoother/share/kobuki_velocity_smoother/package.zsh'
+[1.521s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ngoc/Workspace/Graduation_Project/src/install/kobuki_velocity_smoother/share/colcon-core/packages/kobuki_velocity_smoother)
+[1.556s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ydlidar_ros2_driver)
+[1.556s] Level 1:colcon.colcon_core.environment:checking '/home/ngoc/Workspace/Graduation_Project/src/install/ydlidar_ros2_driver' for CMake module files
+[1.557s] Level 1:colcon.colcon_core.environment:checking '/home/ngoc/Workspace/Graduation_Project/src/install/ydlidar_ros2_driver' for CMake config files
+[1.558s] Level 1:colcon.colcon_core.shell:create_environment_hook('ydlidar_ros2_driver', 'cmake_prefix_path')
+[1.558s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngoc/Workspace/Graduation_Project/src/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.ps1'
+[1.561s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ngoc/Workspace/Graduation_Project/src/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.dsv'
+[1.562s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngoc/Workspace/Graduation_Project/src/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.sh'
+[1.564s] Level 1:colcon.colcon_core.environment:checking '/home/ngoc/Workspace/Graduation_Project/src/install/ydlidar_ros2_driver/lib'
+[1.564s] Level 1:colcon.colcon_core.environment:checking '/home/ngoc/Workspace/Graduation_Project/src/install/ydlidar_ros2_driver/bin'
+[1.564s] Level 1:colcon.colcon_core.environment:checking '/home/ngoc/Workspace/Graduation_Project/src/install/ydlidar_ros2_driver/lib/pkgconfig/ydlidar_ros2_driver.pc'
+[1.565s] Level 1:colcon.colcon_core.environment:checking '/home/ngoc/Workspace/Graduation_Project/src/install/ydlidar_ros2_driver/lib/python3.10/site-packages'
+[1.565s] Level 1:colcon.colcon_core.environment:checking '/home/ngoc/Workspace/Graduation_Project/src/install/ydlidar_ros2_driver/bin'
+[1.566s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngoc/Workspace/Graduation_Project/src/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.ps1'
+[1.567s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ngoc/Workspace/Graduation_Project/src/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.dsv'
+[1.568s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngoc/Workspace/Graduation_Project/src/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.sh'
+[1.568s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngoc/Workspace/Graduation_Project/src/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.bash'
+[1.569s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngoc/Workspace/Graduation_Project/src/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.zsh'
+[1.570s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ngoc/Workspace/Graduation_Project/src/install/ydlidar_ros2_driver/share/colcon-core/packages/ydlidar_ros2_driver)
+[1.652s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rplidar_ros)
+[1.652s] Level 1:colcon.colcon_core.environment:checking '/home/ngoc/Workspace/Graduation_Project/src/install/rplidar_ros' for CMake module files
+[1.657s] Level 1:colcon.colcon_core.environment:checking '/home/ngoc/Workspace/Graduation_Project/src/install/rplidar_ros' for CMake config files
+[1.657s] Level 1:colcon.colcon_core.shell:create_environment_hook('rplidar_ros', 'cmake_prefix_path')
+[1.658s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngoc/Workspace/Graduation_Project/src/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.ps1'
+[1.659s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ngoc/Workspace/Graduation_Project/src/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.dsv'
+[1.661s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngoc/Workspace/Graduation_Project/src/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.sh'
+[1.663s] Level 1:colcon.colcon_core.environment:checking '/home/ngoc/Workspace/Graduation_Project/src/install/rplidar_ros/lib'
+[1.664s] Level 1:colcon.colcon_core.environment:checking '/home/ngoc/Workspace/Graduation_Project/src/install/rplidar_ros/bin'
+[1.665s] Level 1:colcon.colcon_core.environment:checking '/home/ngoc/Workspace/Graduation_Project/src/install/rplidar_ros/lib/pkgconfig/rplidar_ros.pc'
+[1.665s] Level 1:colcon.colcon_core.environment:checking '/home/ngoc/Workspace/Graduation_Project/src/install/rplidar_ros/lib/python3.10/site-packages'
+[1.666s] Level 1:colcon.colcon_core.environment:checking '/home/ngoc/Workspace/Graduation_Project/src/install/rplidar_ros/bin'
+[1.668s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngoc/Workspace/Graduation_Project/src/install/rplidar_ros/share/rplidar_ros/package.ps1'
+[1.670s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ngoc/Workspace/Graduation_Project/src/install/rplidar_ros/share/rplidar_ros/package.dsv'
+[1.672s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngoc/Workspace/Graduation_Project/src/install/rplidar_ros/share/rplidar_ros/package.sh'
+[1.673s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngoc/Workspace/Graduation_Project/src/install/rplidar_ros/share/rplidar_ros/package.bash'
+[1.674s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngoc/Workspace/Graduation_Project/src/install/rplidar_ros/share/rplidar_ros/package.zsh'
+[1.675s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ngoc/Workspace/Graduation_Project/src/install/rplidar_ros/share/colcon-core/packages/rplidar_ros)
+[1.710s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ngoc/Workspace/Graduation_Project/src/build/ydlidar_sdk': /usr/bin/cmake --install /home/ngoc/Workspace/Graduation_Project/src/build/ydlidar_sdk
+[1.767s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ydlidar_sdk)
+[1.767s] Level 1:colcon.colcon_core.environment:checking '/home/ngoc/Workspace/Graduation_Project/src/install/ydlidar_sdk' for CMake module files
+[1.768s] Level 1:colcon.colcon_core.environment:checking '/home/ngoc/Workspace/Graduation_Project/src/install/ydlidar_sdk' for CMake config files
+[1.769s] Level 1:colcon.colcon_core.shell:create_environment_hook('ydlidar_sdk', 'cmake_prefix_path')
+[1.770s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngoc/Workspace/Graduation_Project/src/install/ydlidar_sdk/share/ydlidar_sdk/hook/cmake_prefix_path.ps1'
+[1.771s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ngoc/Workspace/Graduation_Project/src/build/ydlidar_sdk' returned '0': /usr/bin/cmake --install /home/ngoc/Workspace/Graduation_Project/src/build/ydlidar_sdk
+[1.772s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ngoc/Workspace/Graduation_Project/src/install/ydlidar_sdk/share/ydlidar_sdk/hook/cmake_prefix_path.dsv'
+[1.773s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngoc/Workspace/Graduation_Project/src/install/ydlidar_sdk/share/ydlidar_sdk/hook/cmake_prefix_path.sh'
+[1.774s] Level 1:colcon.colcon_core.environment:checking '/home/ngoc/Workspace/Graduation_Project/src/install/ydlidar_sdk/lib'
+[1.774s] Level 1:colcon.colcon_core.environment:checking '/home/ngoc/Workspace/Graduation_Project/src/install/ydlidar_sdk/bin'
+[1.774s] Level 1:colcon.colcon_core.shell:create_environment_hook('ydlidar_sdk', 'path')
+[1.774s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngoc/Workspace/Graduation_Project/src/install/ydlidar_sdk/share/ydlidar_sdk/hook/path.ps1'
+[1.775s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ngoc/Workspace/Graduation_Project/src/install/ydlidar_sdk/share/ydlidar_sdk/hook/path.dsv'
+[1.775s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngoc/Workspace/Graduation_Project/src/install/ydlidar_sdk/share/ydlidar_sdk/hook/path.sh'
+[1.776s] Level 1:colcon.colcon_core.environment:checking '/home/ngoc/Workspace/Graduation_Project/src/install/ydlidar_sdk/lib/pkgconfig/ydlidar_sdk.pc'
+[1.777s] Level 1:colcon.colcon_core.environment:checking '/home/ngoc/Workspace/Graduation_Project/src/install/ydlidar_sdk/lib/python3.10/site-packages'
+[1.777s] Level 1:colcon.colcon_core.environment:checking '/home/ngoc/Workspace/Graduation_Project/src/install/ydlidar_sdk/bin'
+[1.777s] Level 1:colcon.colcon_core.shell:create_environment_hook('ydlidar_sdk', 'pythonscriptspath')
+[1.778s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngoc/Workspace/Graduation_Project/src/install/ydlidar_sdk/share/ydlidar_sdk/hook/pythonscriptspath.ps1'
+[1.779s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ngoc/Workspace/Graduation_Project/src/install/ydlidar_sdk/share/ydlidar_sdk/hook/pythonscriptspath.dsv'
+[1.779s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngoc/Workspace/Graduation_Project/src/install/ydlidar_sdk/share/ydlidar_sdk/hook/pythonscriptspath.sh'
+[1.781s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngoc/Workspace/Graduation_Project/src/install/ydlidar_sdk/share/ydlidar_sdk/package.ps1'
+[1.787s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ngoc/Workspace/Graduation_Project/src/install/ydlidar_sdk/share/ydlidar_sdk/package.dsv'
+[1.788s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngoc/Workspace/Graduation_Project/src/install/ydlidar_sdk/share/ydlidar_sdk/package.sh'
+[1.789s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngoc/Workspace/Graduation_Project/src/install/ydlidar_sdk/share/ydlidar_sdk/package.bash'
+[1.791s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngoc/Workspace/Graduation_Project/src/install/ydlidar_sdk/share/ydlidar_sdk/package.zsh'
+[1.792s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ngoc/Workspace/Graduation_Project/src/install/ydlidar_sdk/share/colcon-core/packages/ydlidar_sdk)
+[1.795s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ngoc/Workspace/Graduation_Project/src/teleop_twist_keyboard': PYTHONPATH=/home/ngoc/Workspace/Graduation_Project/src/build/teleop_twist_keyboard/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ngoc/Workspace/Graduation_Project/src/install/teleop_twist_keyboard/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/teleop_twist_keyboard build --build-base /home/ngoc/Workspace/Graduation_Project/src/build/teleop_twist_keyboard/build install --record /home/ngoc/Workspace/Graduation_Project/src/build/teleop_twist_keyboard/install.log --single-version-externally-managed install_data
+[2.082s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ngoc/Workspace/Graduation_Project/src/build/cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngoc/Workspace/Graduation_Project/src/install/teleop_twist_keyboard:/home/ngoc/Workspace/Graduation_Project/install/teleop_twist_keyboard:/opt/ros/humble /usr/bin/cmake --build /home/ngoc/Workspace/Graduation_Project/src/build/cartographer -- -j8 -l8
+[2.278s] Level 1:colcon.colcon_core.environment:checking '/home/ngoc/Workspace/Graduation_Project/src/install/teleop_twist_keyboard' for CMake module files
+[2.279s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ngoc/Workspace/Graduation_Project/src/teleop_twist_keyboard' returned '0': PYTHONPATH=/home/ngoc/Workspace/Graduation_Project/src/build/teleop_twist_keyboard/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ngoc/Workspace/Graduation_Project/src/install/teleop_twist_keyboard/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/teleop_twist_keyboard build --build-base /home/ngoc/Workspace/Graduation_Project/src/build/teleop_twist_keyboard/build install --record /home/ngoc/Workspace/Graduation_Project/src/build/teleop_twist_keyboard/install.log --single-version-externally-managed install_data
+[2.279s] Level 1:colcon.colcon_core.environment:checking '/home/ngoc/Workspace/Graduation_Project/src/install/teleop_twist_keyboard' for CMake config files
+[2.280s] Level 1:colcon.colcon_core.environment:checking '/home/ngoc/Workspace/Graduation_Project/src/install/teleop_twist_keyboard/lib'
+[2.280s] Level 1:colcon.colcon_core.environment:checking '/home/ngoc/Workspace/Graduation_Project/src/install/teleop_twist_keyboard/bin'
+[2.280s] Level 1:colcon.colcon_core.environment:checking '/home/ngoc/Workspace/Graduation_Project/src/install/teleop_twist_keyboard/lib/pkgconfig/teleop_twist_keyboard.pc'
+[2.280s] Level 1:colcon.colcon_core.environment:checking '/home/ngoc/Workspace/Graduation_Project/src/install/teleop_twist_keyboard/lib/python3.10/site-packages'
+[2.280s] Level 1:colcon.colcon_core.shell:create_environment_hook('teleop_twist_keyboard', 'pythonpath')
+[2.280s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngoc/Workspace/Graduation_Project/src/install/teleop_twist_keyboard/share/teleop_twist_keyboard/hook/pythonpath.ps1'
+[2.281s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ngoc/Workspace/Graduation_Project/src/install/teleop_twist_keyboard/share/teleop_twist_keyboard/hook/pythonpath.dsv'
+[2.281s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngoc/Workspace/Graduation_Project/src/install/teleop_twist_keyboard/share/teleop_twist_keyboard/hook/pythonpath.sh'
+[2.282s] Level 1:colcon.colcon_core.environment:checking '/home/ngoc/Workspace/Graduation_Project/src/install/teleop_twist_keyboard/bin'
+[2.282s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(teleop_twist_keyboard)
+[2.283s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngoc/Workspace/Graduation_Project/src/install/teleop_twist_keyboard/share/teleop_twist_keyboard/package.ps1'
+[2.284s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ngoc/Workspace/Graduation_Project/src/install/teleop_twist_keyboard/share/teleop_twist_keyboard/package.dsv'
+[2.284s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngoc/Workspace/Graduation_Project/src/install/teleop_twist_keyboard/share/teleop_twist_keyboard/package.sh'
+[2.285s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngoc/Workspace/Graduation_Project/src/install/teleop_twist_keyboard/share/teleop_twist_keyboard/package.bash'
+[2.285s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngoc/Workspace/Graduation_Project/src/install/teleop_twist_keyboard/share/teleop_twist_keyboard/package.zsh'
+[2.285s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ngoc/Workspace/Graduation_Project/src/install/teleop_twist_keyboard/share/colcon-core/packages/teleop_twist_keyboard)
+[3.116s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ngoc/Workspace/Graduation_Project/src/build/cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngoc/Workspace/Graduation_Project/src/install/teleop_twist_keyboard:/home/ngoc/Workspace/Graduation_Project/install/teleop_twist_keyboard:/opt/ros/humble /usr/bin/cmake --install /home/ngoc/Workspace/Graduation_Project/src/build/cartographer
+[3.151s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ngoc/Workspace/Graduation_Project/src/build/cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngoc/Workspace/Graduation_Project/src/install/teleop_twist_keyboard:/home/ngoc/Workspace/Graduation_Project/install/teleop_twist_keyboard:/opt/ros/humble /usr/bin/cmake --install /home/ngoc/Workspace/Graduation_Project/src/build/cartographer
+[4.250s] Level 1:colcon.colcon_core.shell:create_environment_hook('cartographer', 'pkg_config_path')
+[4.250s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngoc/Workspace/Graduation_Project/src/install/cartographer/share/cartographer/hook/pkg_config_path.ps1'
+[4.251s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ngoc/Workspace/Graduation_Project/src/install/cartographer/share/cartographer/hook/pkg_config_path.dsv'
+[4.251s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngoc/Workspace/Graduation_Project/src/install/cartographer/share/cartographer/hook/pkg_config_path.sh'
+[4.254s] Level 1:colcon.colcon_core.shell:create_environment_hook('cartographer', 'pkg_config_path_multiarch')
+[4.254s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngoc/Workspace/Graduation_Project/src/install/cartographer/share/cartographer/hook/pkg_config_path_multiarch.ps1'
+[4.255s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ngoc/Workspace/Graduation_Project/src/install/cartographer/share/cartographer/hook/pkg_config_path_multiarch.dsv'
+[4.255s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngoc/Workspace/Graduation_Project/src/install/cartographer/share/cartographer/hook/pkg_config_path_multiarch.sh'
+[4.256s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cartographer)
+[4.257s] Level 1:colcon.colcon_core.environment:checking '/home/ngoc/Workspace/Graduation_Project/src/install/cartographer' for CMake module files
+[4.257s] Level 1:colcon.colcon_core.environment:checking '/home/ngoc/Workspace/Graduation_Project/src/install/cartographer' for CMake config files
+[4.257s] Level 1:colcon.colcon_core.shell:create_environment_hook('cartographer', 'cmake_prefix_path')
+[4.258s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngoc/Workspace/Graduation_Project/src/install/cartographer/share/cartographer/hook/cmake_prefix_path.ps1'
+[4.258s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ngoc/Workspace/Graduation_Project/src/install/cartographer/share/cartographer/hook/cmake_prefix_path.dsv'
+[4.259s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngoc/Workspace/Graduation_Project/src/install/cartographer/share/cartographer/hook/cmake_prefix_path.sh'
+[4.260s] Level 1:colcon.colcon_core.environment:checking '/home/ngoc/Workspace/Graduation_Project/src/install/cartographer/lib'
+[4.260s] Level 1:colcon.colcon_core.environment:checking '/home/ngoc/Workspace/Graduation_Project/src/install/cartographer/bin'
+[4.260s] Level 1:colcon.colcon_core.shell:create_environment_hook('cartographer', 'path')
+[4.260s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngoc/Workspace/Graduation_Project/src/install/cartographer/share/cartographer/hook/path.ps1'
+[4.261s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ngoc/Workspace/Graduation_Project/src/install/cartographer/share/cartographer/hook/path.dsv'
+[4.261s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngoc/Workspace/Graduation_Project/src/install/cartographer/share/cartographer/hook/path.sh'
+[4.262s] Level 1:colcon.colcon_core.environment:checking '/home/ngoc/Workspace/Graduation_Project/src/install/cartographer/lib/pkgconfig/cartographer.pc'
+[4.262s] Level 1:colcon.colcon_core.environment:checking '/home/ngoc/Workspace/Graduation_Project/src/install/cartographer/lib/python3.10/site-packages'
+[4.262s] Level 1:colcon.colcon_core.environment:checking '/home/ngoc/Workspace/Graduation_Project/src/install/cartographer/bin'
+[4.262s] Level 1:colcon.colcon_core.shell:create_environment_hook('cartographer', 'pythonscriptspath')
+[4.263s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngoc/Workspace/Graduation_Project/src/install/cartographer/share/cartographer/hook/pythonscriptspath.ps1'
+[4.263s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ngoc/Workspace/Graduation_Project/src/install/cartographer/share/cartographer/hook/pythonscriptspath.dsv'
+[4.264s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngoc/Workspace/Graduation_Project/src/install/cartographer/share/cartographer/hook/pythonscriptspath.sh'
+[4.265s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngoc/Workspace/Graduation_Project/src/install/cartographer/share/cartographer/package.ps1'
+[4.265s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ngoc/Workspace/Graduation_Project/src/install/cartographer/share/cartographer/package.dsv'
+[4.266s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngoc/Workspace/Graduation_Project/src/install/cartographer/share/cartographer/package.sh'
+[4.267s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngoc/Workspace/Graduation_Project/src/install/cartographer/share/cartographer/package.bash'
+[4.267s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngoc/Workspace/Graduation_Project/src/install/cartographer/share/cartographer/package.zsh'
+[4.268s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ngoc/Workspace/Graduation_Project/src/install/cartographer/share/colcon-core/packages/cartographer)
+[4.268s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[4.269s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[4.269s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[4.269s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.276s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.276s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.276s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.288s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.289s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ngoc/Workspace/Graduation_Project/src/install/local_setup.ps1'
+[4.291s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ngoc/Workspace/Graduation_Project/src/install/_local_setup_util_ps1.py'
+[4.292s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ngoc/Workspace/Graduation_Project/src/install/setup.ps1'
+[4.294s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ngoc/Workspace/Graduation_Project/src/install/local_setup.sh'
+[4.294s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ngoc/Workspace/Graduation_Project/src/install/_local_setup_util_sh.py'
+[4.295s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ngoc/Workspace/Graduation_Project/src/install/setup.sh'
+[4.297s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ngoc/Workspace/Graduation_Project/src/install/local_setup.bash'
+[4.297s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ngoc/Workspace/Graduation_Project/src/install/setup.bash'
+[4.299s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ngoc/Workspace/Graduation_Project/src/install/local_setup.zsh'
+[4.299s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ngoc/Workspace/Graduation_Project/src/install/setup.zsh'

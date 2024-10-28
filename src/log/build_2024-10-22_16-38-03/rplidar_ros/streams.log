@@ -1,0 +1,5 @@
+[0.050s] Invoking command in '/home/ngoc/Workspace/Graduation_Project/src/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngoc/Workspace/Graduation_Project/install/teleop_twist_keyboard:/opt/ros/humble /usr/bin/cmake --build /home/ngoc/Workspace/Graduation_Project/src/build/rplidar_ros -- -j8 -l8
+[0.487s] [  5%] Built target rplidar_client
+[0.487s] [ 68%] Built target rplidar_node
+[0.487s] [100%] Built target rplidar_composition
+[0.504s] Invoked command in '/home/ngoc/Workspace/Graduation_Project/src/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngoc/Workspace/Graduation_Project/install/teleop_twist_keyboard:/opt/ros/humble /usr/bin/cmake --build /home/ngoc/Workspace/Graduation_Project/src/build/rplidar_ros -- -j8 -l8

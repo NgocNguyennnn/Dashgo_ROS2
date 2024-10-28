@@ -1,0 +1,9 @@
+/home/ngoc/Workspace/Graduation_Project/build/dashgo_nav/CMakeFiles/uninstall.dir
+/home/ngoc/Workspace/Graduation_Project/build/dashgo_nav/CMakeFiles/dashgo_nav_uninstall.dir
+/home/ngoc/Workspace/Graduation_Project/build/dashgo_nav/CMakeFiles/test.dir
+/home/ngoc/Workspace/Graduation_Project/build/dashgo_nav/CMakeFiles/edit_cache.dir
+/home/ngoc/Workspace/Graduation_Project/build/dashgo_nav/CMakeFiles/rebuild_cache.dir
+/home/ngoc/Workspace/Graduation_Project/build/dashgo_nav/CMakeFiles/list_install_components.dir
+/home/ngoc/Workspace/Graduation_Project/build/dashgo_nav/CMakeFiles/install.dir
+/home/ngoc/Workspace/Graduation_Project/build/dashgo_nav/CMakeFiles/install/local.dir
+/home/ngoc/Workspace/Graduation_Project/build/dashgo_nav/CMakeFiles/install/strip.dir
